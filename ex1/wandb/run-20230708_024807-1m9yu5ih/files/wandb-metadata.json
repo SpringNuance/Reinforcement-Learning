@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.15.0-73-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-07-07T23:48:08.653947",
+    "startedAt": "2023-07-07T23:48:07.602086",
+    "docker": null,
+    "cpu_count": 80,
+    "cuda": null,
+    "args": [
+        "save_video=true",
+        "save_logging=true",
+        "use_wandb=true"
+    ],
+    "state": "running",
+    "program": "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/train.py",
+    "codePath": "ex1/train.py",
+    "git": {
+        "remote": "https://github.com/SpringNuance/Reinforcement-Learning.git",
+        "commit": "a8f8edc0a71a1fa8a04b2199d95d5f58533e9c20"
+    },
+    "email": null,
+    "root": "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning",
+    "host": "brute",
+    "username": "nguyenb5",
+    "executable": "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/bin/python"
+}

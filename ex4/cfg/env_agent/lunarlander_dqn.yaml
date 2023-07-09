@@ -1,0 +1,13 @@
+# @package _global_
+env_name: LunarLander-v2
+agent_name: dqn
+max_episode_steps: 1000
+train_episodes: 6000
+grad_clip_norm: 1
+
+batch_size: 512
+buffer_size: 500000
+hidden_dims: [64, 64]
+glie_b: 200
+tau: 0.001
+lr: 5e-5

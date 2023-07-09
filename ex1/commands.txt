@@ -1,0 +1,4 @@
+source ./venv/bin/activate
+cd ex1
+python train.py seed=1 max_episode_steps=100
+python train.py testing=true seed=1 max_episode_steps=1000 use_wandb=false

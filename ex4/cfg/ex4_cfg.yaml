@@ -1,0 +1,34 @@
+defaults:
+    - _self_
+    - env_agent: cartpole_rbf
+    
+    - override hydra/hydra_logging: disabled  
+    - override hydra/job_logging: disabled 
+
+seed: 408
+exp_name: ex4
+env_name: ${env_name}
+agent_name: ${agent_name}
+run_id: ??? # decided during execution
+
+train_episodes: ${train_episodes}
+max_episode_steps: ${max_episode_steps}
+test_episodes: 10
+random_episodes: 10
+glie_b: ${glie_b}
+gamma: 0.99 # discount term in Q learning
+batch_size: ${batch_size}
+buffer_size: ${buffer_size}
+
+save_video: false
+save_logging: true
+save_model: true
+silent: false # print restuls to the terminal if false
+use_wandb: true
+
+run_suffix: 0
+# ref: https://stackoverflow.com/questions/65104134/disable-file-output-of-hydra
+hydra:  
+    output_subdir: null  
+    run:  
+        dir: .
