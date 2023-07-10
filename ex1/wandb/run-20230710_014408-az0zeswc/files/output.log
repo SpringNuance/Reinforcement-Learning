@@ -1,0 +1,28 @@
+Environment: Reacher-v1
+Training device: cpu
+Observation space dimensions: 2
+Action space dimensions: 5
+Error executing job with overrides: ['env=reacher_v1', 'train_episodes=200']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/train.py", line 146, in main
+    train_info = train(agent, env,
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/train.py", line 37, in train
+    observation, reward, done, _ = env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/record_video.py", line 146, in step
+    ) = step_api_compatibility(self.env.step(action), True, self.is_vector_env)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/time_limit.py", line 60, in step
+    self.env.step(action),
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/order_enforcing.py", line 37, in step
+    return self.env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/step_api_compatibility.py", line 52, in step
+    step_returns = self.env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/env_checker.py", line 37, in step
+    return env_step_passive_checker(self.env, action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/utils/passive_env_checker.py", line 222, in env_step_passive_checker
+    result = env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/reacher.py", line 111, in step
+    reward = self.get_reward(self.prev_state, a, self.state)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/reacher.py", line 76, in get_reward
+    return -np.sqrt(np.sum((self.cartesian_pos(next_state) - self.goal)**2))
+TypeError: 'numpy.ndarray' object is not callable
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

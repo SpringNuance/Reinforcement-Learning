@@ -13,7 +13,7 @@ from gym.envs.registration import register
 from gym.envs.classic_control import utils
 from gym.utils.renderer import Renderer
 import ipdb
-
+import time
 
 class ReacherEnv(core.Env):
     metadata = {
@@ -61,14 +61,28 @@ class ReacherEnv(core.Env):
         self._counter = 0
         return self.state
 
+    # def get_reward(self, prev_state, action, next_state):
+    #     # TODO: Task 3: Implement and test two reward functions
+    #     ########## Your code starts here ##########
+    #     # A dummy reward, replace it with yours.
+    #     return 1 
+
+    #     ########## Your codes end here ########## 
+
     def get_reward(self, prev_state, action, next_state):
-        # TODO: Task 3: Implement and test two reward functions
-        ########## Your code starts here ##########
-        # A dummy reward, replace it with yours.
-        return 1 
+        # Keep the manipulator rotating clockwise continuously (wrt angle θ0)
+        # if action == 1:
+        #     return 1
+        # else:
+        #     return 0
 
-        ########## Your codes end here ########## 
-
+        # Reach the goal point located in x = [1.0,1.0] (marked in red)
+        next_position = self.get_cartesian_pos(next_state)
+        euclidean_distance = np.sqrt(np.sum((next_position - self.goal)**2))
+        # Since the algorithm tries to maximize while this distance needs to be minimized, 
+        # a negative sign is needed for the distance
+        return -euclidean_distance
+       
     def get_cartesian_pos(self, state):
         ee_pos = np.zeros(2)
         ee_pos[0] = np.sin(state[0])*self.link_length_1 + \

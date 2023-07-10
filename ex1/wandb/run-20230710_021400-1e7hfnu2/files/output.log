@@ -1,0 +1,130 @@
+Environment: Reacher-v1
+Training device: cpu
+Observation space dimensions: 2
+Action space dimensions: 5
+Episode 0 finished. Total reward: 44 (200 timesteps)
+Episode 1 finished. Total reward: 4 (37 timesteps)
+Episode 2 finished. Total reward: 41 (200 timesteps)
+Episode 3 finished. Total reward: 35 (200 timesteps)
+Episode 4 finished. Total reward: 46 (200 timesteps)
+Episode 5 finished. Total reward: 36 (200 timesteps)
+Episode 6 finished. Total reward: 43 (193 timesteps)
+Episode 7 finished. Total reward: 8 (58 timesteps)
+Episode 8 finished. Total reward: 36 (200 timesteps)
+Episode 9 finished. Total reward: 29 (200 timesteps)
+Episode 10 finished. Total reward: 35 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 11 finished. Total reward: 43 (200 timesteps)
+Episode 12 finished. Total reward: 56 (200 timesteps)
+Episode 13 finished. Total reward: 50 (200 timesteps)
+Episode 14 finished. Total reward: 39 (126 timesteps)
+Episode 15 finished. Total reward: 57 (200 timesteps)
+Episode 16 finished. Total reward: 54 (200 timesteps)
+Episode 17 finished. Total reward: 50 (200 timesteps)
+Episode 18 finished. Total reward: 51 (200 timesteps)
+Episode 19 finished. Total reward: 53 (200 timesteps)
+Episode 20 finished. Total reward: 48 (171 timesteps)
+Episode 21 finished. Total reward: 46 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 22 finished. Total reward: 59 (200 timesteps)
+Episode 23 finished. Total reward: 27 (82 timesteps)
+Episode 24 finished. Total reward: 46 (200 timesteps)
+Episode 25 finished. Total reward: 60 (183 timesteps)
+Episode 26 finished. Total reward: 28 (79 timesteps)
+Episode 27 finished. Total reward: 70 (200 timesteps)
+Episode 28 finished. Total reward: 46 (152 timesteps)
+Episode 29 finished. Total reward: 36 (119 timesteps)
+Episode 30 finished. Total reward: 66 (200 timesteps)
+Episode 31 finished. Total reward: 69 (200 timesteps)
+Episode 32 finished. Total reward: 32 (83 timesteps)
+Episode 33 finished. Total reward: 40 (123 timesteps)
+Updating the policy...
+Updating finished!
+Episode 34 finished. Total reward: 68 (200 timesteps)
+Episode 35 finished. Total reward: 40 (125 timesteps)
+Episode 36 finished. Total reward: 67 (170 timesteps)
+Episode 37 finished. Total reward: 80 (200 timesteps)
+Episode 38 finished. Total reward: 77 (174 timesteps)
+Episode 39 finished. Total reward: 95 (200 timesteps)
+Episode 40 finished. Total reward: 80 (200 timesteps)
+Episode 41 finished. Total reward: 84 (200 timesteps)
+Episode 42 finished. Total reward: 22 (48 timesteps)
+Episode 43 finished. Total reward: 36 (103 timesteps)
+Episode 44 finished. Total reward: 73 (191 timesteps)
+Episode 45 finished. Total reward: 74 (200 timesteps)
+Episode 46 finished. Total reward: 20 (43 timesteps)
+Updating the policy...
+Updating finished!
+Episode 47 finished. Total reward: 109 (200 timesteps)
+Episode 48 finished. Total reward: 139 (200 timesteps)
+Episode 49 finished. Total reward: 116 (200 timesteps)
+Episode 50 finished. Total reward: 120 (200 timesteps)
+Episode 51 finished. Total reward: 151 (200 timesteps)
+Episode 52 finished. Total reward: 65 (125 timesteps)
+Episode 53 finished. Total reward: 67 (129 timesteps)
+Episode 54 finished. Total reward: 129 (200 timesteps)
+Episode 55 finished. Total reward: 116 (200 timesteps)
+Episode 56 finished. Total reward: 92 (179 timesteps)
+Episode 57 finished. Total reward: 68 (126 timesteps)
+Episode 58 finished. Total reward: 31 (57 timesteps)
+Updating the policy...
+Updating finished!
+Episode 59 finished. Total reward: 135 (200 timesteps)
+Episode 60 finished. Total reward: 162 (200 timesteps)
+Episode 61 finished. Total reward: 166 (200 timesteps)
+Episode 62 finished. Total reward: 58 (94 timesteps)
+Episode 63 finished. Total reward: 122 (200 timesteps)
+Episode 64 finished. Total reward: 85 (119 timesteps)
+Episode 65 finished. Total reward: 129 (200 timesteps)
+Episode 66 finished. Total reward: 148 (200 timesteps)
+Episode 67 finished. Total reward: 152 (200 timesteps)
+Episode 68 finished. Total reward: 144 (200 timesteps)
+Episode 69 finished. Total reward: 165 (200 timesteps)
+Episode 70 finished. Total reward: 31 (55 timesteps)
+Episode 71 finished. Total reward: 17 (30 timesteps)
+Updating the policy...
+Updating finished!
+Episode 72 finished. Total reward: 165 (200 timesteps)
+Episode 73 finished. Total reward: 88 (122 timesteps)
+Episode 74 finished. Total reward: 52 (73 timesteps)
+Episode 75 finished. Total reward: 60 (88 timesteps)
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/train.py", line 185, in <module>
+    main()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/train.py", line 146, in main
+    train_info = train(agent, env,
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/train.py", line 37, in train
+    observation, reward, done, _ = env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/record_video.py", line 146, in step
+    ) = step_api_compatibility(self.env.step(action), True, self.is_vector_env)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/time_limit.py", line 60, in step
+    self.env.step(action),
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/order_enforcing.py", line 37, in step
+    return self.env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/step_api_compatibility.py", line 52, in step
+    step_returns = self.env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/env_checker.py", line 39, in step
+    return self.env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/reacher.py", line 119, in step
+    self.renderer.render_step()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/utils/renderer.py", line 58, in render_step
+    render_return = self.render(self.mode)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex1/reacher.py", line 219, in _render_frame
+    np.array(pygame.surfarray.pixels3d(self.screen)), axes=(1, 0, 2)
+KeyboardInterrupt

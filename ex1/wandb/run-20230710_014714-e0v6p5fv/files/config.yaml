@@ -1,0 +1,59 @@
+wandb_version: 1
+
+_content:
+  desc: null
+  value:
+    batch_size: '64'
+    env_name: Reacher-v1
+    exp_name: ex1
+    max_episode_steps: '200'
+    min_update_samples: '2000'
+    model_path: default
+    run_suffix: '0'
+    save_logging: 'True'
+    save_model: 'True'
+    save_video: 'True'
+    seed: '408'
+    silent: 'False'
+    testing: 'False'
+    train_episodes: '200'
+    use_wandb: 'True'
+_flags_cache:
+  desc: null
+  value:
+    struct: true
+_metadata:
+  desc: null
+  value: 'ContainerMetadata(ref_type=typing.Any, object_type=<class ''dict''>, optional=True,
+    key=None, flags={''struct'': True}, flags_root=False, resolver_cache=defaultdict(<class
+    ''dict''>, {''now'': {(''%Y-%m-%d'',): ''2023-07-10'', (''%H-%M-%S'',): ''01-47-12''}}),
+    key_type=typing.Any, element_type=typing.Any)'
+_parent:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.6
+    start_time: 1688942834.30522
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.6
+      5: 0.13.2
+      8:
+      - 5

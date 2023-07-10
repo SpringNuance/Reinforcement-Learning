@@ -1,0 +1,6 @@
+Environment: Reacher-v1
+Training device: cpu
+Observation space dimensions: 2
+Action space dimensions: 5
+[ 0.01980541 -0.05722749]
+[0.01980541 0.14277251]

@@ -29,7 +29,7 @@ We recommend write the code using VS Code and run everything on a remote machine
 Suppose you have successfully set up the VS Code and can connect to a remote GPU machine, and create the vitrual environment. You can run the code by:
 1. `cd` to the `rl_course` folder and activate the created vritual enviroment by `source ./venv/bin/activate` (use `deactivate` to deactivate the environment).
 2. Wandb login: `wandb login`
-3. Run the code: `cd` to the corresponding exercise foloder, such as `cd ex1`, and run, e.g. `python3 train.py save_video=true save_logging=true use_wandb=true`
+3. Run the code: `cd` to the corresponding exercise folder, such as `cd ex1`, and run, e.g. `python3 train.py save_video=true save_logging=true use_wandb=true`
 
 ## How to export plot from wandb
 Export a plot from wandb is easy:
