@@ -1,0 +1,51 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 0, 'epsilon': 0.1, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 10.0}
+{'episode': 500, 'epsilon': 0.1, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 10.794}
+{'episode': 1000, 'epsilon': 0.1, 'ep_reward': 13.0, 'timesteps': 13, 'ep_reward_avg': 12.446}
+{'episode': 1500, 'epsilon': 0.1, 'ep_reward': 12.0, 'timesteps': 12, 'ep_reward_avg': 14.412}
+{'episode': 2000, 'epsilon': 0.1, 'ep_reward': 18.0, 'timesteps': 18, 'ep_reward_avg': 18.332}
+{'episode': 2500, 'epsilon': 0.1, 'ep_reward': 29.0, 'timesteps': 29, 'ep_reward_avg': 24.314}
+{'episode': 3000, 'epsilon': 0.1, 'ep_reward': 28.0, 'timesteps': 28, 'ep_reward_avg': 38.622}
+{'episode': 3500, 'epsilon': 0.1, 'ep_reward': 126.0, 'timesteps': 126, 'ep_reward_avg': 47.112}
+{'episode': 4000, 'epsilon': 0.1, 'ep_reward': 111.0, 'timesteps': 111, 'ep_reward_avg': 96.974}
+{'episode': 4500, 'epsilon': 0.1, 'ep_reward': 84.0, 'timesteps': 84, 'ep_reward_avg': 116.9}
+{'episode': 5000, 'epsilon': 0.1, 'ep_reward': 124.0, 'timesteps': 124, 'ep_reward_avg': 108.948}
+{'episode': 5500, 'epsilon': 0.1, 'ep_reward': 128.0, 'timesteps': 128, 'ep_reward_avg': 108.852}
+{'episode': 6000, 'epsilon': 0.1, 'ep_reward': 42.0, 'timesteps': 42, 'ep_reward_avg': 128.612}
+{'episode': 6500, 'epsilon': 0.1, 'ep_reward': 102.0, 'timesteps': 102, 'ep_reward_avg': 119.496}
+{'episode': 7000, 'epsilon': 0.1, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 123.15}
+{'episode': 7500, 'epsilon': 0.1, 'ep_reward': 105.0, 'timesteps': 105, 'ep_reward_avg': 124.45}
+{'episode': 8000, 'epsilon': 0.1, 'ep_reward': 119.0, 'timesteps': 119, 'ep_reward_avg': 139.938}
+{'episode': 8500, 'epsilon': 0.1, 'ep_reward': 119.0, 'timesteps': 119, 'ep_reward_avg': 139.16}
+{'episode': 9000, 'epsilon': 0.1, 'ep_reward': 165.0, 'timesteps': 165, 'ep_reward_avg': 144.336}
+{'episode': 9500, 'epsilon': 0.1, 'ep_reward': 174.0, 'timesteps': 174, 'ep_reward_avg': 125.6}
+{'episode': 10000, 'epsilon': 0.1, 'ep_reward': 56.0, 'timesteps': 56, 'ep_reward_avg': 125.806}
+{'episode': 10500, 'epsilon': 0.1, 'ep_reward': 123.0, 'timesteps': 123, 'ep_reward_avg': 143.592}
+{'episode': 11000, 'epsilon': 0.1, 'ep_reward': 134.0, 'timesteps': 134, 'ep_reward_avg': 135.566}
+{'episode': 11500, 'epsilon': 0.1, 'ep_reward': 120.0, 'timesteps': 120, 'ep_reward_avg': 133.312}
+{'episode': 12000, 'epsilon': 0.1, 'ep_reward': 141.0, 'timesteps': 141, 'ep_reward_avg': 137.784}
+{'episode': 12500, 'epsilon': 0.1, 'ep_reward': 38.0, 'timesteps': 38, 'ep_reward_avg': 143.476}
+{'episode': 13000, 'epsilon': 0.1, 'ep_reward': 90.0, 'timesteps': 90, 'ep_reward_avg': 143.956}
+{'episode': 13500, 'epsilon': 0.1, 'ep_reward': 171.0, 'timesteps': 171, 'ep_reward_avg': 132.796}
+{'episode': 14000, 'epsilon': 0.1, 'ep_reward': 115.0, 'timesteps': 115, 'ep_reward_avg': 147.248}
+{'episode': 14500, 'epsilon': 0.1, 'ep_reward': 125.0, 'timesteps': 125, 'ep_reward_avg': 147.03}
+{'episode': 15000, 'epsilon': 0.1, 'ep_reward': 116.0, 'timesteps': 116, 'ep_reward_avg': 149.672}
+{'episode': 15500, 'epsilon': 0.1, 'ep_reward': 57.0, 'timesteps': 57, 'ep_reward_avg': 141.602}
+{'episode': 16000, 'epsilon': 0.1, 'ep_reward': 132.0, 'timesteps': 132, 'ep_reward_avg': 141.778}
+{'episode': 16500, 'epsilon': 0.1, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 147.258}
+{'episode': 17000, 'epsilon': 0.1, 'ep_reward': 144.0, 'timesteps': 144, 'ep_reward_avg': 153.962}
+{'episode': 17500, 'epsilon': 0.1, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 153.644}
+{'episode': 18000, 'epsilon': 0.1, 'ep_reward': 190.0, 'timesteps': 190, 'ep_reward_avg': 147.214}
+{'episode': 18500, 'epsilon': 0.1, 'ep_reward': 78.0, 'timesteps': 78, 'ep_reward_avg': 156.858}
+{'episode': 19000, 'epsilon': 0.1, 'ep_reward': 163.0, 'timesteps': 163, 'ep_reward_avg': 141.914}
+{'episode': 19500, 'epsilon': 0.1, 'ep_reward': 176.0, 'timesteps': 176, 'ep_reward_avg': 149.546}
+Error executing job with overrides: ['epsilon=0.1']
+{'episode': 20000, 'epsilon': 0.1, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 142.646}
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/train.py", line 140, in main
+    h.save_object({'q_table': q_table, 'axis': q_axis},
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/common/helper.py", line 57, in save_object
+    with open(filename, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/results/CartPole-v0/q_table.pkl'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

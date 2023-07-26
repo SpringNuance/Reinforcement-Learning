@@ -1,0 +1,1 @@
+{"episode": 20000, "epsilon": 0.1, "ep_reward": 200.0, "timesteps": 200, "ep_reward_avg": 142.646, "_timestamp": 1690310451.0791821, "_runtime": 538.5784020423889, "_step": 20000, "_wandb": {"runtime": 539}}

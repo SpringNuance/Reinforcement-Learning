@@ -1,0 +1,49 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': -345.64398154762466, 'timesteps': 74, 'ep_reward_avg': -345.64398154762466}
+{'episode': 500, 'epsilon': 0.6666666666666666, 'ep_reward': -153.85463110403376, 'timesteps': 136, 'ep_reward_avg': -138.60284501362185}
+{'episode': 1000, 'epsilon': 0.5, 'ep_reward': -276.97006558989347, 'timesteps': 227, 'ep_reward_avg': -110.9787416068047}
+{'episode': 1500, 'epsilon': 0.4, 'ep_reward': 15.210389970503584, 'timesteps': 175, 'ep_reward_avg': -93.47309930803402}
+{'episode': 2000, 'epsilon': 0.3333333333333333, 'ep_reward': -177.17105532156188, 'timesteps': 234, 'ep_reward_avg': -94.45711745134979}
+{'episode': 2500, 'epsilon': 0.2857142857142857, 'ep_reward': -194.89214122688014, 'timesteps': 184, 'ep_reward_avg': -120.22709630997164}
+{'episode': 3000, 'epsilon': 0.25, 'ep_reward': -1.9448608313027194, 'timesteps': 155, 'ep_reward_avg': -119.62867274844513}
+{'episode': 3500, 'epsilon': 0.2222222222222222, 'ep_reward': 25.933816205480483, 'timesteps': 110, 'ep_reward_avg': -118.8582137987001}
+{'episode': 4000, 'epsilon': 0.2, 'ep_reward': -169.814634746439, 'timesteps': 192, 'ep_reward_avg': -102.78123533154354}
+{'episode': 4500, 'epsilon': 0.18181818181818182, 'ep_reward': -43.22018948811248, 'timesteps': 216, 'ep_reward_avg': -120.56790718653177}
+{'episode': 5000, 'epsilon': 0.16666666666666666, 'ep_reward': -403.5097862262619, 'timesteps': 382, 'ep_reward_avg': -112.96915235615933}
+{'episode': 5500, 'epsilon': 0.15384615384615385, 'ep_reward': -113.90279817292594, 'timesteps': 248, 'ep_reward_avg': -114.95344800397673}
+{'episode': 6000, 'epsilon': 0.14285714285714285, 'ep_reward': -106.40328904836574, 'timesteps': 591, 'ep_reward_avg': -106.5672717843391}
+{'episode': 6500, 'epsilon': 0.13333333333333333, 'ep_reward': -131.2597410815681, 'timesteps': 237, 'ep_reward_avg': -124.86966365753513}
+{'episode': 7000, 'epsilon': 0.125, 'ep_reward': -286.35574370898564, 'timesteps': 209, 'ep_reward_avg': -110.52137733481021}
+{'episode': 7500, 'epsilon': 0.11764705882352941, 'ep_reward': -232.4200093322173, 'timesteps': 300, 'ep_reward_avg': -116.00506393714485}
+{'episode': 8000, 'epsilon': 0.1111111111111111, 'ep_reward': -75.37524675316246, 'timesteps': 98, 'ep_reward_avg': -108.51468235461755}
+{'episode': 8500, 'epsilon': 0.10526315789473684, 'ep_reward': -27.414392460869095, 'timesteps': 161, 'ep_reward_avg': -120.46930165776506}
+{'episode': 9000, 'epsilon': 0.1, 'ep_reward': -151.01523023791697, 'timesteps': 319, 'ep_reward_avg': -112.23563276575858}
+{'episode': 9500, 'epsilon': 0.09523809523809523, 'ep_reward': -140.36069883356498, 'timesteps': 278, 'ep_reward_avg': -119.38405885005851}
+{'episode': 10000, 'epsilon': 0.09090909090909091, 'ep_reward': -101.58565673553399, 'timesteps': 389, 'ep_reward_avg': -122.78925473290315}
+{'episode': 10500, 'epsilon': 0.08695652173913043, 'ep_reward': 101.20648554492887, 'timesteps': 1000, 'ep_reward_avg': -122.05397494363062}
+{'episode': 11000, 'epsilon': 0.08333333333333333, 'ep_reward': -116.94734324192767, 'timesteps': 204, 'ep_reward_avg': -113.60059481411092}
+{'episode': 11500, 'epsilon': 0.08, 'ep_reward': -188.2422337386618, 'timesteps': 210, 'ep_reward_avg': -112.66901958900364}
+{'episode': 12000, 'epsilon': 0.07692307692307693, 'ep_reward': -97.72486110137078, 'timesteps': 156, 'ep_reward_avg': -112.52542463253744}
+{'episode': 12500, 'epsilon': 0.07407407407407407, 'ep_reward': -115.79333357427751, 'timesteps': 374, 'ep_reward_avg': -104.8719014303295}
+{'episode': 13000, 'epsilon': 0.07142857142857142, 'ep_reward': -30.622765004867773, 'timesteps': 218, 'ep_reward_avg': -117.20223552173346}
+{'episode': 13500, 'epsilon': 0.06896551724137931, 'ep_reward': -145.14550194588963, 'timesteps': 623, 'ep_reward_avg': -114.67379898246003}
+{'episode': 14000, 'epsilon': 0.06666666666666667, 'ep_reward': -104.73314709731497, 'timesteps': 397, 'ep_reward_avg': -106.68204117284537}
+{'episode': 14500, 'epsilon': 0.06451612903225806, 'ep_reward': -250.97804163119068, 'timesteps': 741, 'ep_reward_avg': -116.5148148840151}
+{'episode': 15000, 'epsilon': 0.0625, 'ep_reward': -127.35156983383152, 'timesteps': 467, 'ep_reward_avg': -103.52638763267089}
+{'episode': 15500, 'epsilon': 0.06060606060606061, 'ep_reward': -89.96685504518722, 'timesteps': 174, 'ep_reward_avg': -101.87658285124355}
+{'episode': 16000, 'epsilon': 0.058823529411764705, 'ep_reward': 66.96205975423457, 'timesteps': 1000, 'ep_reward_avg': -115.7438399476176}
+{'episode': 16500, 'epsilon': 0.05714285714285714, 'ep_reward': -105.37585825015846, 'timesteps': 195, 'ep_reward_avg': -122.38741606215791}
+{'episode': 17000, 'epsilon': 0.05555555555555555, 'ep_reward': -228.21431725734192, 'timesteps': 247, 'ep_reward_avg': -105.88394120395338}
+{'episode': 17500, 'epsilon': 0.05405405405405406, 'ep_reward': -48.038550036168616, 'timesteps': 513, 'ep_reward_avg': -123.4825415956974}
+{'episode': 18000, 'epsilon': 0.05263157894736842, 'ep_reward': -148.7048812258196, 'timesteps': 153, 'ep_reward_avg': -122.54407006569312}
+{'episode': 18500, 'epsilon': 0.05128205128205128, 'ep_reward': 18.702208047431803, 'timesteps': 1000, 'ep_reward_avg': -119.32489398527358}
+{'episode': 19000, 'epsilon': 0.05, 'ep_reward': -131.43850081417537, 'timesteps': 148, 'ep_reward_avg': -133.33936498749327}
+{'episode': 19500, 'epsilon': 0.04878048780487805, 'ep_reward': -271.51263496627405, 'timesteps': 437, 'ep_reward_avg': -130.51913665408944}
+{'episode': 20000, 'epsilon': 0.047619047619047616, 'ep_reward': -491.6227015171207, 'timesteps': 498, 'ep_reward_avg': -112.91021941795553}
+Error executing job with overrides: ['env=lunarlander_v2', 'exp_name=task2', 'epsilon=glie', 'glie_b=1000', 'train_episodes=20000']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/train.py", line 140, in main
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/common/helper.py", line 57, in save_object
+    with open(filename, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/results/LunarLander-v2/q_table.pkl'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

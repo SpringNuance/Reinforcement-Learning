@@ -1,0 +1,32 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 13.0, 'timesteps': 13, 'ep_reward_avg': 13.0}
+{'episode': 500, 'epsilon': 0.16666666666666666, 'ep_reward': 53.0, 'timesteps': 53, 'ep_reward_avg': 49.58}
+{'episode': 1000, 'epsilon': 0.09090909090909091, 'ep_reward': 116.0, 'timesteps': 116, 'ep_reward_avg': 78.672}
+{'episode': 1500, 'epsilon': 0.0625, 'ep_reward': 162.0, 'timesteps': 162, 'ep_reward_avg': 108.144}
+{'episode': 2000, 'epsilon': 0.047619047619047616, 'ep_reward': 115.0, 'timesteps': 115, 'ep_reward_avg': 106.84}
+{'episode': 2500, 'epsilon': 0.038461538461538464, 'ep_reward': 40.0, 'timesteps': 40, 'ep_reward_avg': 124.03}
+{'episode': 3000, 'epsilon': 0.03225806451612903, 'ep_reward': 122.0, 'timesteps': 122, 'ep_reward_avg': 114.756}
+{'episode': 3500, 'epsilon': 0.027777777777777776, 'ep_reward': 105.0, 'timesteps': 105, 'ep_reward_avg': 120.104}
+{'episode': 4000, 'epsilon': 0.024390243902439025, 'ep_reward': 101.0, 'timesteps': 101, 'ep_reward_avg': 121.542}
+{'episode': 4500, 'epsilon': 0.021739130434782608, 'ep_reward': 82.0, 'timesteps': 82, 'ep_reward_avg': 128.892}
+{'episode': 5000, 'epsilon': 0.0196078431372549, 'ep_reward': 99.0, 'timesteps': 99, 'ep_reward_avg': 110.772}
+{'episode': 5500, 'epsilon': 0.017857142857142856, 'ep_reward': 88.0, 'timesteps': 88, 'ep_reward_avg': 120.296}
+{'episode': 6000, 'epsilon': 0.01639344262295082, 'ep_reward': 93.0, 'timesteps': 93, 'ep_reward_avg': 118.54}
+{'episode': 6500, 'epsilon': 0.015151515151515152, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 116.102}
+{'episode': 7000, 'epsilon': 0.014084507042253521, 'ep_reward': 148.0, 'timesteps': 148, 'ep_reward_avg': 117.136}
+{'episode': 7500, 'epsilon': 0.013157894736842105, 'ep_reward': 124.0, 'timesteps': 124, 'ep_reward_avg': 114.486}
+{'episode': 8000, 'epsilon': 0.012345679012345678, 'ep_reward': 98.0, 'timesteps': 98, 'ep_reward_avg': 132.406}
+{'episode': 8500, 'epsilon': 0.011627906976744186, 'ep_reward': 110.0, 'timesteps': 110, 'ep_reward_avg': 121.858}
+{'episode': 9000, 'epsilon': 0.01098901098901099, 'ep_reward': 157.0, 'timesteps': 157, 'ep_reward_avg': 103.446}
+{'episode': 9500, 'epsilon': 0.010416666666666666, 'ep_reward': 102.0, 'timesteps': 102, 'ep_reward_avg': 106.032}
+{'episode': 10000, 'epsilon': 0.009900990099009901, 'ep_reward': 118.0, 'timesteps': 118, 'ep_reward_avg': 113.612}
+{'episode': 10500, 'epsilon': 0.009433962264150943, 'ep_reward': 101.0, 'timesteps': 101, 'ep_reward_avg': 112.456}
+{'episode': 11000, 'epsilon': 0.009009009009009009, 'ep_reward': 129.0, 'timesteps': 129, 'ep_reward_avg': 98.24}
+{'episode': 11500, 'epsilon': 0.008620689655172414, 'ep_reward': 89.0, 'timesteps': 89, 'ep_reward_avg': 106.574}
+{'episode': 12000, 'epsilon': 0.008264462809917356, 'ep_reward': 112.0, 'timesteps': 112, 'ep_reward_avg': 99.238}
+{'episode': 12500, 'epsilon': 0.007936507936507936, 'ep_reward': 129.0, 'timesteps': 129, 'ep_reward_avg': 124.488}
+{'episode': 13000, 'epsilon': 0.007633587786259542, 'ep_reward': 147.0, 'timesteps': 147, 'ep_reward_avg': 125.854}
+{'episode': 13500, 'epsilon': 0.007352941176470588, 'ep_reward': 122.0, 'timesteps': 122, 'ep_reward_avg': 122.682}
+{'episode': 14000, 'epsilon': 0.0070921985815602835, 'ep_reward': 101.0, 'timesteps': 101, 'ep_reward_avg': 107.664}
+{'episode': 14500, 'epsilon': 0.00684931506849315, 'ep_reward': 106.0, 'timesteps': 106, 'ep_reward_avg': 128.222}

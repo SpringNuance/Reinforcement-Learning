@@ -1,0 +1,49 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 13.0, 'timesteps': 13, 'ep_reward_avg': 13.0}
+{'episode': 500, 'epsilon': 0.001996007984031936, 'ep_reward': 16.0, 'timesteps': 16, 'ep_reward_avg': 30.394}
+{'episode': 1000, 'epsilon': 0.000999000999000999, 'ep_reward': 13.0, 'timesteps': 13, 'ep_reward_avg': 32.434}
+{'episode': 1500, 'epsilon': 0.0006662225183211193, 'ep_reward': 16.0, 'timesteps': 16, 'ep_reward_avg': 32.664}
+{'episode': 2000, 'epsilon': 0.0004997501249375312, 'ep_reward': 16.0, 'timesteps': 16, 'ep_reward_avg': 32.152}
+{'episode': 2500, 'epsilon': 0.00039984006397441024, 'ep_reward': 77.0, 'timesteps': 77, 'ep_reward_avg': 30.266}
+{'episode': 3000, 'epsilon': 0.0003332222592469177, 'ep_reward': 24.0, 'timesteps': 24, 'ep_reward_avg': 32.402}
+{'episode': 3500, 'epsilon': 0.00028563267637817766, 'ep_reward': 15.0, 'timesteps': 15, 'ep_reward_avg': 32.066}
+{'episode': 4000, 'epsilon': 0.00024993751562109475, 'ep_reward': 26.0, 'timesteps': 26, 'ep_reward_avg': 31.252}
+{'episode': 4500, 'epsilon': 0.00022217285047767163, 'ep_reward': 15.0, 'timesteps': 15, 'ep_reward_avg': 33.176}
+{'episode': 5000, 'epsilon': 0.0001999600079984003, 'ep_reward': 18.0, 'timesteps': 18, 'ep_reward_avg': 32.42}
+{'episode': 5500, 'epsilon': 0.00018178512997636792, 'ep_reward': 30.0, 'timesteps': 30, 'ep_reward_avg': 33.508}
+{'episode': 6000, 'epsilon': 0.00016663889351774705, 'ep_reward': 18.0, 'timesteps': 18, 'ep_reward_avg': 29.396}
+{'episode': 6500, 'epsilon': 0.00015382248884786957, 'ep_reward': 97.0, 'timesteps': 97, 'ep_reward_avg': 31.888}
+{'episode': 7000, 'epsilon': 0.00014283673760891302, 'ep_reward': 25.0, 'timesteps': 25, 'ep_reward_avg': 32.7}
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/train.py", line 149, in <module>
+    main()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/train.py", line 118, in main
+    q_table = update_q_value(state, action, new_state, cfg.gamma, reward, done, cfg.alpha,
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/omegaconf/dictconfig.py", line 351, in __getattr__
+    return self._get_impl(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/omegaconf/dictconfig.py", line 442, in _get_impl
+    node = self._get_child(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/omegaconf/basecontainer.py", line 73, in _get_child
+    child = self._get_node(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/omegaconf/dictconfig.py", line 464, in _get_node
+    key = self._validate_and_normalize_key(key)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/omegaconf/dictconfig.py", line 275, in _validate_and_normalize_key
+    return self._s_validate_and_normalize_key(self._metadata.key_type, key)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/omegaconf/dictconfig.py", line 277, in _s_validate_and_normalize_key
+    def _s_validate_and_normalize_key(self, key_type: Any, key: Any) -> DictKeyType:
+KeyboardInterrupt

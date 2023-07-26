@@ -1,0 +1,16 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 0, 'epsilon': 0.1, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 10.0}
+{'episode': 500, 'epsilon': 0.1, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 10.794}
+{'episode': 1000, 'epsilon': 0.1, 'ep_reward': 13.0, 'timesteps': 13, 'ep_reward_avg': 12.446}
+{'episode': 1500, 'epsilon': 0.1, 'ep_reward': 12.0, 'timesteps': 12, 'ep_reward_avg': 14.412}
+{'episode': 2000, 'epsilon': 0.1, 'ep_reward': 18.0, 'timesteps': 18, 'ep_reward_avg': 18.332}
+{'episode': 2500, 'epsilon': 0.1, 'ep_reward': 29.0, 'timesteps': 29, 'ep_reward_avg': 24.314}
+{'episode': 3000, 'epsilon': 0.1, 'ep_reward': 28.0, 'timesteps': 28, 'ep_reward_avg': 38.622}
+{'episode': 3500, 'epsilon': 0.1, 'ep_reward': 126.0, 'timesteps': 126, 'ep_reward_avg': 47.112}
+{'episode': 4000, 'epsilon': 0.1, 'ep_reward': 111.0, 'timesteps': 111, 'ep_reward_avg': 96.974}
+{'episode': 4500, 'epsilon': 0.1, 'ep_reward': 84.0, 'timesteps': 84, 'ep_reward_avg': 116.9}
+{'episode': 5000, 'epsilon': 0.1, 'ep_reward': 124.0, 'timesteps': 124, 'ep_reward_avg': 108.948}
+{'episode': 5500, 'epsilon': 0.1, 'ep_reward': 128.0, 'timesteps': 128, 'ep_reward_avg': 108.852}
+{'episode': 6000, 'epsilon': 0.1, 'ep_reward': 42.0, 'timesteps': 42, 'ep_reward_avg': 128.612}
+{'episode': 6500, 'epsilon': 0.1, 'ep_reward': 102.0, 'timesteps': 102, 'ep_reward_avg': 119.496}

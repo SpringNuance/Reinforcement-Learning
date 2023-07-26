@@ -1,0 +1,61 @@
+wandb_version: 1
+
+_content:
+  desc: null
+  value:
+    alpha: '0.1'
+    bool_position: None
+    discr: '16'
+    env_name: CartPole-v0
+    epsilon: glie
+    exp_name: ex3
+    gamma: '0.98'
+    glie_b: '0'
+    initial_q: '0.0'
+    run_suffix: '0'
+    save_logging: 'True'
+    save_video: 'False'
+    seed: '408'
+    silent: 'False'
+    test_episodes: '10'
+    train_episodes: '20000'
+    use_wandb: 'True'
+_flags_cache:
+  desc: null
+  value:
+    struct: true
+_metadata:
+  desc: null
+  value: 'ContainerMetadata(ref_type=typing.Any, object_type=<class ''dict''>, optional=True,
+    key=None, flags={''struct'': True}, flags_root=False, resolver_cache=defaultdict(<class
+    ''dict''>, {''now'': {(''%Y-%m-%d'',): ''2023-07-26'', (''%H-%M-%S'',): ''08-40-51''}}),
+    key_type=typing.Any, element_type=typing.Any)'
+_parent:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.6
+    start_time: 1690350054.27933
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.6
+      5: 0.13.2
+      8:
+      - 5

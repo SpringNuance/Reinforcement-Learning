@@ -1,0 +1,12 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+Error executing job with overrides: ['epsilon=0.1']
+TypeError: only size-1 arrays can be converted to Python scalars
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/train.py", line 122, in main
+    q_table = update_q_value(state, action, new_state, cfg.gamma, reward, done, cfg.alpha,
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/train.py", line 72, in update_q_value
+    q_table[coordinate] = q_table[coordinate] + alpha * (reward + (1 - done) * gamma * np.max(q_table[new_table_idx]) - q_table[(coordinate, action)])
+ValueError: setting an array element with a sequence.
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

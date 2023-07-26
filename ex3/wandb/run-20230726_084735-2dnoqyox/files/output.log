@@ -1,0 +1,22 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 13.0, 'timesteps': 13, 'ep_reward_avg': 13.0}
+{'episode': 500, 'epsilon': 0.0001999600079984003, 'ep_reward': 8.0, 'timesteps': 8, 'ep_reward_avg': 18.434}
+{'episode': 1000, 'epsilon': 9.999000099990002e-05, 'ep_reward': 18.0, 'timesteps': 18, 'ep_reward_avg': 22.108}
+{'episode': 1500, 'epsilon': 6.666222251849878e-05, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 19.098}
+{'episode': 2000, 'epsilon': 4.9997500124993755e-05, 'ep_reward': 12.0, 'timesteps': 12, 'ep_reward_avg': 20.016}
+{'episode': 2500, 'epsilon': 3.9998400063997445e-05, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 19.064}
+{'episode': 3000, 'epsilon': 3.333222225925803e-05, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 19.804}
+{'episode': 3500, 'epsilon': 2.857061226822091e-05, 'ep_reward': 14.0, 'timesteps': 14, 'ep_reward_avg': 19.372}
+{'episode': 4000, 'epsilon': 2.4999375015624612e-05, 'ep_reward': 24.0, 'timesteps': 24, 'ep_reward_avg': 22.634}
+{'episode': 4500, 'epsilon': 2.2221728406035422e-05, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 20.25}
+{'episode': 5000, 'epsilon': 1.999960000799984e-05, 'ep_reward': 23.0, 'timesteps': 23, 'ep_reward_avg': 19.31}
+{'episode': 5500, 'epsilon': 1.8181487609316193e-05, 'ep_reward': 28.0, 'timesteps': 28, 'ep_reward_avg': 20.592}
+{'episode': 6000, 'epsilon': 1.666638889351844e-05, 'ep_reward': 12.0, 'timesteps': 12, 'ep_reward_avg': 19.264}
+{'episode': 6500, 'epsilon': 1.5384378701866124e-05, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 20.02}
+{'episode': 7000, 'epsilon': 1.4285510206997042e-05, 'ep_reward': 12.0, 'timesteps': 12, 'ep_reward_avg': 19.124}
+{'episode': 7500, 'epsilon': 1.3333155557925894e-05, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 21.016}
+{'episode': 8000, 'epsilon': 1.24998437519531e-05, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 20.034}
+{'episode': 8500, 'epsilon': 1.1764567475676756e-05, 'ep_reward': 14.0, 'timesteps': 14, 'ep_reward_avg': 20.7}
+{'episode': 9000, 'epsilon': 1.1110987655692714e-05, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 19.778}
+{'episode': 9500, 'epsilon': 1.0526204987315923e-05, 'ep_reward': 50.0, 'timesteps': 50, 'ep_reward_avg': 20.776}

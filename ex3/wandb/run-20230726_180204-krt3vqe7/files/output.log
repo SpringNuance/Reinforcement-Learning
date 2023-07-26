@@ -1,0 +1,21 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 0, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 10.0}
+{'episode': 500, 'epsilon': 0, 'ep_reward': 79.0, 'timesteps': 79, 'ep_reward_avg': 95.456}
+{'episode': 1000, 'epsilon': 0, 'ep_reward': 99.0, 'timesteps': 99, 'ep_reward_avg': 130.814}
+{'episode': 1500, 'epsilon': 0, 'ep_reward': 129.0, 'timesteps': 129, 'ep_reward_avg': 134.216}
+{'episode': 2000, 'epsilon': 0, 'ep_reward': 89.0, 'timesteps': 89, 'ep_reward_avg': 111.142}
+{'episode': 2500, 'epsilon': 0, 'ep_reward': 92.0, 'timesteps': 92, 'ep_reward_avg': 85.648}
+{'episode': 3000, 'epsilon': 0, 'ep_reward': 103.0, 'timesteps': 103, 'ep_reward_avg': 113.58}
+{'episode': 3500, 'epsilon': 0, 'ep_reward': 127.0, 'timesteps': 127, 'ep_reward_avg': 123.386}
+{'episode': 4000, 'epsilon': 0, 'ep_reward': 101.0, 'timesteps': 101, 'ep_reward_avg': 120.388}
+{'episode': 4500, 'epsilon': 0, 'ep_reward': 116.0, 'timesteps': 116, 'ep_reward_avg': 124.59}
+{'episode': 5000, 'epsilon': 0, 'ep_reward': 142.0, 'timesteps': 142, 'ep_reward_avg': 126.58}
+{'episode': 5500, 'epsilon': 0, 'ep_reward': 137.0, 'timesteps': 137, 'ep_reward_avg': 128.568}
+{'episode': 6000, 'epsilon': 0, 'ep_reward': 132.0, 'timesteps': 132, 'ep_reward_avg': 119.266}
+{'episode': 6500, 'epsilon': 0, 'ep_reward': 117.0, 'timesteps': 117, 'ep_reward_avg': 138.336}
+{'episode': 7000, 'epsilon': 0, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 134.174}
+{'episode': 7500, 'epsilon': 0, 'ep_reward': 132.0, 'timesteps': 132, 'ep_reward_avg': 135.54}
+{'episode': 8000, 'epsilon': 0, 'ep_reward': 187.0, 'timesteps': 187, 'ep_reward_avg': 142.464}
+{'episode': 8500, 'epsilon': 0, 'ep_reward': 74.0, 'timesteps': 74, 'ep_reward_avg': 139.688}
+{'episode': 9000, 'epsilon': 0, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 135.39}

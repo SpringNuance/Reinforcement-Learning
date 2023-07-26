@@ -1,0 +1,20 @@
+/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+Error executing job with overrides: ['epsilon=glie', 'glie_b=0.1']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex3/train.py", line 116, in main
+    new_state, reward, done, _ = env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/time_limit.py", line 60, in step
+    self.env.step(action),
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/order_enforcing.py", line 37, in step
+    return self.env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/step_api_compatibility.py", line 52, in step
+    step_returns = self.env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/wrappers/env_checker.py", line 37, in step
+    return env_step_passive_checker(self.env, action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/utils/passive_env_checker.py", line 222, in env_step_passive_checker
+    result = env.step(action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/classic_control/cartpole.py", line 134, in step
+    assert self.action_space.contains(action), err_msg
+AssertionError: 2 (<class 'int'>) invalid
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -47,8 +47,11 @@ def get_action(state, q_axis, q_table, epsilon=0.0):
 
     # TODO: Implement epsilon-greedy
     ########## Your code starts here ##########
-    pass
-
+    idx = get_table_idx(state, q_axis)
+    if np.random.random() < epsilon:
+        return np.random.choice(q_table[idx].shape[0])
+    else:
+        return np.argmax(q_table[idx])
     ########## Your code ends here #########
 
 
@@ -58,11 +61,11 @@ def update_q_value(old_state, action, new_state, gamma, reward, done, alpha, q_a
     old_table_idx = get_table_idx(old_state, q_axis) # idx of q(s_old, *)
     new_table_idx = get_table_idx(new_state, q_axis) # idx of q(s_new, *)   
     ########## Your code starts here ##########
-
+    #print(*old_table_idx)
+    old_coordinates_with_action = (*old_table_idx, action)
+    q_table[old_coordinates_with_action] = q_table[old_coordinates_with_action] + alpha * (reward + (1 - done) * gamma * np.max(q_table[new_table_idx]) - q_table[ old_coordinates_with_action])
     ########### Your code ends here ##########
     return q_table
-
-
 
 @hydra.main(config_path='cfg', config_name='ex3_cfg')
 def main(cfg):
