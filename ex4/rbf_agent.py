@@ -3,7 +3,7 @@ sys.path.insert(0, os.path.abspath(".."))
 
 import gym
 import numpy as np
-
+import time
 from sklearn.linear_model import SGDRegressor
 from sklearn.kernel_approximation import RBFSampler
 from sklearn.preprocessing import StandardScaler
@@ -53,11 +53,11 @@ class RBFAgent(object):
         
         # TODO: Task 1, choose which feature to use. 
         # Manual features, Task 1a 
-        return np.concatenate((state, np.abs(state)), axis=1)
+        # return np.concatenate((state, np.abs(state)), axis=1)
         
         # RBF features, Task 1b 
         # map a state to a higher dimension (100+80+50)
-        # return self.featurizer.transform(self.scaler.transform(state)) 
+        return self.featurizer.transform(self.scaler.transform(state)) 
 
     def get_action(self, state, epsilon=0.0):
         # TODO: Task 1: Implement epsilon-greedy policy
@@ -65,9 +65,22 @@ class RBFAgent(object):
         # Hints:
         # 1. self.q_functions is a list which defines a q function for each action dimension
         # 2. for each q function, use predict(feature) to obtain the q value
-        pass
-
-        
+   
+        if np.random.random() < epsilon:
+            return np.random.choice(self.num_actions)
+        else:
+            # state is of shape (4, ) # four actions
+            # featurized_state is of shape (1, 8) 
+            featurized_state = self.featurize(state)
+            q_values = []
+            for q in self.q_functions:
+                # Predict method returns shape (1, ), so indexing [0] to get the value
+                q_value = q.predict(featurized_state)[0]
+                q_values.append(q_value)
+            # Q_values will be of dimension (number of q functions, )
+            
+            action = np.argmax(np.array(q_values))
+            return action
 
         ########## Your code ends here #########
 
@@ -103,10 +116,16 @@ class RBFAgent(object):
         # 4. remember to use not_done to mask out the q values at terminal states (treat them as 0)
 
         # featurize the state and next_state
-        f_state = 0 
-        f_next_state = 0
-        q_tar = 0 
+        # f_state = 0 
+        # f_next_state = 0
+        # q_tar = 0 
 
+        f_state = self.featurize(batch.state)
+        f_next_state = self.featurize(batch.next_state)
+
+        # calculate q_target (check q-learning)
+        q_pred = np.array([q.predict(f_next_state) for q in self.q_functions]).T
+        q_target = batch.reward + self.gamma * batch.not_done * np.max(q_pred, axis=1)
 
         ########## You code ends here #########
         # Get new weights for each action separately
@@ -117,7 +136,7 @@ class RBFAgent(object):
             # If a not present in the batch, skip and move to the next action
             if np.any(idx):
                 act_states = f_state[idx]
-                act_targets = q_tar[idx]
+                act_targets = q_target[idx]
 
                 # Perform a single SGD step on the Q-function params to update the q_function corresponding to action a
                 self.q_functions[a].partial_fit(act_states, act_targets)

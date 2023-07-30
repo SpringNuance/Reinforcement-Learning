@@ -1,0 +1,30 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': -110.78112780032575}
+{'episode': 100, 'epsilon': 0.6666666666666666, 'ep_reward': -258.7040131975448, 'loss': 3.892489433288574, 'q_mean': 0.053576670587062836, 'num_update': 8186}
+{'episode': 200, 'epsilon': 0.5, 'ep_reward': -372.47345387704524, 'loss': 2.635852098464966, 'q_mean': 0.055777642875909805, 'num_update': 16077}
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 112, in <module>
+    main()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 92, in main
+    update_info = agent.update(buffer)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/dqn_agent.py", line 76, in update
+    loss.backward()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

@@ -1,0 +1,44 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 15.0}
+{'episode': 100, 'epsilon': 0.6666666666666666, 'ep_reward': 11.0, 'loss': 0.04502733424305916, 'q_mean': 1.555982232093811, 'num_update': 1819}
+{'episode': 200, 'epsilon': 0.5, 'ep_reward': 15.0, 'loss': 0.03659328445792198, 'q_mean': 2.8618481159210205, 'num_update': 3317}
+{'episode': 300, 'epsilon': 0.4, 'ep_reward': 10.0, 'loss': 0.12655632197856903, 'q_mean': 3.9365367889404297, 'num_update': 4612}
+{'episode': 400, 'epsilon': 0.3333333333333333, 'ep_reward': 16.0, 'loss': 0.16226129233837128, 'q_mean': 4.926486968994141, 'num_update': 5928}
+{'episode': 500, 'epsilon': 0.2857142857142857, 'ep_reward': 18.0, 'loss': 0.19566833972930908, 'q_mean': 6.368457794189453, 'num_update': 7854}
+{'episode': 600, 'epsilon': 0.25, 'ep_reward': 43.0, 'loss': 0.3324696123600006, 'q_mean': 9.674457550048828, 'num_update': 11795}
+{'episode': 700, 'epsilon': 0.2222222222222222, 'ep_reward': 9.0, 'loss': 0.13184809684753418, 'q_mean': 13.247468948364258, 'num_update': 15964}
+{'episode': 800, 'epsilon': 0.2, 'ep_reward': 11.0, 'loss': 0.535406768321991, 'q_mean': 14.13064193725586, 'num_update': 17008}
+{'episode': 900, 'epsilon': 0.18181818181818182, 'ep_reward': 10.0, 'loss': 0.5757749676704407, 'q_mean': 15.05416488647461, 'num_update': 18046}
+{'episode': 1000, 'epsilon': 0.16666666666666666, 'ep_reward': 11.0, 'loss': 0.9144247174263, 'q_mean': 16.369178771972656, 'num_update': 19091}
+{'episode': 1100, 'epsilon': 0.15384615384615385, 'ep_reward': 10.0, 'loss': 0.6495681405067444, 'q_mean': 17.364089965820312, 'num_update': 20122}
+{'episode': 1200, 'epsilon': 0.14285714285714285, 'ep_reward': 10.0, 'loss': 0.8021063804626465, 'q_mean': 18.195154190063477, 'num_update': 21130}
+{'episode': 1300, 'epsilon': 0.13333333333333333, 'ep_reward': 10.0, 'loss': 1.0397616624832153, 'q_mean': 19.540634155273438, 'num_update': 22166}
+{'episode': 1400, 'epsilon': 0.125, 'ep_reward': 10.0, 'loss': 0.9038670063018799, 'q_mean': 20.623897552490234, 'num_update': 23183}
+{'episode': 1500, 'epsilon': 0.11764705882352941, 'ep_reward': 10.0, 'loss': 0.47884586453437805, 'q_mean': 21.52471351623535, 'num_update': 24179}
+{'episode': 1600, 'epsilon': 0.1111111111111111, 'ep_reward': 12.0, 'loss': 1.445968747138977, 'q_mean': 22.04906463623047, 'num_update': 25210}
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 112, in <module>
+    main()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 92, in main
+    update_info = agent.update(buffer)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/dqn_agent.py", line 77, in update
+    #calculate the loss
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

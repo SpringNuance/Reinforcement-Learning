@@ -1,0 +1,10 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 13.0}
+Error executing job with overrides: ['exp_name=ex4_task1_a', 'train_episodes=500']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 92, in main
+    update_info = agent.update(buffer)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/rbf_agent.py", line 126, in update
+    q_tar = batch.reward + self.gamma * np.max(self.q_functions.predict(f_next_state), axis=1) * batch.not_done
+AttributeError: 'list' object has no attribute 'predict'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

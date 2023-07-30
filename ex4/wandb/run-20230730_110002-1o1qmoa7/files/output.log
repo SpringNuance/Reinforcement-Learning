@@ -1,0 +1,10 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': -128.46823696696708}
+Error executing job with overrides: ['agent_name=dqn', 'env_agent=lunarlander_dqn', 'exp_name=ex4_task3_b', 'train_episodes=4000']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 92, in main
+    update_info = agent.update(buffer)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/dqn_agent.py", line 65, in update
+    q_values = self.policy_net(batch.state).gather(1, batch.action.to(dtype=torch.int))
+RuntimeError: gather(): Expected dtype int64 for index
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

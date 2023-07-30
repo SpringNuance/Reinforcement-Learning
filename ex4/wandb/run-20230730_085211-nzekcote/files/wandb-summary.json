@@ -1,0 +1,1 @@
+{"episode": 3999, "epsilon": 0.05, "ep_reward": 10.0, "_timestamp": 1690699055.706623, "_runtime": 2724.1163761615753, "_step": 3999, "loss": 0.5203666687011719, "q_mean": -0.07135692238807678, "num_update": 41630, "_wandb": {"runtime": 2723}}

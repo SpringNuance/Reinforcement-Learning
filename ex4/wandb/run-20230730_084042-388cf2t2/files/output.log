@@ -1,0 +1,7 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 24.0}
+{'episode': 100, 'epsilon': 0.6666666666666666, 'ep_reward': 11.0, 'loss': 0.5550122261047363, 'q_mean': -0.12005963176488876, 'num_update': 1819}
+{'episode': 200, 'epsilon': 0.5, 'ep_reward': 11.0, 'loss': 0.5413120985031128, 'q_mean': -0.10343816131353378, 'num_update': 3340}
+{'episode': 300, 'epsilon': 0.4, 'ep_reward': 10.0, 'loss': 0.5467907786369324, 'q_mean': -0.10603684931993484, 'num_update': 4625}
+{'episode': 400, 'epsilon': 0.3333333333333333, 'ep_reward': 11.0, 'loss': 0.5407654047012329, 'q_mean': -0.09900026768445969, 'num_update': 5768}
+------ Training Finished ------

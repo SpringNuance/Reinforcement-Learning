@@ -1,0 +1,191 @@
+2023-07-30 08:15:54,985 INFO    StreamThr :986013 [internal.py:wandb_internal():90] W&B internal server running at pid: 986013, started at: 2023-07-30 08:15:54.984246
+2023-07-30 08:15:54,993 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: status
+2023-07-30 08:15:55,005 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: status
+2023-07-30 08:15:55,015 DEBUG   SenderThread:986013 [sender.py:send():302] send: header
+2023-07-30 08:15:55,015 INFO    WriterThread:986013 [datastore.py:open_for_write():75] open: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/run-zswk9wyl.wandb
+2023-07-30 08:15:55,028 DEBUG   SenderThread:986013 [sender.py:send():302] send: run
+2023-07-30 08:15:55,859 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: check_version
+2023-07-30 08:15:55,879 INFO    SenderThread:986013 [dir_watcher.py:__init__():216] watching files in: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files
+2023-07-30 08:15:55,880 INFO    SenderThread:986013 [sender.py:_start_run_threads():913] run started: zswk9wyl with start time 1690694154.979197
+2023-07-30 08:15:55,880 DEBUG   SenderThread:986013 [sender.py:send():302] send: summary
+2023-07-30 08:15:55,884 INFO    SenderThread:986013 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-07-30 08:15:55,886 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: check_version
+2023-07-30 08:15:56,150 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: run_start
+2023-07-30 08:15:56,152 DEBUG   HandlerThread:986013 [meta.py:__init__():35] meta init
+2023-07-30 08:15:56,152 DEBUG   HandlerThread:986013 [meta.py:__init__():50] meta init done
+2023-07-30 08:15:56,153 DEBUG   HandlerThread:986013 [meta.py:probe():216] probe
+2023-07-30 08:15:56,156 DEBUG   HandlerThread:986013 [meta.py:_setup_git():206] setup git
+2023-07-30 08:15:56,198 DEBUG   HandlerThread:986013 [meta.py:_setup_git():213] setup git done
+2023-07-30 08:15:56,198 DEBUG   HandlerThread:986013 [meta.py:_save_pip():54] save pip
+2023-07-30 08:15:56,201 DEBUG   HandlerThread:986013 [meta.py:_save_pip():68] save pip done
+2023-07-30 08:15:56,201 DEBUG   HandlerThread:986013 [meta.py:probe():254] probe done
+2023-07-30 08:15:56,212 DEBUG   SenderThread:986013 [sender.py:send():302] send: files
+2023-07-30 08:15:56,213 INFO    SenderThread:986013 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2023-07-30 08:15:56,234 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: stop_status
+2023-07-30 08:15:56,235 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: stop_status
+2023-07-30 08:15:56,328 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: partial_history
+2023-07-30 08:15:56,349 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:56,677 DEBUG   SenderThread:986013 [sender.py:send():302] send: telemetry
+2023-07-30 08:15:56,678 DEBUG   SenderThread:986013 [sender.py:send():302] send: history
+2023-07-30 08:15:56,680 DEBUG   SenderThread:986013 [sender.py:send():302] send: summary
+2023-07-30 08:15:56,684 INFO    SenderThread:986013 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-07-30 08:15:56,689 DEBUG   SenderThread:986013 [sender.py:send():302] send: exit
+2023-07-30 08:15:56,690 INFO    SenderThread:986013 [sender.py:send_exit():438] handling exit code: 0
+2023-07-30 08:15:56,691 INFO    SenderThread:986013 [sender.py:send_exit():440] handling runtime: 0
+2023-07-30 08:15:56,696 INFO    SenderThread:986013 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-07-30 08:15:56,697 INFO    SenderThread:986013 [sender.py:send_exit():446] send defer
+2023-07-30 08:15:56,698 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:56,700 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:56,702 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 0
+2023-07-30 08:15:56,704 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:56,705 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 0
+2023-07-30 08:15:56,706 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 1
+2023-07-30 08:15:56,707 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:56,707 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 1
+2023-07-30 08:15:56,761 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:56,762 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 1
+2023-07-30 08:15:56,763 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 2
+2023-07-30 08:15:56,764 DEBUG   SenderThread:986013 [sender.py:send():302] send: stats
+2023-07-30 08:15:56,766 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:56,767 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 2
+2023-07-30 08:15:56,768 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:56,769 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 2
+2023-07-30 08:15:56,770 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 3
+2023-07-30 08:15:56,771 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:56,772 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 3
+2023-07-30 08:15:56,773 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:56,773 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 3
+2023-07-30 08:15:56,773 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 4
+2023-07-30 08:15:56,775 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:56,776 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 4
+2023-07-30 08:15:56,777 DEBUG   SenderThread:986013 [sender.py:send():302] send: summary
+2023-07-30 08:15:56,781 INFO    SenderThread:986013 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-07-30 08:15:56,782 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:56,783 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 4
+2023-07-30 08:15:56,783 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 5
+2023-07-30 08:15:56,785 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:56,786 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 5
+2023-07-30 08:15:56,786 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:56,787 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 5
+2023-07-30 08:15:56,808 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:56,885 INFO    Thread-12 :986013 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/requirements.txt
+2023-07-30 08:15:56,886 INFO    Thread-12 :986013 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/wandb-summary.json
+2023-07-30 08:15:56,887 INFO    Thread-12 :986013 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/output.log
+2023-07-30 08:15:56,888 INFO    Thread-12 :986013 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/wandb-metadata.json
+2023-07-30 08:15:57,418 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 6
+2023-07-30 08:15:57,419 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:57,420 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:57,422 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 6
+2023-07-30 08:15:57,423 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:57,423 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 6
+2023-07-30 08:15:57,432 INFO    Thread-16 :986013 [upload_job.py:push():138] Uploaded file /tmp/tmpdrzofdowwandb/247dd9ev-wandb-metadata.json
+2023-07-30 08:15:57,525 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:57,885 INFO    Thread-12 :986013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/config.yaml
+2023-07-30 08:15:58,698 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 7
+2023-07-30 08:15:58,699 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:58,700 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:58,703 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 7
+2023-07-30 08:15:58,704 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:58,705 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 7
+2023-07-30 08:15:58,705 INFO    SenderThread:986013 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-07-30 08:15:58,807 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:58,887 INFO    Thread-12 :986013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/output.log
+2023-07-30 08:15:58,891 INFO    SenderThread:986013 [dir_watcher.py:finish():392] scan: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files
+2023-07-30 08:15:58,893 INFO    SenderThread:986013 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/config.yaml config.yaml
+2023-07-30 08:15:58,893 INFO    SenderThread:986013 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/wandb-summary.json wandb-summary.json
+2023-07-30 08:15:58,904 INFO    SenderThread:986013 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/requirements.txt requirements.txt
+2023-07-30 08:15:58,915 INFO    SenderThread:986013 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/wandb-metadata.json wandb-metadata.json
+2023-07-30 08:15:58,915 INFO    SenderThread:986013 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/output.log output.log
+2023-07-30 08:15:58,926 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 8
+2023-07-30 08:15:58,927 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:58,936 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:15:58,937 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 8
+2023-07-30 08:15:58,938 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:15:58,939 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 8
+2023-07-30 08:15:58,939 INFO    SenderThread:986013 [file_pusher.py:finish():171] shutting down file pusher
+2023-07-30 08:15:59,039 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,040 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,143 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,144 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,248 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,249 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,353 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,353 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,457 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,458 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,562 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,563 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,667 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,668 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,773 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,775 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:15:59,883 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:15:59,892 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,009 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,010 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,113 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,113 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,217 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,217 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,321 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,322 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,425 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,426 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,529 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,530 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,633 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,634 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,739 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,739 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,844 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,845 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:00,924 INFO    Thread-19 :986013 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/requirements.txt
+2023-07-30 08:16:00,951 INFO    Thread-18 :986013 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/wandb-summary.json
+2023-07-30 08:16:00,960 INFO    Thread-17 :986013 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/config.yaml
+2023-07-30 08:16:00,963 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:00,964 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,070 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:01,072 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,176 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:01,177 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,281 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:01,282 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,342 INFO    Thread-20 :986013 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/files/output.log
+2023-07-30 08:16:01,388 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:01,389 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,495 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:01,495 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,544 INFO    Thread-11 (_thread_body):986013 [sender.py:transition_state():459] send defer: 9
+2023-07-30 08:16:01,545 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:16:01,545 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 9
+2023-07-30 08:16:01,546 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:16:01,547 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 9
+2023-07-30 08:16:01,598 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:01,715 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 10
+2023-07-30 08:16:01,716 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,717 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:16:01,719 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 10
+2023-07-30 08:16:01,721 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:16:01,721 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 10
+2023-07-30 08:16:01,722 INFO    SenderThread:986013 [sender.py:transition_state():459] send defer: 11
+2023-07-30 08:16:01,723 DEBUG   SenderThread:986013 [sender.py:send():302] send: final
+2023-07-30 08:16:01,724 DEBUG   SenderThread:986013 [sender.py:send():302] send: footer
+2023-07-30 08:16:01,725 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: defer
+2023-07-30 08:16:01,727 INFO    HandlerThread:986013 [handler.py:handle_request_defer():164] handle defer: 11
+2023-07-30 08:16:01,729 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: defer
+2023-07-30 08:16:01,730 INFO    SenderThread:986013 [sender.py:send_request_defer():455] handle sender defer: 11
+2023-07-30 08:16:01,823 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-30 08:16:01,824 DEBUG   SenderThread:986013 [sender.py:send_request():316] send_request: poll_exit
+2023-07-30 08:16:01,825 INFO    SenderThread:986013 [file_pusher.py:join():176] waiting for file pusher
+2023-07-30 08:16:02,585 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: sampled_history
+2023-07-30 08:16:02,589 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: get_summary
+2023-07-30 08:16:02,590 INFO    MainThread:986013 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2023-07-30 08:16:02,592 INFO    MainThread:986013 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2023-07-30 08:16:02,594 INFO    MainThread:986013 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2023-07-30 08:16:02,597 DEBUG   HandlerThread:986013 [handler.py:handle_request():141] handle_request: shutdown
+2023-07-30 08:16:02,598 INFO    HandlerThread:986013 [handler.py:finish():810] shutting down handler
+2023-07-30 08:16:02,725 INFO    WriterThread:986013 [datastore.py:close():279] close: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/wandb/run-20230730_081554-zswk9wyl/run-zswk9wyl.wandb
+2023-07-30 08:16:03,482 INFO    SenderThread:986013 [sender.py:finish():1312] shutting down sender
+2023-07-30 08:16:03,483 INFO    SenderThread:986013 [file_pusher.py:finish():171] shutting down file pusher
+2023-07-30 08:16:03,483 INFO    SenderThread:986013 [file_pusher.py:join():176] waiting for file pusher
+2023-07-30 08:16:03,606 INFO    MainThread:986013 [internal.py:handle_exit():80] Internal process exited

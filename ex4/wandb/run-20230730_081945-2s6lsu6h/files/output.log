@@ -1,0 +1,12 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 21.0}
+Error executing job with overrides: ['env_agent=cartpole_dqn', 'exp_name=ex3_task3_a', 'train_episodes=500']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 78, in main
+    action = agent.get_action(state, eps)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/dqn_agent.py", line 94, in get_action
+    sample = random.choice()
+TypeError: Random.choice() missing 1 required positional argument: 'seq'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

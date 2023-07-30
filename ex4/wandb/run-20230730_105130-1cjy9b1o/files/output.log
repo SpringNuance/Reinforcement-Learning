@@ -1,0 +1,6 @@
+Error executing job with overrides: ['agent_name=dnq', 'env_agent=cartpole_dqn', 'exp_name=ex4_task3_a', 'train_episodes=4000']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 62, in main
+    raise ValueError(f"No {cfg.agent_name} agent implemented")
+ValueError: No dnq agent implemented
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -8,6 +8,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 import random
 import copy
+import time
 from common import helper as h
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -60,34 +61,68 @@ class DQNAgent(object):
         #        5. You can go throught the PyTorch Tutorial given on MyCourses if you are not familiar with it.
         
         # calculate the q(s,a)
-        qs = 0
+        # You can use torch.gather() to gather values along an axis specified by dim. 
+        action_int64 = batch.action.to(dtype=torch.int64)
+        q_pred = self.policy_net(batch.state).gather(1, action_int64)
 
         # calculate q target (check q-learning)
-        q_tar = 0
+        with torch.no_grad():
+            # maximum predicted Q-value over all possible actions for the next state
+            max_q_value = self.target_net(batch.next_state).max(dim=1, keepdim=True).values
+            q_target = batch.reward + self.gamma * batch.not_done * max_q_value
+        
+        # q_tar = 0
 
-        #calculate the loss 
-        loss=0
-
+        # calculate the loss 
+        # loss=0
+        # q_values and q_target have shape (batch_size, 1), batch_size = 256
+        # loss function for the Q-learning update step, calculating the difference between the predicted Q-values and the target Q-values.
+        loss = F.mse_loss(q_pred, q_target)
+        # loss = F.smooth_l1_loss(q_pred, q_target)
         self.optimizer.zero_grad()
         loss.backward()
+        
         # clip grad norm and perform the optimization step
-
-        pass
+        torch.nn.utils.clip_grad_norm_(self.policy_net.parameters(), self.grad_clip_norm)
+        self.optimizer.step()
+        
+        #pass
         ########## You code ends here #########
 
         # update the target network
         h.soft_update_params(self.policy_net, self.target_net, self.tau)
         
         return {'loss': loss.item(), 
-                'q_mean': qs.mean().item(),
+                'q_mean': q_pred.mean().item(),
                 'num_update': self.counter}
 
 
+    # @torch.no_grad()
+    # def get_action(self, state, epsilon=0.05):
+    #     # TODO:  Task 3: implement epsilon-greedy action selection
+    #     ########## You code starts here #########
+    #     sample = random.random()
+    #     if sample < epsilon:
+    #         return random.randrange(self.n_actions)
+    #     else:
+    #         if state.ndim == 1:
+    #             state = state[None] # add batch dimension
+    #         state = torch.tensor(state, device=device)
+    #         q_values = self.policy_net(state)
+    #         return torch.argmax(q_values, dim=1).squeeze().item()
+    
     @torch.no_grad()
     def get_action(self, state, epsilon=0.05):
-        # TODO:  Task 3: implement epsilon-greedy action selection
-        ########## You code starts here #########
-        pass
+        # Task 3: Implementing epsilon-greedy action selection
+        random_number = random.uniform(0, 1)
+        if random_number < epsilon:
+            return random.randint(0, self.n_actions - 1)
+        else:
+            current_state = np.expand_dims(state, 0) 
+            current_state = torch.from_numpy(current_state).to(device)
+            q_values = self.policy_net(current_state)
+            return q_values.argmax(dim=1).squeeze().cpu().numpy()
+        # pass
 
         ########## You code ends here #########
 

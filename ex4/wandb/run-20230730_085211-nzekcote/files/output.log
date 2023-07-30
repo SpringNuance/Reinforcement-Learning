@@ -1,0 +1,42 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 9.0}
+{'episode': 100, 'epsilon': 0.6666666666666666, 'ep_reward': 11.0, 'loss': 0.5517134666442871, 'q_mean': -0.11585278809070587, 'num_update': 1819}
+{'episode': 200, 'epsilon': 0.5, 'ep_reward': 11.0, 'loss': 0.5382591485977173, 'q_mean': -0.10106994956731796, 'num_update': 3340}
+{'episode': 300, 'epsilon': 0.4, 'ep_reward': 10.0, 'loss': 0.5453848242759705, 'q_mean': -0.10535050183534622, 'num_update': 4625}
+{'episode': 400, 'epsilon': 0.3333333333333333, 'ep_reward': 11.0, 'loss': 0.535136878490448, 'q_mean': -0.09607566148042679, 'num_update': 5768}
+{'episode': 500, 'epsilon': 0.2857142857142857, 'ep_reward': 13.0, 'loss': 0.5377839207649231, 'q_mean': -0.0949060469865799, 'num_update': 6912}
+{'episode': 600, 'epsilon': 0.25, 'ep_reward': 12.0, 'loss': 0.534127414226532, 'q_mean': -0.09391884505748749, 'num_update': 8020}
+{'episode': 700, 'epsilon': 0.2222222222222222, 'ep_reward': 9.0, 'loss': 0.52865070104599, 'q_mean': -0.08691247552633286, 'num_update': 9081}
+{'episode': 800, 'epsilon': 0.2, 'ep_reward': 9.0, 'loss': 0.5357035398483276, 'q_mean': -0.09099007397890091, 'num_update': 10162}
+{'episode': 900, 'epsilon': 0.18181818181818182, 'ep_reward': 10.0, 'loss': 0.5288891792297363, 'q_mean': -0.08594720810651779, 'num_update': 11198}
+{'episode': 1000, 'epsilon': 0.16666666666666666, 'ep_reward': 9.0, 'loss': 0.5277084112167358, 'q_mean': -0.08486419171094894, 'num_update': 12230}
+{'episode': 1100, 'epsilon': 0.15384615384615385, 'ep_reward': 10.0, 'loss': 0.5307676196098328, 'q_mean': -0.08544544130563736, 'num_update': 13267}
+{'episode': 1200, 'epsilon': 0.14285714285714285, 'ep_reward': 9.0, 'loss': 0.5318887233734131, 'q_mean': -0.088994100689888, 'num_update': 14281}
+{'episode': 1300, 'epsilon': 0.13333333333333333, 'ep_reward': 8.0, 'loss': 0.5323145985603333, 'q_mean': -0.08662997931241989, 'num_update': 15292}
+{'episode': 1400, 'epsilon': 0.125, 'ep_reward': 9.0, 'loss': 0.52497798204422, 'q_mean': -0.07737861573696136, 'num_update': 16280}
+{'episode': 1500, 'epsilon': 0.11764705882352941, 'ep_reward': 9.0, 'loss': 0.5210787057876587, 'q_mean': -0.07830288261175156, 'num_update': 17313}
+{'episode': 1600, 'epsilon': 0.1111111111111111, 'ep_reward': 9.0, 'loss': 0.5260253548622131, 'q_mean': -0.07883726060390472, 'num_update': 18306}
+{'episode': 1700, 'epsilon': 0.10526315789473684, 'ep_reward': 11.0, 'loss': 0.5213733911514282, 'q_mean': -0.0774301290512085, 'num_update': 19297}
+{'episode': 1800, 'epsilon': 0.1, 'ep_reward': 11.0, 'loss': 0.5234292149543762, 'q_mean': -0.07837656140327454, 'num_update': 20275}
+{'episode': 1900, 'epsilon': 0.09523809523809523, 'ep_reward': 11.0, 'loss': 0.5161423683166504, 'q_mean': -0.07007536292076111, 'num_update': 21259}
+{'episode': 2000, 'epsilon': 0.09090909090909091, 'ep_reward': 9.0, 'loss': 0.5222510695457458, 'q_mean': -0.07572592049837112, 'num_update': 22235}
+{'episode': 2100, 'epsilon': 0.08695652173913043, 'ep_reward': 12.0, 'loss': 0.521155059337616, 'q_mean': -0.07586973905563354, 'num_update': 23223}
+{'episode': 2200, 'epsilon': 0.08333333333333333, 'ep_reward': 9.0, 'loss': 0.5226565599441528, 'q_mean': -0.07634329795837402, 'num_update': 24206}
+{'episode': 2300, 'epsilon': 0.08, 'ep_reward': 9.0, 'loss': 0.5187815427780151, 'q_mean': -0.07387901842594147, 'num_update': 25190}
+{'episode': 2400, 'epsilon': 0.07692307692307693, 'ep_reward': 10.0, 'loss': 0.5145403146743774, 'q_mean': -0.0687900260090828, 'num_update': 26154}
+{'episode': 2500, 'epsilon': 0.07407407407407407, 'ep_reward': 11.0, 'loss': 0.5199062824249268, 'q_mean': -0.07386581599712372, 'num_update': 27126}
+{'episode': 2600, 'epsilon': 0.07142857142857142, 'ep_reward': 10.0, 'loss': 0.5196187496185303, 'q_mean': -0.07278741896152496, 'num_update': 28113}
+{'episode': 2700, 'epsilon': 0.06896551724137931, 'ep_reward': 9.0, 'loss': 0.518645167350769, 'q_mean': -0.07323721051216125, 'num_update': 29074}
+{'episode': 2800, 'epsilon': 0.06666666666666667, 'ep_reward': 13.0, 'loss': 0.5175159573554993, 'q_mean': -0.07035095244646072, 'num_update': 30058}
+{'episode': 2900, 'epsilon': 0.06451612903225806, 'ep_reward': 8.0, 'loss': 0.5153247714042664, 'q_mean': -0.07117914408445358, 'num_update': 31005}
+{'episode': 3000, 'epsilon': 0.0625, 'ep_reward': 9.0, 'loss': 0.519109845161438, 'q_mean': -0.07526014745235443, 'num_update': 31962}
+{'episode': 3100, 'epsilon': 0.06060606060606061, 'ep_reward': 9.0, 'loss': 0.5183652639389038, 'q_mean': -0.07469171285629272, 'num_update': 32945}
+{'episode': 3200, 'epsilon': 0.058823529411764705, 'ep_reward': 9.0, 'loss': 0.5183558464050293, 'q_mean': -0.07317809760570526, 'num_update': 33897}
+{'episode': 3300, 'epsilon': 0.05714285714285714, 'ep_reward': 8.0, 'loss': 0.5161236524581909, 'q_mean': -0.06863193213939667, 'num_update': 34869}
+{'episode': 3400, 'epsilon': 0.05555555555555555, 'ep_reward': 9.0, 'loss': 0.5183266401290894, 'q_mean': -0.07289153337478638, 'num_update': 35824}
+{'episode': 3500, 'epsilon': 0.05405405405405406, 'ep_reward': 9.0, 'loss': 0.5186594724655151, 'q_mean': -0.07324919104576111, 'num_update': 36793}
+{'episode': 3600, 'epsilon': 0.05263157894736842, 'ep_reward': 10.0, 'loss': 0.5157549977302551, 'q_mean': -0.07126452773809433, 'num_update': 37765}
+{'episode': 3700, 'epsilon': 0.05128205128205128, 'ep_reward': 9.0, 'loss': 0.5161823630332947, 'q_mean': -0.07092888653278351, 'num_update': 38733}
+{'episode': 3800, 'epsilon': 0.05, 'ep_reward': 9.0, 'loss': 0.5156969428062439, 'q_mean': -0.0707165077328682, 'num_update': 39695}
+{'episode': 3900, 'epsilon': 0.05, 'ep_reward': 9.0, 'loss': 0.5134884715080261, 'q_mean': -0.06755655258893967, 'num_update': 40676}
+------ Training Finished ------

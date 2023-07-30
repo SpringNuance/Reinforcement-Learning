@@ -1,0 +1,31 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 26.0}
+{'episode': 100, 'epsilon': 0.3333333333333333, 'ep_reward': 20.0}
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 112, in <module>
+    main()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 92, in main
+    update_info = agent.update(buffer)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/rbf_agent.py", line 127, in update
+    f_next_state = self.featurize(batch.next_state)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/rbf_agent.py", line 60, in featurize
+    return self.featurizer.transform(self.scaler.transform(state))
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 1204, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/joblib/parallel.py", line 716, in __init__
+    self._jobs = list()
+KeyboardInterrupt

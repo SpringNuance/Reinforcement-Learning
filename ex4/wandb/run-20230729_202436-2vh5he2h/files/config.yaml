@@ -1,0 +1,64 @@
+wandb_version: 1
+
+_content:
+  desc: null
+  value:
+    agent_name: rbf
+    batch_size: '16'
+    buffer_size: '1000'
+    env_name: CartPole-v0
+    exp_name: ex4_task1_a
+    gamma: '0.99'
+    glie_b: '50'
+    max_episode_steps: '200'
+    random_episodes: '10'
+    run_id: '1690651470'
+    run_suffix: '0'
+    save_logging: 'True'
+    save_model: 'True'
+    save_video: 'False'
+    seed: '408'
+    silent: 'False'
+    test_episodes: '10'
+    train_episodes: '500'
+    use_wandb: 'True'
+_flags_cache:
+  desc: null
+  value:
+    allow_objects: null
+    convert: null
+    readonly: null
+    struct: true
+_metadata:
+  desc: null
+  value: 'ContainerMetadata(ref_type=typing.Any, object_type=<class ''dict''>, optional=True,
+    key=None, flags={''struct'': True}, flags_root=False, resolver_cache=defaultdict(<class
+    ''dict''>, {''now'': {(''%Y-%m-%d'',): ''2023-07-29'', (''%H-%M-%S'',): ''20-24-30''}}),
+    key_type=typing.Any, element_type=typing.Any)'
+_parent:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.6
+    start_time: 1690651476.130336
+    t:
+      1:
+      - 1
+      - 5
+      - 50
+      - 53
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.6
+      5: 0.13.2
+      8:
+      - 5

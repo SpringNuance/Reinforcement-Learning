@@ -1,0 +1,12 @@
+Error executing job with overrides: ['env_name=cartpole_dqn', 'exp_name=ex3_task3_a', 'train_episodes=500']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 45, in main
+    env = gym.make(cfg.env_name, render_mode='rgb_array' if cfg.save_video else None, max_episode_steps=cfg.max_episode_steps)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py", line 607, in make
+    _check_version_exists(ns, name, version)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py", line 234, in _check_version_exists
+    _check_name_exists(ns, name)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/gym/envs/registration.py", line 212, in _check_name_exists
+    raise error.NameNotFound(
+gym.error.NameNotFound: Environment cartpole_dqn doesn't exist. Did you mean: `CartPole`?
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

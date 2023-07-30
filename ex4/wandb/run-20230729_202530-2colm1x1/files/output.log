@@ -1,0 +1,7 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 48.0}
+{'episode': 100, 'epsilon': 0.3333333333333333, 'ep_reward': 39.0}
+{'episode': 200, 'epsilon': 0.2, 'ep_reward': 45.0}
+{'episode': 300, 'epsilon': 0.14285714285714285, 'ep_reward': 54.0}
+{'episode': 400, 'epsilon': 0.1111111111111111, 'ep_reward': 53.0}
+------ Training Finished ------

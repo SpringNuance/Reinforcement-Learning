@@ -1,0 +1,76 @@
+wandb_version: 1
+
+_content:
+  desc: null
+  value:
+    agent_name: dqn
+    batch_size: '256'
+    buffer_size: '50000'
+    env_name: CartPole-v0
+    exp_name: ex4_task3_a
+    gamma: '0.99'
+    glie_b: '200'
+    grad_clip_norm: '1'
+    hidden_dims:
+    - 32
+    - 32
+    lr: 5e-05
+    max_episode_steps: '200'
+    random_episodes: '10'
+    run_id: '1690702742'
+    run_suffix: '0'
+    save_logging: 'True'
+    save_model: 'True'
+    save_video: 'False'
+    seed: '408'
+    silent: 'False'
+    tau: '0.001'
+    test_episodes: '10'
+    train_episodes: '10'
+    use_wandb: 'True'
+_flags_cache:
+  desc: null
+  value:
+    allow_objects: null
+    convert: null
+    readonly: null
+    struct: true
+_metadata:
+  desc: null
+  value: 'ContainerMetadata(ref_type=typing.Any, object_type=<class ''dict''>, optional=True,
+    key=None, flags={''struct'': True}, flags_root=False, resolver_cache=defaultdict(<class
+    ''dict''>, {''now'': {(''%Y-%m-%d'',): ''2023-07-30'', (''%H-%M-%S'',): ''10-39-02''}}),
+    key_type=typing.Any, element_type=typing.Any)'
+_parent:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.6
+    start_time: 1690702745.74024
+    t:
+      1:
+      - 1
+      - 5
+      - 50
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 50
+      - 53
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.6
+      5: 0.13.2
+      8:
+      - 5

@@ -1,0 +1,10 @@
+
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 10.0}
+Error executing job with overrides: ['env_agent=cartpole_dqn', 'exp_name=ex3_task3_a', 'train_episodes=500']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/train.py", line 92, in main
+    update_info = agent.update(buffer)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex4/dqn_agent.py", line 68, in update
+    q_tar = batch.reward + self.gamma * self.target_net(batch.next_state).max(dim=1, keepdim=True)[0].values * batch.not_done
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
