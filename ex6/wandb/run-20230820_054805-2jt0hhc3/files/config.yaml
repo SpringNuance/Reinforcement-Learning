@@ -1,0 +1,65 @@
+wandb_version: 1
+
+_content:
+  desc: null
+  value:
+    agent_name: ddpg
+    batch_size: '100'
+    buffer_size: '1000000.0'
+    env_name: HalfCheetah-v4
+    exp_name: ex6_task2
+    gamma: '0.99'
+    lr: '0.0005'
+    model_path: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/results/HalfCheetah-v4/model/HalfCheetah-v4_params.pt
+    run_id: '1692499683'
+    run_suffix: '0'
+    save_logging: 'True'
+    save_model: 'True'
+    save_video: 'False'
+    seed: '408'
+    silent: 'False'
+    testing: 'False'
+    train_episodes: '2000'
+    use_wandb: 'True'
+_flags_cache:
+  desc: null
+  value:
+    allow_objects: null
+    convert: null
+    readonly: null
+    struct: true
+_metadata:
+  desc: null
+  value: 'ContainerMetadata(ref_type=typing.Any, object_type=<class ''dict''>, optional=True,
+    key=None, flags={''struct'': True}, flags_root=False, resolver_cache=defaultdict(<class
+    ''dict''>, {''now'': {(''%Y-%m-%d'',): ''2023-08-20'', (''%H-%M-%S'',): ''05-48-03''}}),
+    key_type=typing.Any, element_type=typing.Any)'
+_parent:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.12
+    start_time: 1692499685.523667
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.13.2
+      8:
+      - 5

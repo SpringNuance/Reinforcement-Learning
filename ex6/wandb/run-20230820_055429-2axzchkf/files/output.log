@@ -1,0 +1,10 @@
+
+{'seed': 408, 'exp_name': 'ex6_task2', 'run_id': 1692500068, 'testing': False, 'model_path': PosixPath('/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/results/HalfCheetah-v4/model/HalfCheetah-v4_params.pt'), 'save_video': False, 'save_logging': True, 'save_model': True, 'use_wandb': True, 'silent': False, 'run_suffix': 0, 'env_name': 'HalfCheetah-v4', 'agent_name': 'ddpg', 'train_episodes': 2000, 'gamma': 0.99, 'lr': 0.0005, 'batch_size': 100, 'buffer_size': 1000000.0}
+Error executing job with overrides: ['exp_name=ex6_task2', 'env_name=HalfCheetah-v4', 'agent_name=ddpg', 'train_episodes=2000']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/train.py", line 140, in main
+    cfg.lr, cfg.gamma, cfg.tau, cfg.batch_size, cfg.buffer_size)
+omegaconf.errors.ConfigAttributeError: Key 'tau' is not in struct
+    full_key: tau
+    object_type=dict
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

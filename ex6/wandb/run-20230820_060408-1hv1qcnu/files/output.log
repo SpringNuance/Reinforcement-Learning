@@ -1,0 +1,14 @@
+{'seed': 408, 'exp_name': 'ex6_task2', 'run_id': 1692500646, 'testing': False, 'model_path': PosixPath('/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/results/HalfCheetah-v4/model/HalfCheetah-v4_params.pt'), 'save_video': False, 'save_logging': True, 'save_model': True, 'use_wandb': True, 'silent': False, 'run_suffix': 0, 'env_name': 'HalfCheetah-v4', 'agent_name': 'ddpg', 'train_episodes': 2000, 'gamma': 0.99, 'lr': 0.0005, 'batch_size': 100, 'buffer_size': 1000000.0, 'tau': 0.005}
+{'ep': 0, 'timesteps': 1000, 'ep_reward': -181.4715253300843}
+Error executing job with overrides: ['exp_name=ex6_task2', 'env_name=HalfCheetah-v4', 'agent_name=ddpg', 'train_episodes=2000', '+tau=0.005']
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/train.py", line 145, in main
+    train_info = train(agent, env)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/train.py", line 56, in train
+    info = agent.update()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/ddpg.py", line 74, in update
+    info = self._update()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex6/ddpg.py", line 96, in _update
+    tq_target = batch.reward + self.gamma * next_q_target * (1 - batch.done)
+AttributeError: 'Batch' object has no attribute 'done'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

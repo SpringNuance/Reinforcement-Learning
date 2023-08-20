@@ -1,0 +1,11 @@
+
+{'ep': 0, 'logstd': array([[0.002]], dtype=float32), 'timesteps': 4, 'ep_reward': 4.0, 'episodes': 0}
+{'ep': 100, 'logstd': array([[-0.03814646]], dtype=float32), 'timesteps': 103, 'ep_reward': 103.0, 'episodes': 100}
+{'ep': 200, 'logstd': array([[-0.06324543]], dtype=float32), 'timesteps': 35, 'ep_reward': 35.0, 'episodes': 200}
+{'ep': 300, 'logstd': array([[-0.08250828]], dtype=float32), 'timesteps': 183, 'ep_reward': 183.0, 'episodes': 300}
+{'ep': 400, 'logstd': array([[-0.11533176]], dtype=float32), 'timesteps': 1000, 'ep_reward': 1000.0, 'episodes': 400}
+{'ep': 500, 'logstd': array([[-0.12572275]], dtype=float32), 'timesteps': 1000, 'ep_reward': 1000.0, 'episodes': 500}
+{'ep': 600, 'logstd': array([[-0.12792635]], dtype=float32), 'timesteps': 1000, 'ep_reward': 1000.0, 'episodes': 600}
+{'ep': 700, 'logstd': array([[-0.1304628]], dtype=float32), 'timesteps': 1000, 'ep_reward': 1000.0, 'episodes': 700}
+{'ep': 800, 'logstd': array([[-0.14352459]], dtype=float32), 'timesteps': 1000, 'ep_reward': 1000.0, 'episodes': 800}
+{'ep': 900, 'logstd': array([[-0.14524749]], dtype=float32), 'timesteps': 1000, 'ep_reward': 1000.0, 'episodes': 900}
