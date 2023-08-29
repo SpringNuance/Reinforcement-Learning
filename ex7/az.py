@@ -59,14 +59,14 @@ class Node(object):
         self.children: dict = {} # children nodes, index is the action
 
     def expand(self, prior: torch.Tensor):
-        """ Expands this node by adding cild nodes. """
+        """ Expands this node by adding child nodes. """
         assert prior.ndim == 1  # Prior should be a flat vector.
         for a, p in enumerate(prior):
             self.children[a] = Node(prior=p)
     
     @property
     def value(self):  # Q(s, a)
-        """Returns the value of this node."""
+        """Returns the mean value of this node."""
         if self.visit_count:
             return self.total_value / self.visit_count
         return 0.
@@ -119,13 +119,19 @@ class MCTS(object):
             # Generate a trajectory.
             obs = None
             while node.children:
-                pass
+                # pass
                 #TODO
                 # 1. select action according to the search policy (puct: you should implement)
+                action = self.greedy(node)
+                # action = self.puct(node)
                 # 2. consider the children node according to the action
+                node = node.children[action]
                 # 3. execute the action and update information for new node ()
+                obs, reward, done, _ = self.env.step(action)
+                node.reward = reward
+                node.terminal = done
                 # 4. append new node to the trajectory
-
+                trajectory.append(node)
 
             if obs is None:
                 raise ValueError('Generated an empty rollout; this should not happen.')
@@ -150,23 +156,41 @@ class MCTS(object):
                 node = trajectory.pop()
                 #TODO 
                 # 1 compute discounted return the node 
+                ret = node.reward + self.discount * ret
                 # 2.update node (total_value, visit_count)
+                node.total_value += ret
+                node.visit_count += 1
         return root
 
+    # TODO: implement the greedy search policy
+    def greedy(self, node: Node):
+        """Greedy search policy."""
+        return self._argmax(node.children_values)
+    
     def bfs(self, node: Node):
         """Breadth-first search policy."""
         visit_counts = np.array([c.visit_count for c in node.children.values()])
         return self._argmax(-visit_counts)
 
     def puct(self, node: Node, ucb_scaling: float = 1.):
-        ## TODO Implement PUCT search policy policy search
+        ## TODO Implement PUCT search policy 
         # Hint: compute value, prior (probs), and visit ratio for each child node
         # change these values!
-        value_scores = np.zeros(self.num_actions)
-        priors = np.zeros(self.num_actions)
-        visit_ratios = np.zeros(self.num_actions)
-        # Combine.
-        puct_scores = value_scores + ucb_scaling * priors * visit_ratios
+        
+        # value_scores = np.zeros(self.num_actions)
+        # priors = np.zeros(self.num_actions)
+        # visit_ratios = np.zeros(self.num_actions)
+        # # Combine.
+        # puct_scores = value_scores + ucb_scaling * priors * visit_ratios
+        # return self._argmax(puct_scores)
+
+        # Formula of MCTS: t=argmax(Q(s,a)+U(s,a)), where U(s,a)=cpuctP(s,a)√∑bN(s,b)/(N(s,a) + 1).
+        
+        value_scores = np.array([child.value for action, child in node.children.items()])
+        priors = np.array([child.prior for action, child in node.children.items()])
+        visit_ratios = np.array([np.sqrt(node.visit_count) / (child.visit_count + 1) for action, child in node.children.items()])
+        
+        puct_scores = value_scores + ucb_scaling * priors * visit_ratios    
         return self._argmax(puct_scores)
 
     def _argmax(self, values: np.ndarray):
@@ -226,11 +250,28 @@ class AZAgent(object):
     def update(self, data): 
         """ Do a gradient update step on the loss. """   
         ##TODO Update the actor and critic  
-        #1. Use TD learning to update value 
-        #2. Use self.criterion as loss function for policy network (actor)
+        # 1. Use TD learning to update value 
+        # 2. Use self.criterion as loss function for policy network (actor)
         # Hint: state=data.state, action=data.action, ..., probs= data.extra['pi'], 
         # See buffer
-        loss = 0
+        action_probs, current_state_value = self.policy(data.state), self.value(data.state)
+
+        with torch.no_grad():
+            next_state_value = self.value(data.next_state)
+            # 1. Use TD learning to update value 
+            target_value = data.reward + self.gamma * data.not_done * next_state_value
+        
+        # critic_loss = torch.square(current_state_value - target_value).sum(-1)
+        critic_loss = torch.sum((current_state_value - target_value) ** 2, dim=-1)
+
+        # 2. Use self.criterion as loss function for policy network (actor)
+        actor_loss = self.criterion(action_probs, data.extra['pi'])
+        loss = (critic_loss + actor_loss).mean()
+
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+
         return {'loss': loss.item()}
     
 

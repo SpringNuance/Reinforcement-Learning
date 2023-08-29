@@ -1,0 +1,105 @@
+[97m[1mLoaded bsuite_id: deep_sea/0.
+Episode: 0, Episode length: 10, Episode reward: -0.003
+Episode: 1, Episode length: 10, Episode reward: -0.004
+Episode: 2, Episode length: 10, Episode reward: -0.005
+Episode: 3, Episode length: 10, Episode reward: -0.005
+Episode: 4, Episode length: 10, Episode reward: -0.007
+Episode: 5, Episode length: 10, Episode reward: -0.005
+Episode: 6, Episode length: 10, Episode reward: -0.006
+Episode: 7, Episode length: 10, Episode reward: -0.004
+Episode: 8, Episode length: 10, Episode reward: -0.004
+Episode: 9, Episode length: 10, Episode reward: -0.005
+Episode: 10, Episode length: 10, Episode reward: -0.007
+Episode: 11, Episode length: 10, Episode reward: -0.002
+Episode: 12, Episode length: 10, Episode reward: -0.006
+Episode: 13, Episode length: 10, Episode reward: -0.006
+Episode: 14, Episode length: 10, Episode reward: -0.005
+Episode: 15, Episode length: 10, Episode reward: -0.003
+Episode: 16, Episode length: 10, Episode reward: -0.004
+Episode: 17, Episode length: 10, Episode reward: -0.006
+Episode: 18, Episode length: 10, Episode reward: -0.004
+Episode: 19, Episode length: 10, Episode reward: -0.005
+Episode: 20, Episode length: 10, Episode reward: -0.007
+Episode: 21, Episode length: 10, Episode reward: -0.003
+Episode: 22, Episode length: 10, Episode reward: -0.005
+Episode: 23, Episode length: 10, Episode reward: -0.004
+Episode: 24, Episode length: 10, Episode reward: -0.004
+Episode: 25, Episode length: 10, Episode reward: -0.004
+Episode: 26, Episode length: 10, Episode reward: -0.007
+Episode: 27, Episode length: 10, Episode reward: -0.003
+Episode: 28, Episode length: 10, Episode reward: -0.003
+Episode: 29, Episode length: 10, Episode reward: -0.004
+Episode: 30, Episode length: 10, Episode reward: -0.005
+Episode: 31, Episode length: 10, Episode reward: -0.005
+Episode: 32, Episode length: 10, Episode reward: -0.004
+Episode: 33, Episode length: 10, Episode reward: -0.008
+Episode: 34, Episode length: 10, Episode reward: -0.004
+Episode: 35, Episode length: 10, Episode reward: -0.008
+Episode: 36, Episode length: 10, Episode reward: -0.004
+Episode: 37, Episode length: 10, Episode reward: -0.005
+Episode: 38, Episode length: 10, Episode reward: -0.006
+Episode: 39, Episode length: 10, Episode reward: -0.006
+Episode: 40, Episode length: 10, Episode reward: -0.007
+Episode: 41, Episode length: 10, Episode reward: -0.003
+Episode: 42, Episode length: 10, Episode reward: -0.005
+Episode: 43, Episode length: 10, Episode reward: -0.004
+Episode: 44, Episode length: 10, Episode reward: -0.005
+Episode: 45, Episode length: 10, Episode reward: -0.003
+Episode: 46, Episode length: 10, Episode reward: -0.005
+Episode: 47, Episode length: 10, Episode reward: -0.006
+Episode: 48, Episode length: 10, Episode reward: -0.005
+Episode: 49, Episode length: 10, Episode reward: -0.004
+Episode: 50, Episode length: 10, Episode reward: -0.004
+Episode: 51, Episode length: 10, Episode reward: -0.005
+Episode: 52, Episode length: 10, Episode reward: -0.007
+Episode: 53, Episode length: 10, Episode reward: -0.007
+Episode: 54, Episode length: 10, Episode reward: -0.004
+Episode: 55, Episode length: 10, Episode reward: -0.004
+Episode: 56, Episode length: 10, Episode reward: -0.005
+Episode: 57, Episode length: 10, Episode reward: -0.007
+Episode: 58, Episode length: 10, Episode reward: -0.003
+Episode: 59, Episode length: 10, Episode reward: -0.005
+Episode: 60, Episode length: 10, Episode reward: -0.004
+Episode: 61, Episode length: 10, Episode reward: -0.007
+Episode: 62, Episode length: 10, Episode reward: -0.007
+Episode: 63, Episode length: 10, Episode reward: -0.005
+Episode: 64, Episode length: 10, Episode reward: -0.005
+Episode: 65, Episode length: 10, Episode reward: -0.009000000000000001
+Episode: 66, Episode length: 10, Episode reward: -0.005
+Episode: 67, Episode length: 10, Episode reward: -0.005
+Episode: 68, Episode length: 10, Episode reward: -0.007
+Episode: 69, Episode length: 10, Episode reward: -0.009000000000000001
+Episode: 70, Episode length: 10, Episode reward: -0.008
+Episode: 71, Episode length: 10, Episode reward: -0.004
+Episode: 72, Episode length: 10, Episode reward: -0.005
+Episode: 73, Episode length: 10, Episode reward: -0.007
+Episode: 74, Episode length: 10, Episode reward: -0.005
+Episode: 75, Episode length: 10, Episode reward: -0.002
+Episode: 76, Episode length: 10, Episode reward: -0.007
+Episode: 77, Episode length: 10, Episode reward: -0.004
+Episode: 78, Episode length: 10, Episode reward: -0.003
+Episode: 79, Episode length: 10, Episode reward: -0.003
+Episode: 80, Episode length: 10, Episode reward: -0.006
+Episode: 81, Episode length: 10, Episode reward: -0.006
+Episode: 82, Episode length: 10, Episode reward: -0.006
+Episode: 83, Episode length: 10, Episode reward: -0.006
+Episode: 84, Episode length: 10, Episode reward: -0.005
+Episode: 85, Episode length: 10, Episode reward: -0.004
+Episode: 86, Episode length: 10, Episode reward: -0.003
+Episode: 87, Episode length: 10, Episode reward: -0.005
+Episode: 88, Episode length: 10, Episode reward: -0.005
+Episode: 89, Episode length: 10, Episode reward: -0.002
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 332, in <module>
+    update_info = agent.update(buffer.sample(batch_size=16, device=device))
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 249, in update
+    logits, value = self.policy(data.state), self.value(data.state)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 28, in forward
+    a = F.elu(self.l1(state_flatten))
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

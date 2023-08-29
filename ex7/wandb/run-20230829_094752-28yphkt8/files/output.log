@@ -1,0 +1,80 @@
+[97m[1mLoaded bsuite_id: deep_sea/0.
+Episode: 0, Episode length: 10, Episode reward: -0.004
+Episode: 1, Episode length: 10, Episode reward: -0.004
+Episode: 2, Episode length: 10, Episode reward: -0.004
+Episode: 3, Episode length: 10, Episode reward: -0.003
+Episode: 4, Episode length: 10, Episode reward: -0.008
+Episode: 5, Episode length: 10, Episode reward: -0.006
+Episode: 6, Episode length: 10, Episode reward: -0.002
+Episode: 7, Episode length: 10, Episode reward: -0.005
+Episode: 8, Episode length: 10, Episode reward: -0.005
+Episode: 9, Episode length: 10, Episode reward: -0.005
+Episode: 10, Episode length: 10, Episode reward: -0.006
+Episode: 11, Episode length: 10, Episode reward: -0.005
+Episode: 12, Episode length: 10, Episode reward: -0.005
+Episode: 13, Episode length: 10, Episode reward: -0.005
+Episode: 14, Episode length: 10, Episode reward: -0.004
+Episode: 15, Episode length: 10, Episode reward: -0.004
+Episode: 16, Episode length: 10, Episode reward: -0.004
+Episode: 17, Episode length: 10, Episode reward: -0.002
+Episode: 18, Episode length: 10, Episode reward: -0.003
+Episode: 19, Episode length: 10, Episode reward: -0.004
+Episode: 20, Episode length: 10, Episode reward: -0.008
+Episode: 21, Episode length: 10, Episode reward: -0.005
+Episode: 22, Episode length: 10, Episode reward: -0.004
+Episode: 23, Episode length: 10, Episode reward: -0.002
+Episode: 24, Episode length: 10, Episode reward: -0.005
+Episode: 25, Episode length: 10, Episode reward: -0.005
+Episode: 26, Episode length: 10, Episode reward: -0.003
+Episode: 27, Episode length: 10, Episode reward: -0.003
+Episode: 28, Episode length: 10, Episode reward: -0.003
+Episode: 29, Episode length: 10, Episode reward: -0.003
+Episode: 30, Episode length: 10, Episode reward: -0.003
+Episode: 31, Episode length: 10, Episode reward: -0.003
+Episode: 32, Episode length: 10, Episode reward: -0.003
+Episode: 33, Episode length: 10, Episode reward: -0.003
+Episode: 34, Episode length: 10, Episode reward: -0.003
+Episode: 35, Episode length: 10, Episode reward: -0.003
+Episode: 36, Episode length: 10, Episode reward: -0.006
+Episode: 37, Episode length: 10, Episode reward: -0.002
+Episode: 38, Episode length: 10, Episode reward: -0.002
+Episode: 39, Episode length: 10, Episode reward: -0.001
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 335, in <module>
+    action, probs = agent.act(state)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 243, in act
+    root = self.planner.mcts(observation)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 150, in mcts
+    self.env.load_checkpoint()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/../common/simulator.py", line 43, in load_checkpoint
+    self._env = copy.deepcopy(self._checkpoint.env)
+  File "/usr/lib/python3.10/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.10/copy.py", line 271, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.10/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.10/copy.py", line 231, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.10/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.10/copy.py", line 271, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.10/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.10/copy.py", line 231, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.10/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.10/copy.py", line 265, in _reconstruct
+    y = func(*args)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/numpy/random/_pickle.py", line 83, in __randomstate_ctor
+    return RandomState(bit_generator())
+  File "_mt19937.pyx", line 130, in numpy.random._mt19937.MT19937.__init__
+  File "/usr/lib/python3.10/contextlib.py", line 78, in inner
+    with self._recreate_cm():
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/numpy/core/_ufunc_config.py", line 435, in __exit__
+    seterr(**self.oldstate)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/numpy/core/_ufunc_config.py", line 127, in seterr
+    umath.seterrobj(pyvals)
+KeyboardInterrupt

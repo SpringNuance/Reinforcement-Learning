@@ -1,0 +1,66 @@
+[97m[1mLoaded bsuite_id: deep_sea/0.
+Episode: 0, Episode length: 10, Episode reward: -0.004
+Episode: 1, Episode length: 10, Episode reward: -0.007
+Episode: 2, Episode length: 10, Episode reward: -0.002
+Episode: 3, Episode length: 10, Episode reward: -0.006
+Episode: 4, Episode length: 10, Episode reward: -0.005
+Episode: 5, Episode length: 10, Episode reward: -0.006
+Episode: 6, Episode length: 10, Episode reward: -0.005
+Episode: 7, Episode length: 10, Episode reward: -0.006
+Episode: 8, Episode length: 10, Episode reward: -0.004
+Episode: 9, Episode length: 10, Episode reward: -0.004
+Episode: 10, Episode length: 10, Episode reward: -0.006
+Episode: 11, Episode length: 10, Episode reward: -0.005
+Episode: 12, Episode length: 10, Episode reward: -0.004
+Episode: 13, Episode length: 10, Episode reward: -0.005
+Episode: 14, Episode length: 10, Episode reward: -0.005
+Episode: 15, Episode length: 10, Episode reward: -0.006
+Episode: 16, Episode length: 10, Episode reward: -0.006
+Episode: 17, Episode length: 10, Episode reward: -0.007
+Episode: 18, Episode length: 10, Episode reward: -0.004
+Episode: 19, Episode length: 10, Episode reward: -0.006
+Episode: 20, Episode length: 10, Episode reward: -0.002
+Episode: 21, Episode length: 10, Episode reward: -0.004
+Episode: 22, Episode length: 10, Episode reward: -0.004
+Episode: 23, Episode length: 10, Episode reward: -0.005
+Episode: 24, Episode length: 10, Episode reward: -0.004
+Episode: 25, Episode length: 10, Episode reward: -0.004
+Episode: 26, Episode length: 10, Episode reward: -0.001
+Episode: 27, Episode length: 10, Episode reward: 0.0
+Episode: 28, Episode length: 10, Episode reward: -0.001
+Episode: 29, Episode length: 10, Episode reward: -0.002
+Episode: 30, Episode length: 10, Episode reward: -0.001
+Episode: 31, Episode length: 10, Episode reward: -0.002
+Episode: 32, Episode length: 10, Episode reward: -0.003
+Episode: 33, Episode length: 10, Episode reward: 0.0
+Episode: 34, Episode length: 10, Episode reward: 0.0
+Episode: 35, Episode length: 10, Episode reward: -0.001
+Episode: 36, Episode length: 10, Episode reward: -0.001
+Episode: 37, Episode length: 10, Episode reward: -0.002
+Episode: 38, Episode length: 10, Episode reward: -0.002
+Episode: 39, Episode length: 10, Episode reward: 0.0
+Episode: 40, Episode length: 10, Episode reward: 0.0
+Episode: 41, Episode length: 10, Episode reward: 0.0
+Episode: 42, Episode length: 10, Episode reward: -0.001
+Episode: 43, Episode length: 10, Episode reward: -0.003
+Episode: 44, Episode length: 10, Episode reward: -0.002
+Episode: 45, Episode length: 10, Episode reward: 0.0
+Episode: 46, Episode length: 10, Episode reward: 0.0
+Episode: 47, Episode length: 10, Episode reward: -0.001
+Episode: 48, Episode length: 10, Episode reward: 0.0
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 344, in <module>
+    update_info = agent.update(buffer.sample(batch_size=16, device=device))
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 273, in update
+    self.optimizer.step()
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/optim/optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/optim/optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/optim/adam.py", line 141, in step
+    adam(
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/optim/adam.py", line 281, in adam
+    func(params,
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/lib/python3.10/site-packages/torch/optim/adam.py", line 344, in _single_tensor_adam
+    exp_avg.mul_(beta1).add_(grad, alpha=1 - beta1)
+KeyboardInterrupt

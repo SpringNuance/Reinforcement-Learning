@@ -57,13 +57,30 @@ class CEM(object):
                 ########## Your code starts here. ##########
                 # Hints: 
                 # 1. select actions, note plan horizon and number of samples and action dimensionality
-                # 2. evaluate actions by computing values for your actions
+                # 2. select top actions (elite actions) in samples (highest returns)
                 # use parallel(delayed(rollout_simulator)(model, action) for each sample 
                 # 3. select top actions (elite actions) in samples (highest returns)
                 # 4. compute new mean and std, note that we used momentum for mean
 
-                _mean, _std = None, None # change this line 
-                mean, std = self.momentum * mean + (1.0 - self.momentum) * _mean, _std
+                # 1. select actions, note plan horizon and number of samples and action dimensionality
+                action_samples = np.random.normal(mean, std, (self.num_samples, self.plan_horizon, self.action_dim))
+                action_samples = np.clip(action_samples, -1, 1)
+                
+                # 2. select top actions (elite actions) in samples (highest returns)
+                returns = parallel(delayed(rollout_simulator)(self.model, action) for action in action_samples)
+                returns = np.array(returns) # shape (num_samples, )
+                
+                # 3. select top actions (elite actions) in samples (highest returns)
+                elite_indices = np.argsort(returns, axis=None)[-self.num_topk:]
+                elite_actions = action_samples[elite_indices]
+                
+                # 4. Compute new mean and std
+                _mean = np.mean(elite_actions, axis=0)
+                _std = np.std(elite_actions, axis=0)
+                
+                # note that we used momentum for mean
+                mean = self.momentum * mean + (1.0 - self.momentum) * _mean
+                std = _std  # Directly use the new std
 
 
         if self.keep_last_solution:
@@ -96,8 +113,6 @@ def rollout_simulator(model, traj):
         G += reward
     return G
 
-
-#%%
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
@@ -129,7 +144,6 @@ if __name__ == "__main__":
                 momentum=0.1,
                 expl_noise=0.3,)
 
-    # %%
     obs, done, ep_reward, t = env.reset(), False, 0, 0
 
     while not done:
@@ -146,4 +160,3 @@ if __name__ == "__main__":
                 'Reward': reward,
                 'Episode Reward': ep_reward
             })
-# %%

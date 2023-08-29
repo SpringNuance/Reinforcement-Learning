@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 323, in <module>
+    action, probs = agent.act(state)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 235, in act
+    root = self.planner.mcts(observation)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py", line 130, in mcts
+    obs, reward, done, _ = self.env.step(next_best_action)
+  File "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/../common/simulator.py", line 48, in step
+    raise ValueError('This model needs to be explicitly reset.')
+ValueError: This model needs to be explicitly reset.
+[97m[1mLoaded bsuite_id: deep_sea/0.

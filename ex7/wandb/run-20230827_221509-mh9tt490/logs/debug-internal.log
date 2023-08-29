@@ -1,0 +1,743 @@
+2023-08-27 22:15:09,570 INFO    StreamThr :166670 [internal.py:wandb_internal():90] W&B internal server running at pid: 166670, started at: 2023-08-27 22:15:09.568778
+2023-08-27 22:15:09,571 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: status
+2023-08-27 22:15:09,573 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: status
+2023-08-27 22:15:09,575 DEBUG   SenderThread:166670 [sender.py:send():302] send: header
+2023-08-27 22:15:09,575 INFO    WriterThread:166670 [datastore.py:open_for_write():75] open: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/run-mh9tt490.wandb
+2023-08-27 22:15:09,585 DEBUG   SenderThread:166670 [sender.py:send():302] send: run
+2023-08-27 22:15:10,180 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: check_version
+2023-08-27 22:15:10,190 INFO    SenderThread:166670 [dir_watcher.py:__init__():216] watching files in: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files
+2023-08-27 22:15:10,190 INFO    SenderThread:166670 [sender.py:_start_run_threads():913] run started: mh9tt490 with start time 1693163709.565072
+2023-08-27 22:15:10,190 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:10,192 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:10,193 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: check_version
+2023-08-27 22:15:10,341 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: run_start
+2023-08-27 22:15:10,342 DEBUG   HandlerThread:166670 [meta.py:__init__():35] meta init
+2023-08-27 22:15:10,343 DEBUG   HandlerThread:166670 [meta.py:__init__():50] meta init done
+2023-08-27 22:15:10,343 DEBUG   HandlerThread:166670 [meta.py:probe():216] probe
+2023-08-27 22:15:10,344 DEBUG   HandlerThread:166670 [meta.py:_setup_git():206] setup git
+2023-08-27 22:15:10,366 DEBUG   HandlerThread:166670 [meta.py:_setup_git():213] setup git done
+2023-08-27 22:15:10,366 DEBUG   HandlerThread:166670 [meta.py:_save_pip():54] save pip
+2023-08-27 22:15:10,369 DEBUG   HandlerThread:166670 [meta.py:_save_pip():68] save pip done
+2023-08-27 22:15:10,369 DEBUG   HandlerThread:166670 [meta.py:probe():254] probe done
+2023-08-27 22:15:10,375 DEBUG   SenderThread:166670 [sender.py:send():302] send: files
+2023-08-27 22:15:10,376 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2023-08-27 22:15:10,385 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:15:10,385 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:15:10,810 DEBUG   SenderThread:166670 [sender.py:send():302] send: telemetry
+2023-08-27 22:15:11,194 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-metadata.json
+2023-08-27 22:15:11,194 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:11,195 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/requirements.txt
+2023-08-27 22:15:11,195 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_created():275] file/dir created: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:11,267 INFO    Thread-16 :166670 [upload_job.py:push():138] Uploaded file /tmp/tmpglrhvmyowandb/10dfz16y-wandb-metadata.json
+2023-08-27 22:15:11,546 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:11,547 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:11,547 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:11,550 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:12,193 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:12,681 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:12,682 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:12,682 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:12,686 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:13,194 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:13,195 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:15,146 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:15,146 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:15,147 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:15,149 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:15,197 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:15,198 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:17,199 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:17,569 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:17,569 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:17,570 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:17,572 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:18,200 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:19,201 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:20,111 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:20,112 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:20,113 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:20,115 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:20,202 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:21,204 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:22,574 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:22,575 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:22,575 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:22,577 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:23,206 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:23,206 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:25,059 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:25,060 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:25,061 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:25,064 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:25,207 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:25,813 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:15:25,814 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:15:27,210 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:27,480 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:27,481 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:27,482 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:27,485 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:28,210 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:29,211 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:29,930 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:29,931 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:29,931 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:29,935 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:30,212 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:31,213 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:32,333 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:32,333 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:32,334 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:32,336 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:33,216 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:33,216 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:34,800 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:34,801 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:34,802 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:34,805 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:35,218 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:35,218 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:37,208 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:37,209 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:37,209 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:37,213 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:37,219 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:38,404 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:15:39,221 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:39,651 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:39,652 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:39,945 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:39,947 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:40,222 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:40,222 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/config.yaml
+2023-08-27 22:15:41,136 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:15:41,137 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:15:41,223 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:42,076 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:42,077 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:42,078 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:42,081 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:42,223 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:43,224 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:44,453 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:44,454 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:44,455 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:44,458 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:45,226 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:46,839 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:46,840 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:46,840 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:46,843 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:47,228 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:47,229 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:49,230 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:49,251 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:49,252 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:49,252 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:49,254 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:50,231 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:51,232 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:51,714 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:51,714 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:51,715 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:51,717 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:52,234 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:53,234 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:54,139 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:54,140 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:54,141 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:54,142 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:54,235 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:55,236 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:15:56,466 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:15:56,466 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:15:56,589 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:56,759 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:56,759 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:56,762 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:57,239 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:59,065 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:15:59,066 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:15:59,066 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:15:59,070 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:15:59,241 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:15:59,241 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:01,242 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:01,538 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:01,539 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:01,540 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:01,542 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:02,244 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:03,245 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:04,031 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:04,032 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:04,032 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:04,035 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:04,246 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:05,247 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:06,445 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:06,446 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:06,446 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:06,448 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:07,249 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:07,249 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:08,465 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:16:08,920 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:08,921 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:08,922 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:08,924 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:09,250 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:11,252 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:11,386 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:11,387 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:11,387 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:11,389 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:11,763 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:16:11,763 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:16:12,253 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:13,254 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:13,852 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:13,853 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:13,854 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:13,856 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:14,255 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:15,256 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:16,294 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:16,295 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:16,295 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:16,297 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:17,258 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:17,258 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:18,710 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:18,711 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:18,711 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:18,713 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:19,260 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:19,260 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:21,158 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:21,159 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:21,160 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:21,162 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:21,261 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:23,263 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:23,662 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:23,663 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:23,663 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:23,665 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:24,264 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:25,265 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:26,123 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:26,123 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:26,126 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:26,129 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:26,266 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:27,041 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:16:27,041 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:16:27,267 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:28,584 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:28,585 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:28,586 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:28,588 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:29,269 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:29,269 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:30,992 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:30,993 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:30,994 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:30,996 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:31,270 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:33,273 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:33,532 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:33,532 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:33,533 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:33,536 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:34,274 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:35,275 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:36,007 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:36,008 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:36,009 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:36,011 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:36,276 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:37,277 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:38,467 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:38,468 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:38,468 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:38,470 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:38,527 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:16:39,280 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:39,280 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:40,871 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:40,872 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:40,872 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:40,875 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:41,282 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:41,282 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:42,368 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:16:42,368 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:16:43,264 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:43,265 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:43,265 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:43,268 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:43,283 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:45,286 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:45,644 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:45,645 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:45,645 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:45,648 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:46,287 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:47,288 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:48,126 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:48,127 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:48,127 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:48,131 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:48,289 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:49,290 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:50,559 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:50,560 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:50,561 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:50,563 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:51,292 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:51,292 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:53,017 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:53,018 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:53,019 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:53,021 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:53,294 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:55,296 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:55,438 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:55,439 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:55,440 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:55,442 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:56,297 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:57,298 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:16:57,736 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:16:57,736 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:16:57,883 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:16:58,112 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:16:58,114 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:16:58,117 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:16:58,299 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:16:59,300 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:00,259 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:00,260 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:00,261 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:00,263 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:00,301 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:01,302 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:02,623 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:02,624 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:02,624 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:02,626 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:03,304 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:05,130 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:05,130 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:05,131 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:05,133 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:05,305 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:05,306 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:07,307 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:07,882 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:07,883 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:07,884 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:07,886 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:08,308 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:08,588 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:17:09,309 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:10,432 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:10,435 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:10,435 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:10,437 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:11,311 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:12,910 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:12,912 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:12,912 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:12,914 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:13,116 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:17:13,116 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:17:13,313 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:13,313 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:15,315 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:15,322 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:15,323 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:15,323 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:15,326 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:16,315 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:17,317 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:17,781 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:17,782 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:17,782 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:17,784 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:18,318 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:19,318 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:20,307 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:20,308 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:20,308 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:20,310 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:20,319 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:21,320 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:22,727 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:22,727 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:22,728 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:22,730 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:23,323 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:25,180 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:25,181 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:25,182 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:25,185 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:25,324 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:25,324 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:27,326 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:27,589 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:27,590 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:27,591 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:27,593 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:28,327 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:28,462 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:17:28,462 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:17:29,328 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:30,057 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:30,058 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:30,059 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:30,061 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:30,329 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:31,330 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:32,505 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:32,507 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:32,507 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:32,508 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:33,332 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:35,244 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:35,245 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:35,246 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:35,248 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:35,334 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:35,334 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:37,335 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:37,675 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:37,676 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:37,677 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:37,679 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:38,336 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:38,646 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:17:39,337 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:40,051 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:40,052 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:40,052 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:40,055 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:40,338 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:41,339 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:42,526 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:42,526 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:42,528 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:42,530 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:43,341 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:43,820 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:17:43,821 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:17:45,031 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:45,032 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:45,032 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:45,034 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:45,343 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:45,344 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:47,345 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:47,510 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:47,512 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:47,513 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:47,515 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:48,347 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:49,347 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:49,911 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:49,911 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:49,912 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:49,914 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:50,348 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:51,349 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:52,383 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:52,384 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:52,385 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:52,387 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:53,351 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:53,352 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:54,853 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:54,853 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:54,854 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:54,856 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:55,353 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:57,269 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:57,270 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:57,271 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:57,274 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:17:57,355 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:17:57,355 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:59,197 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:17:59,198 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:17:59,357 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:17:59,752 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:17:59,753 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:17:59,753 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:17:59,755 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:00,358 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:01,359 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:02,122 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:02,122 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:02,123 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:02,126 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:02,360 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:03,361 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:04,599 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:04,600 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:04,601 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:04,603 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:05,362 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:07,007 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:07,008 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:07,008 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:07,010 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:07,364 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:07,364 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:08,706 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:18:09,366 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:09,538 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:09,539 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:09,540 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:09,542 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:10,367 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:11,369 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:12,020 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:12,021 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:12,021 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:12,024 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:12,370 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:13,371 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:14,466 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:14,467 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:14,467 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:14,469 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:14,507 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:18:14,508 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:18:15,373 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:15,373 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:16,961 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:16,961 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:16,962 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:16,964 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:17,375 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:19,377 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:19,461 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:19,462 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:19,462 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:19,464 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:20,378 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:21,378 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:21,904 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:21,907 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:21,907 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:21,909 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:22,379 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:23,380 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:24,340 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:24,342 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:24,342 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:24,344 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:24,381 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:25,382 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:26,763 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:26,764 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:26,765 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:26,767 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:27,384 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:29,199 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:29,200 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:29,200 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:29,203 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:29,386 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:29,386 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:29,865 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:18:29,865 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:18:31,388 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:31,533 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:31,534 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:31,534 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:31,537 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:32,389 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:33,391 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:33,930 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:33,931 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:33,932 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:33,934 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:34,392 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:35,393 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:36,336 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:36,337 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:36,338 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:36,340 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:36,394 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:37,395 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:38,761 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:38,763 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:38,763 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:38,765 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:38,774 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:18:39,396 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:41,181 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:41,182 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:41,183 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:41,185 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:41,398 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:41,398 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:43,400 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:43,628 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:43,629 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:43,631 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:43,633 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:44,401 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:45,167 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-27 22:18:45,167 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: stop_status
+2023-08-27 22:18:45,402 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:46,086 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:46,086 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:46,087 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:46,089 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:46,403 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:47,404 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:48,526 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: partial_history
+2023-08-27 22:18:48,527 DEBUG   SenderThread:166670 [sender.py:send():302] send: history
+2023-08-27 22:18:48,528 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:48,530 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:49,406 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:49,406 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:49,908 DEBUG   SenderThread:166670 [sender.py:send():302] send: exit
+2023-08-27 22:18:49,908 INFO    SenderThread:166670 [sender.py:send_exit():438] handling exit code: 255
+2023-08-27 22:18:49,908 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:49,908 INFO    SenderThread:166670 [sender.py:send_exit():440] handling runtime: 219
+2023-08-27 22:18:49,910 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:49,911 INFO    SenderThread:166670 [sender.py:send_exit():446] send defer
+2023-08-27 22:18:49,911 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:49,911 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:49,912 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 0
+2023-08-27 22:18:49,912 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:49,913 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 0
+2023-08-27 22:18:49,913 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 1
+2023-08-27 22:18:49,913 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:49,913 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 1
+2023-08-27 22:18:49,998 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:49,999 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 1
+2023-08-27 22:18:49,999 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 2
+2023-08-27 22:18:49,999 DEBUG   SenderThread:166670 [sender.py:send():302] send: stats
+2023-08-27 22:18:49,999 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:50,000 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 2
+2023-08-27 22:18:50,000 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:50,000 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 2
+2023-08-27 22:18:50,000 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 3
+2023-08-27 22:18:50,001 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:50,001 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 3
+2023-08-27 22:18:50,001 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:50,002 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 3
+2023-08-27 22:18:50,002 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 4
+2023-08-27 22:18:50,002 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:50,002 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 4
+2023-08-27 22:18:50,002 DEBUG   SenderThread:166670 [sender.py:send():302] send: summary
+2023-08-27 22:18:50,004 INFO    SenderThread:166670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-27 22:18:50,005 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:50,005 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 4
+2023-08-27 22:18:50,005 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 5
+2023-08-27 22:18:50,005 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:50,006 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 5
+2023-08-27 22:18:50,006 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:50,006 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 5
+2023-08-27 22:18:50,006 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 6
+2023-08-27 22:18:50,006 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:50,007 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 6
+2023-08-27 22:18:50,007 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:50,007 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 6
+2023-08-27 22:18:50,013 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:50,411 INFO    Thread-12 :166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:51,913 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 7
+2023-08-27 22:18:51,913 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:51,914 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:51,914 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 7
+2023-08-27 22:18:51,915 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:51,915 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 7
+2023-08-27 22:18:51,915 INFO    SenderThread:166670 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-08-27 22:18:52,015 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:52,412 INFO    SenderThread:166670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:52,413 INFO    SenderThread:166670 [dir_watcher.py:finish():392] scan: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files
+2023-08-27 22:18:52,414 INFO    SenderThread:166670 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/config.yaml config.yaml
+2023-08-27 22:18:52,414 INFO    SenderThread:166670 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json wandb-summary.json
+2023-08-27 22:18:52,417 INFO    SenderThread:166670 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/requirements.txt requirements.txt
+2023-08-27 22:18:52,420 INFO    SenderThread:166670 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-metadata.json wandb-metadata.json
+2023-08-27 22:18:52,420 INFO    SenderThread:166670 [dir_watcher.py:finish():406] scan save: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log output.log
+2023-08-27 22:18:52,423 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 8
+2023-08-27 22:18:52,423 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:52,425 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:52,426 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 8
+2023-08-27 22:18:52,427 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:52,427 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 8
+2023-08-27 22:18:52,427 INFO    SenderThread:166670 [file_pusher.py:finish():171] shutting down file pusher
+2023-08-27 22:18:52,527 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:52,527 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:52,629 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:52,629 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:52,731 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:52,731 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:52,833 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:52,833 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:52,935 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:52,935 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,037 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,037 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,139 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,139 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,241 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,241 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,343 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,343 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,445 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,445 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,547 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,548 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,649 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,650 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,652 INFO    Thread-17 :166670 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/config.yaml
+2023-08-27 22:18:53,749 INFO    Thread-20 :166670 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/output.log
+2023-08-27 22:18:53,753 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,754 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,796 INFO    Thread-19 :166670 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/requirements.txt
+2023-08-27 22:18:53,813 INFO    Thread-18 :166670 [upload_job.py:push():138] Uploaded file /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/files/wandb-summary.json
+2023-08-27 22:18:53,855 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,855 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:53,957 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:53,957 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:54,013 INFO    Thread-11 (_thread_body):166670 [sender.py:transition_state():459] send defer: 9
+2023-08-27 22:18:54,014 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:54,014 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 9
+2023-08-27 22:18:54,014 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:54,015 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 9
+2023-08-27 22:18:54,059 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:54,185 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 10
+2023-08-27 22:18:54,185 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:54,185 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:54,186 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 10
+2023-08-27 22:18:54,186 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:54,187 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 10
+2023-08-27 22:18:54,187 INFO    SenderThread:166670 [sender.py:transition_state():459] send defer: 11
+2023-08-27 22:18:54,187 DEBUG   SenderThread:166670 [sender.py:send():302] send: final
+2023-08-27 22:18:54,188 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: defer
+2023-08-27 22:18:54,188 DEBUG   SenderThread:166670 [sender.py:send():302] send: footer
+2023-08-27 22:18:54,188 INFO    HandlerThread:166670 [handler.py:handle_request_defer():164] handle defer: 11
+2023-08-27 22:18:54,188 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: defer
+2023-08-27 22:18:54,189 INFO    SenderThread:166670 [sender.py:send_request_defer():455] handle sender defer: 11
+2023-08-27 22:18:54,287 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-27 22:18:54,287 DEBUG   SenderThread:166670 [sender.py:send_request():316] send_request: poll_exit
+2023-08-27 22:18:54,288 INFO    SenderThread:166670 [file_pusher.py:join():176] waiting for file pusher
+2023-08-27 22:18:54,878 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: sampled_history
+2023-08-27 22:18:54,879 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: get_summary
+2023-08-27 22:18:54,879 INFO    MainThread:166670 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2023-08-27 22:18:54,880 INFO    MainThread:166670 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2023-08-27 22:18:54,880 INFO    MainThread:166670 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2023-08-27 22:18:54,881 DEBUG   HandlerThread:166670 [handler.py:handle_request():141] handle_request: shutdown
+2023-08-27 22:18:54,881 INFO    HandlerThread:166670 [handler.py:finish():810] shutting down handler
+2023-08-27 22:18:55,187 INFO    WriterThread:166670 [datastore.py:close():279] close: /m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/wandb/run-20230827_221509-mh9tt490/run-mh9tt490.wandb
+2023-08-27 22:18:55,777 INFO    SenderThread:166670 [sender.py:finish():1312] shutting down sender
+2023-08-27 22:18:55,777 INFO    SenderThread:166670 [file_pusher.py:finish():171] shutting down file pusher
+2023-08-27 22:18:55,777 INFO    SenderThread:166670 [file_pusher.py:join():176] waiting for file pusher
+2023-08-27 22:18:55,885 INFO    MainThread:166670 [internal.py:handle_exit():80] Internal process exited

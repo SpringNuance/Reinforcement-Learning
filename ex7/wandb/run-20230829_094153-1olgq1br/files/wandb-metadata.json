@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.0-73-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-08-29T06:41:53.979621",
+    "startedAt": "2023-08-29T06:41:53.161095",
+    "docker": null,
+    "cpu_count": 80,
+    "cuda": null,
+    "args": [
+        "-use_wandb=1"
+    ],
+    "state": "running",
+    "program": "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/ex7/az.py",
+    "codePath": "ex7/az.py",
+    "git": {
+        "remote": "https://github.com/SpringNuance/Reinforcement-Learning.git",
+        "commit": "666dfe23f8196d3b5775e06531f24cff4105744e"
+    },
+    "email": "xuanbinh.dev@gmail.com",
+    "root": "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning",
+    "host": "brute",
+    "username": "nguyenb5",
+    "executable": "/m/home/home5/51/nguyenb5/unix/Reinforcement-Learning/venv/bin/python"
+}
