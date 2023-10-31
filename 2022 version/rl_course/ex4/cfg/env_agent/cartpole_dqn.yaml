@@ -1,0 +1,13 @@
+# @package _global_
+env_name: CartPole-v0
+agent_name: dqn
+max_episode_steps: 200
+train_episodes: 4000
+grad_clip_norm: 1
+
+batch_size: 256
+buffer_size: 50000
+hidden_dims: [32, 32]
+glie_b: 200
+tau: 0.001
+lr: 5e-5

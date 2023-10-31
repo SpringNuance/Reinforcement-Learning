@@ -1,0 +1,9 @@
+# @package _global_
+env_name: CartPole-v0
+agent_name: rbf
+max_episode_steps: 200
+train_episodes: 500
+
+glie_b: 50
+batch_size: 16
+buffer_size: 1000

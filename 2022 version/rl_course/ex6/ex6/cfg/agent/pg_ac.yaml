@@ -1,0 +1,10 @@
+# @package _global_
+env_name: InvertedPendulum-v4 
+agent_name: pg_ac  
+run_id: ??? # decided during execution
+
+train_episodes: 2000
+gamma: 0.99
+lr: 5e-4
+batch_size: 100
+buffer_size: 1e6

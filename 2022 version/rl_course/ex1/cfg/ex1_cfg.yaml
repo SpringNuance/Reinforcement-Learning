@@ -1,0 +1,32 @@
+defaults:
+    - _self_
+    - env: cartpole_v0
+    
+    - override hydra/hydra_logging: disabled  
+    - override hydra/job_logging: disabled 
+    
+
+exp_name: ex1
+seed: 408  # TODO: change the seed in Task 2
+env_name: ${env_name}
+max_episode_steps: ${max_episode_steps}
+train_episodes: ${train_episodes}
+batch_size: 64
+min_update_samples: 2000
+
+testing: false
+model_path: default
+
+save_video: true
+save_model: true
+save_logging: true
+silent: false # print restuls if false
+
+use_wandb: true
+
+run_suffix: 0
+# ref: https://stackoverflow.com/questions/65104134/disable-file-output-of-hydra
+hydra:  
+    output_subdir: null  
+    run:  
+        dir: .
