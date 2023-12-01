@@ -1,0 +1,26 @@
+seed: null
+exp_name: ex6
+
+testing: false
+model_path: default 
+
+state_shape : [17,]
+action_dim : 6
+max_action : 1.0
+
+save_video: false
+save_logging: true
+save_model: true
+silent: false
+
+run_suffix: 0
+
+env_name: HalfCheetah-v4
+agent_name: ddpg    
+
+train_episodes: 300
+gamma: 0.99
+lr: 3e-4
+tau: 0.005
+batch_size: 256
+buffer_size: 1e6

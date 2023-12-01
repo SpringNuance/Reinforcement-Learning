@@ -1,0 +1,258 @@
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/SpinningReacher-v0/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Configuration Settings: {'exp_name': 'ex1', 'seed': None, 'env_name': 'SpinningReacher-v0', 'max_episode_steps': 200, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': False, 'use_wandb': True, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 2
+Action space dimensions: 5
+Episode 0 finished. Total reward: 43 (200 timesteps)
+Episode 1 finished. Total reward: 48 (200 timesteps)
+Episode 2 finished. Total reward: 42 (200 timesteps)
+Episode 3 finished. Total reward: 46 (200 timesteps)
+Episode 4 finished. Total reward: 43 (200 timesteps)
+Episode 5 finished. Total reward: 10 (87 timesteps)
+Episode 6 finished. Total reward: 46 (200 timesteps)
+Episode 7 finished. Total reward: 42 (200 timesteps)
+Episode 8 finished. Total reward: 43 (200 timesteps)
+Episode 9 finished. Total reward: 47 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 10 finished. Total reward: 52 (200 timesteps)
+Episode 11 finished. Total reward: 63 (200 timesteps)
+Episode 12 finished. Total reward: 52 (200 timesteps)
+Episode 13 finished. Total reward: 51 (200 timesteps)
+Episode 14 finished. Total reward: 50 (200 timesteps)
+Episode 15 finished. Total reward: 56 (200 timesteps)
+Episode 16 finished. Total reward: 42 (200 timesteps)
+Episode 17 finished. Total reward: 45 (200 timesteps)
+Episode 18 finished. Total reward: 35 (111 timesteps)
+Episode 19 finished. Total reward: 41 (134 timesteps)
+Episode 20 finished. Total reward: 44 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 21 finished. Total reward: 69 (200 timesteps)
+Episode 22 finished. Total reward: 69 (200 timesteps)
+Episode 23 finished. Total reward: 44 (119 timesteps)
+Episode 24 finished. Total reward: 18 (38 timesteps)
+Episode 25 finished. Total reward: 28 (78 timesteps)
+Episode 26 finished. Total reward: 35 (104 timesteps)
+Episode 27 finished. Total reward: 80 (200 timesteps)
+Episode 28 finished. Total reward: 56 (200 timesteps)
+Episode 29 finished. Total reward: 31 (99 timesteps)
+Episode 30 finished. Total reward: 96 (166 timesteps)
+Episode 31 finished. Total reward: 43 (139 timesteps)
+Episode 32 finished. Total reward: 41 (118 timesteps)
+Episode 33 finished. Total reward: 24 (61 timesteps)
+Episode 34 finished. Total reward: 74 (165 timesteps)
+Updating the policy...
+Updating finished!
+Episode 35 finished. Total reward: 103 (200 timesteps)
+Episode 36 finished. Total reward: 74 (200 timesteps)
+Episode 37 finished. Total reward: 53 (99 timesteps)
+Episode 38 finished. Total reward: 101 (200 timesteps)
+Episode 39 finished. Total reward: 90 (200 timesteps)
+Episode 40 finished. Total reward: 93 (200 timesteps)
+Episode 41 finished. Total reward: 55 (189 timesteps)
+Episode 42 finished. Total reward: 69 (200 timesteps)
+Episode 43 finished. Total reward: 17 (36 timesteps)
+Episode 44 finished. Total reward: 76 (200 timesteps)
+Episode 45 finished. Total reward: 23 (56 timesteps)
+Episode 46 finished. Total reward: 24 (63 timesteps)
+Episode 47 finished. Total reward: 97 (200 timesteps)
+Episode 48 finished. Total reward: 27 (77 timesteps)
+Updating the policy...
+Updating finished!
+Episode 49 finished. Total reward: 91 (200 timesteps)
+Episode 50 finished. Total reward: 102 (200 timesteps)
+Episode 51 finished. Total reward: 93 (200 timesteps)
+Episode 52 finished. Total reward: 57 (112 timesteps)
+Episode 53 finished. Total reward: 96 (200 timesteps)
+Episode 54 finished. Total reward: 32 (72 timesteps)
+Episode 55 finished. Total reward: 86 (200 timesteps)
+Episode 56 finished. Total reward: 105 (200 timesteps)
+Episode 57 finished. Total reward: 106 (200 timesteps)
+Episode 58 finished. Total reward: 107 (200 timesteps)
+Episode 59 finished. Total reward: 28 (60 timesteps)
+Episode 60 finished. Total reward: 20 (42 timesteps)
+Episode 61 finished. Total reward: 60 (116 timesteps)
+Updating the policy...
+Updating finished!
+Episode 62 finished. Total reward: 34 (80 timesteps)
+Episode 63 finished. Total reward: 103 (200 timesteps)
+Episode 64 finished. Total reward: 113 (200 timesteps)
+Episode 65 finished. Total reward: 115 (200 timesteps)
+Episode 66 finished. Total reward: 56 (99 timesteps)
+Episode 67 finished. Total reward: 61 (116 timesteps)
+Episode 68 finished. Total reward: 113 (200 timesteps)
+Episode 69 finished. Total reward: 119 (200 timesteps)
+Episode 70 finished. Total reward: 96 (166 timesteps)
+Episode 71 finished. Total reward: 120 (200 timesteps)
+Episode 72 finished. Total reward: 120 (200 timesteps)
+Episode 73 finished. Total reward: 101 (169 timesteps)
+Updating the policy...
+Updating finished!
+Episode 74 finished. Total reward: 23 (45 timesteps)
+Episode 75 finished. Total reward: 59 (99 timesteps)
+Episode 76 finished. Total reward: 127 (200 timesteps)
+Episode 77 finished. Total reward: 142 (200 timesteps)
+Episode 78 finished. Total reward: 63 (93 timesteps)
+Episode 79 finished. Total reward: 90 (127 timesteps)
+Episode 80 finished. Total reward: 124 (170 timesteps)
+Episode 81 finished. Total reward: 100 (161 timesteps)
+Episode 82 finished. Total reward: 131 (200 timesteps)
+Episode 83 finished. Total reward: 124 (200 timesteps)
+Episode 84 finished. Total reward: 91 (151 timesteps)
+Episode 85 finished. Total reward: 95 (140 timesteps)
+Episode 86 finished. Total reward: 55 (86 timesteps)
+Updating the policy...
+Updating finished!
+Episode 87 finished. Total reward: 136 (200 timesteps)
+Episode 88 finished. Total reward: 128 (179 timesteps)
+Episode 89 finished. Total reward: 151 (200 timesteps)
+Episode 90 finished. Total reward: 141 (200 timesteps)
+Episode 91 finished. Total reward: 89 (118 timesteps)
+Episode 92 finished. Total reward: 95 (132 timesteps)
+Episode 93 finished. Total reward: 122 (162 timesteps)
+Episode 94 finished. Total reward: 148 (200 timesteps)
+Episode 95 finished. Total reward: 117 (147 timesteps)
+Episode 96 finished. Total reward: 149 (200 timesteps)
+Episode 97 finished. Total reward: 142 (200 timesteps)
+Episode 98 finished. Total reward: 124 (159 timesteps)
+Updating the policy...
+Updating finished!
+Episode 99 finished. Total reward: 53 (70 timesteps)
+Episode 100 finished. Total reward: 161 (200 timesteps)
+Episode 101 finished. Total reward: 161 (200 timesteps)
+Episode 102 finished. Total reward: 150 (189 timesteps)
+Episode 103 finished. Total reward: 152 (187 timesteps)
+Episode 104 finished. Total reward: 117 (139 timesteps)
+Episode 105 finished. Total reward: 148 (200 timesteps)
+Episode 106 finished. Total reward: 164 (200 timesteps)
+Episode 107 finished. Total reward: 117 (139 timesteps)
+Episode 108 finished. Total reward: 155 (192 timesteps)
+Episode 109 finished. Total reward: 112 (134 timesteps)
+Episode 110 finished. Total reward: 84 (108 timesteps)
+Updating the policy...
+Updating finished!
+Episode 111 finished. Total reward: 175 (200 timesteps)
+Episode 112 finished. Total reward: 174 (200 timesteps)
+Episode 113 finished. Total reward: 168 (200 timesteps)
+Episode 114 finished. Total reward: 168 (200 timesteps)
+Episode 115 finished. Total reward: 165 (200 timesteps)
+Episode 116 finished. Total reward: 152 (172 timesteps)
+Episode 117 finished. Total reward: 83 (99 timesteps)
+Episode 118 finished. Total reward: 181 (200 timesteps)
+Episode 119 finished. Total reward: 176 (200 timesteps)
+Episode 120 finished. Total reward: 170 (200 timesteps)
+Episode 121 finished. Total reward: 151 (178 timesteps)
+Updating the policy...
+Updating finished!
+Episode 122 finished. Total reward: 176 (200 timesteps)
+Episode 123 finished. Total reward: 146 (166 timesteps)
+Episode 124 finished. Total reward: 141 (160 timesteps)
+Episode 125 finished. Total reward: 56 (71 timesteps)
+Episode 126 finished. Total reward: 174 (200 timesteps)
+Episode 127 finished. Total reward: 170 (200 timesteps)
+Episode 128 finished. Total reward: 151 (173 timesteps)
+Episode 129 finished. Total reward: 149 (174 timesteps)
+Episode 130 finished. Total reward: 185 (200 timesteps)
+Episode 131 finished. Total reward: 183 (200 timesteps)
+Episode 132 finished. Total reward: 179 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 133 finished. Total reward: 186 (200 timesteps)
+Episode 134 finished. Total reward: 185 (200 timesteps)
+Episode 135 finished. Total reward: 184 (200 timesteps)
+Episode 136 finished. Total reward: 173 (200 timesteps)
+Episode 137 finished. Total reward: 176 (200 timesteps)
+Episode 138 finished. Total reward: 186 (200 timesteps)
+Episode 139 finished. Total reward: 183 (194 timesteps)
+Episode 140 finished. Total reward: 193 (200 timesteps)
+Episode 141 finished. Total reward: 189 (200 timesteps)
+Episode 142 finished. Total reward: 176 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 143 finished. Total reward: 190 (200 timesteps)
+Episode 144 finished. Total reward: 189 (200 timesteps)
+Episode 145 finished. Total reward: 189 (200 timesteps)
+Episode 146 finished. Total reward: 181 (200 timesteps)
+Episode 147 finished. Total reward: 184 (200 timesteps)
+Episode 148 finished. Total reward: 192 (200 timesteps)
+Episode 149 finished. Total reward: 194 (200 timesteps)
+Episode 150 finished. Total reward: 189 (200 timesteps)
+Episode 151 finished. Total reward: 190 (200 timesteps)
+Episode 152 finished. Total reward: 177 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 153 finished. Total reward: 181 (200 timesteps)
+Episode 154 finished. Total reward: 184 (200 timesteps)
+Episode 155 finished. Total reward: 186 (200 timesteps)
+Episode 156 finished. Total reward: 188 (200 timesteps)
+Episode 157 finished. Total reward: 191 (200 timesteps)
+Episode 158 finished. Total reward: 190 (200 timesteps)
+Episode 159 finished. Total reward: 185 (200 timesteps)
+Episode 160 finished. Total reward: 188 (200 timesteps)
+Episode 161 finished. Total reward: 186 (200 timesteps)
+Episode 162 finished. Total reward: 187 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 163 finished. Total reward: 183 (200 timesteps)
+Episode 164 finished. Total reward: 189 (200 timesteps)
+Episode 165 finished. Total reward: 188 (200 timesteps)
+Episode 166 finished. Total reward: 191 (200 timesteps)
+Episode 167 finished. Total reward: 186 (200 timesteps)
+Episode 168 finished. Total reward: 187 (200 timesteps)
+Episode 169 finished. Total reward: 190 (200 timesteps)
+Episode 170 finished. Total reward: 191 (200 timesteps)
+Episode 171 finished. Total reward: 181 (200 timesteps)
+Episode 172 finished. Total reward: 184 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 173 finished. Total reward: 183 (200 timesteps)
+Episode 174 finished. Total reward: 187 (200 timesteps)
+Episode 175 finished. Total reward: 186 (200 timesteps)
+Episode 176 finished. Total reward: 182 (200 timesteps)
+Episode 177 finished. Total reward: 191 (200 timesteps)
+Episode 178 finished. Total reward: 186 (200 timesteps)
+Episode 179 finished. Total reward: 189 (200 timesteps)
+Episode 180 finished. Total reward: 191 (200 timesteps)
+Episode 181 finished. Total reward: 187 (200 timesteps)
+Episode 182 finished. Total reward: 186 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 183 finished. Total reward: 188 (200 timesteps)
+Episode 184 finished. Total reward: 190 (200 timesteps)
+Episode 185 finished. Total reward: 189 (200 timesteps)
+Episode 186 finished. Total reward: 188 (200 timesteps)
+Episode 187 finished. Total reward: 193 (200 timesteps)
+Episode 188 finished. Total reward: 195 (200 timesteps)
+Episode 189 finished. Total reward: 192 (200 timesteps)
+Episode 190 finished. Total reward: 190 (200 timesteps)
+Episode 191 finished. Total reward: 195 (200 timesteps)
+Episode 192 finished. Total reward: 190 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 193 finished. Total reward: 195 (200 timesteps)
+Episode 194 finished. Total reward: 196 (200 timesteps)
+Episode 195 finished. Total reward: 194 (200 timesteps)
+Episode 196 finished. Total reward: 194 (200 timesteps)
+Episode 197 finished. Total reward: 196 (200 timesteps)
+Episode 198 finished. Total reward: 196 (200 timesteps)
+Episode 199 finished. Total reward: 193 (200 timesteps)
+Episode 200 finished. Total reward: 197 (200 timesteps)
+Model saved to /notebooks/rl2023/ex1/results/model/SpinningReacher-v0_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  665
+Loading model from /notebooks/rl2023/ex1/results/model/SpinningReacher-v0_params.pt ...
+Testing...
+Test ep reward: 200 seed: 234
+Test ep reward: 200 seed: 847
+Test ep reward: 200 seed: 765
+Test ep reward: 200 seed: 868
+Test ep reward: 200 seed: 696
+Test ep reward: 200 seed: 404
+Test ep reward: 200 seed: 385
+Test ep reward: 200 seed: 171
+Test ep reward: 200 seed: 932
+Test ep reward: 200 seed: 407
+Average test reward: 200.0 episode length: 200.0
+Numpy/Torch/Random Seed:  66

@@ -1,0 +1,24 @@
+exp_name: ex3
+seed: null
+env_name: LunarLander-v2
+
+train_episodes: 20000
+test_episodes: 10
+discr: 12 # for each state dim, we will discretize it into 16 bins
+gamma: 0.98
+alpha: 0.1
+epsilon: glie  # TODO: It can be constant float (T1.1a) or 'glie'(T1.1b)
+glie_b: 0 # TODO: Task 1.1: set the correct constant value
+initial_q: 0.0  
+
+testing: false
+save_video: false
+save_logging: true
+silent: false # print restuls to the terminal if false
+
+save_model: true
+run_suffix: 0
+
+bool_position: [6, 7]
+task_no: task4
+seed: 409

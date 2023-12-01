@@ -1,0 +1,31 @@
+seed: 436
+exp_name: ex4
+env_name: LunarLander-v2
+agent_name: dqn
+run_id: ??? # decided during execution
+
+n_actions: 4
+state_shape: [8,]
+
+train_episodes: 2000
+max_episode_steps: 500
+test_episodes: 10
+random_episodes: 10
+glie_b: 200
+gamma: 0.99 # discount term in Q learning
+batch_size: 512
+buffer_size: 500000
+
+testing: false
+save_video: false
+save_logging: true
+save_model: true
+silent: false # print restuls to the terminal if false
+use_wandb: true
+
+run_suffix: 0
+
+grad_clip_norm: 1
+hidden_dims: [64, 64]
+tau: 0.001
+lr: 5e-5

@@ -1,0 +1,13 @@
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/CartPole-v1/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Configuration Settings: {'exp_name': 'ex1', 'seed': 1, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 500, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': True, 'use_wandb': True, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/monitoring/video_recorder.py:178: UserWarning: [33mWARN: Unable to save last video! Did you call close()?
+  logger.warn("Unable to save last video! Did you call close()?")
+Updating the policy...
+[34m[1mwandb[39m[22m: Appending key for api.wandb.ai to your netrc file: /home/nguyenb5/.netrc
+Numpy/Torch/Random Seed:  1

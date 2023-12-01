@@ -1,0 +1,598 @@
+Configuration Settings: {'exp_name': 'ex1', 'seed': 1, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 500, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': True, 'use_wandb': True, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  501
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 137.0 seed: 88
+Test ep reward: 127.0 seed: 672
+Test ep reward: 131.0 seed: 680
+Test ep reward: 127.0 seed: 592
+Test ep reward: 135.0 seed: 481
+Test ep reward: 137.0 seed: 78
+Test ep reward: 147.0 seed: 735
+Test ep reward: 156.0 seed: 852
+Test ep reward: 132.0 seed: 694
+Test ep reward: 126.0 seed: 965
+Average test reward: 135.5 episode length: 135.5
+test/ ex1-episode-0.mp4
+test/ ex1-episode-50.mp4
+test/ ex1-episode-100.mp4
+test/ ex1-episode-150.mp4
+test/ ex1-episode-200.mp4
+test/ ex1-episode-250.mp4
+test/ ex1-episode-300.mp4
+test/ ex1-episode-350.mp4
+test/ ex1-episode-400.mp4
+test/ ex1-episode-450.mp4
+test/ ex1-episode-500.mp4
+test/ ex1-episode-0.mp4
+test/ ex1-episode-1.mp4
+test/ ex1-episode-2.mp4
+test/ ex1-episode-3.mp4
+test/ ex1-episode-4.mp4
+test/ ex1-episode-5.mp4
+test/ ex1-episode-6.mp4
+test/ ex1-episode-7.mp4
+test/ ex1-episode-8.mp4
+test/ ex1-episode-9.mp4
+test/ ex1_seed_100-episode-0.mp4
+test/ ex1_seed_200-episode-0.mp4
+test/ ex1_seed_300-episode-0.mp4
+test/ ex1_seed_400-episode-0.mp4
+test/ ex1_seed_500-episode-0.mp4
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Test ep reward: 129.0 seed: 100
+Average test reward: 129.0 episode length: 129.0
+Numpy/Torch/Random Seed:  200
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Test ep reward: 124.0 seed: 200
+Average test reward: 124.0 episode length: 124.0
+Numpy/Torch/Random Seed:  300
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Test ep reward: 133.0 seed: 300
+Average test reward: 133.0 episode length: 133.0
+Numpy/Torch/Random Seed:  400
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Test ep reward: 143.0 seed: 400
+Average test reward: 143.0 episode length: 143.0
+Numpy/Torch/Random Seed:  500
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Test ep reward: 141.0 seed: 500
+Average test reward: 141.0 episode length: 141.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 2, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 2, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Average test reward: 10.0 episode length: 10.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 2, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': '/notebooks/rl2023/ex1/results/model/CartPole-v1_Task2_seed_100.yaml', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Average test reward: 10.0 episode length: 10.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 2, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': '/notebooks/rl2023/ex1/results/model/CartPole-v1_Task2_seed_100.yaml', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Average test reward: 10.0 episode length: 10.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 2, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'CartPole-v1_Task2_seed_100.yaml', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Test ep reward: 10.0 seed: 100
+Average test reward: 10.0 episode length: 10.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 100, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'CartPole-v1_Task2_seed_100.yaml', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Average test reward: 23.0 episode length: 23.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 100, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'CartPole-v1_Task2_seed_100.yaml', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Average test reward: 23.0 episode length: 23.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 100, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Average test reward: 23.0 episode length: 23.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 100, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Test ep reward: 23.0 seed: 100
+Average test reward: 23.0 episode length: 23.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 500, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Average test reward: 214.0 episode length: 214.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 500, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Test ep reward: 214.0 seed: 100
+Average test reward: 214.0 episode length: 214.0
+Numpy/Torch/Random Seed:  200
+Configuration Settings: {'exp_name': 'ex1_task2_seed_200', 'seed': 200, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 500, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+[34m[1mwandb[39m[22m: Appending key for api.wandb.ai to your netrc file: /home/nguyenb5/.netrc
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Average test reward: 629.0 episode length: 629.0
+Numpy/Torch/Random Seed:  200
+Configuration Settings: {'exp_name': 'ex1_task2_seed_200', 'seed': 200, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  200
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Test ep reward: 170.0 seed: 200
+Average test reward: 170.0 episode length: 170.0
+Numpy/Torch/Random Seed:  300
+Configuration Settings: {'exp_name': 'ex1_task2_seed_300', 'seed': 300, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  300
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Average test reward: 76.0 episode length: 76.0
+Numpy/Torch/Random Seed:  400
+Configuration Settings: {'exp_name': 'ex1_task2_seed_400', 'seed': 400, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  400
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Average test reward: 158.0 episode length: 158.0
+Numpy/Torch/Random Seed:  500
+Configuration Settings: {'exp_name': 'ex1_task2_seed_500', 'seed': 500, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  500
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Test ep reward: 495.0 seed: 500
+Average test reward: 495.0 episode length: 495.0
+Numpy/Torch/Random Seed:  859

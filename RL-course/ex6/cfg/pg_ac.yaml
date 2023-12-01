@@ -1,0 +1,24 @@
+seed: null
+exp_name: ex6
+
+testing: false
+model_path: default
+
+state_shape: [4,]
+action_dim: 1
+
+save_video: false
+save_logging: true
+save_model: true
+silent: false
+
+run_suffix: 0
+
+env_name: InvertedPendulum-v4 
+agent_name: pg_ac  
+
+train_episodes: 2000
+gamma: 0.99
+lr: 5e-4
+batch_size: 100
+buffer_size: 1e6

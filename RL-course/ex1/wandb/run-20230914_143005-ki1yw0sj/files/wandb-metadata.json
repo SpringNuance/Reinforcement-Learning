@@ -1,0 +1,110 @@
+{
+    "os": "Linux-5.4.0-146-generic-x86_64-with-glibc2.35",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-09-14T11:30:13.123969",
+    "startedAt": "2023-09-14T11:30:05.537939",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/notebooks/rl2023/ex1/ex1.ipynb",
+    "host": "jupyter-nguyenb5-rl2023",
+    "username": "nguyenb5",
+    "executable": "/opt/software/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2082.1185625,
+        "min": 1600.0,
+        "max": 2666.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1897.934,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 1828.375,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2416.599,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2135.394,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 1907.913,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 1691.941,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 1956.767,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2325.859,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2457.525,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 1855.318,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2583.891,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2079.871,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2318.005,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 1890.952,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 1916.782,
+            "min": 1600.0,
+            "max": 2666.0
+        },
+        {
+            "current": 2050.771,
+            "min": 1600.0,
+            "max": 2666.0
+        }
+    ],
+    "disk": {
+        "total": 134.24749755859375,
+        "used": 97.07873153686523
+    },
+    "memory": {
+        "total": 62.89131546020508
+    }
+}
