@@ -1,0 +1,30 @@
+2023-09-14 16:42:52,952 INFO    MainThread:448 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-14 16:42:52,959 INFO    MainThread:448 [wandb_setup.py:_flush():76] Configure stats pid to 448
+2023-09-14 16:42:52,959 INFO    MainThread:448 [wandb_setup.py:_flush():76] Loading settings from /home/nguyenb5/.config/wandb/settings
+2023-09-14 16:42:52,960 INFO    MainThread:448 [wandb_setup.py:_flush():76] Loading settings from /notebooks/rl2023/ex1/wandb/settings
+2023-09-14 16:42:52,960 INFO    MainThread:448 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': '/notebooks/rl2023/ex1/ex1.ipynb'}
+2023-09-14 16:42:52,960 INFO    MainThread:448 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-14 16:42:52,961 INFO    MainThread:448 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-14 16:42:52,961 INFO    MainThread:448 [wandb_init.py:_log_setup():524] Logging user logs to /notebooks/rl2023/ex1/wandb/run-20230914_164252-kbvxd9iq/logs/debug.log
+2023-09-14 16:42:52,961 INFO    MainThread:448 [wandb_init.py:_log_setup():525] Logging internal logs to /notebooks/rl2023/ex1/wandb/run-20230914_164252-kbvxd9iq/logs/debug-internal.log
+2023-09-14 16:42:52,962 INFO    MainThread:448 [wandb_init.py:init():564] calling init triggers
+2023-09-14 16:42:52,962 INFO    MainThread:448 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'entries': {'exp_name': 'ex1', 'seed': None, 'env_name': 'SpinningReacher-v0', 'max_episode_steps': 200, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': False, 'use_wandb': True, 'run_suffix': 0}, 'exp_name': 'ex1', 'seed': None, 'env_name': 'SpinningReacher-v0', 'max_episode_steps': 200, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': False, 'use_wandb': True, 'run_suffix': 0}
+2023-09-14 16:42:52,962 INFO    MainThread:448 [wandb_init.py:init():613] starting backend
+2023-09-14 16:42:52,963 INFO    MainThread:448 [wandb_init.py:init():617] setting up manager
+2023-09-14 16:42:52,965 INFO    MainThread:448 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-14 16:42:52,966 INFO    MainThread:448 [wandb_init.py:init():623] backend started and connected
+2023-09-14 16:42:52,977 INFO    MainThread:448 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-09-14 16:42:52,991 INFO    MainThread:448 [wandb_init.py:init():714] updated telemetry
+2023-09-14 16:42:52,992 INFO    MainThread:448 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-09-14 16:43:53,035 ERROR   MainThread:448 [wandb_init.py:init():773] encountered error: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-09-14 16:43:53,076 ERROR   MainThread:448 [wandb_init.py:init():1182] Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/opt/software/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1164, in init
+    run = wi.init()
+  File "/opt/software/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 779, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

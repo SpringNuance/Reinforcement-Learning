@@ -1,0 +1,1143 @@
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/CartPole-v1/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Configuration Settings: {'exp_name': 'ex1', 'seed': 1, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 500, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': True, 'use_wandb': True, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/CartPole-v1/test folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  501
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 196.0 seed: 88
+Test ep reward: 160.0 seed: 672
+Test ep reward: 163.0 seed: 680
+Test ep reward: 153.0 seed: 592
+Test ep reward: 180.0 seed: 481
+Test ep reward: 189.0 seed: 78
+Test ep reward: 1046.0 seed: 735
+Test ep reward: 338.0 seed: 852
+Test ep reward: 169.0 seed: 694
+Test ep reward: 163.0 seed: 965
+Average test reward: 275.7 episode length: 275.7
+test/ ex1-episode-0.mp4
+test/ ex1-episode-50.mp4
+test/ ex1-episode-100.mp4
+test/ ex1-episode-150.mp4
+test/ ex1-episode-200.mp4
+test/ ex1-episode-250.mp4
+test/ ex1-episode-300.mp4
+test/ ex1-episode-350.mp4
+test/ ex1-episode-400.mp4
+test/ ex1-episode-450.mp4
+test/ ex1-episode-500.mp4
+test/ ex1-episode-0.mp4
+test/ ex1-episode-1.mp4
+test/ ex1-episode-2.mp4
+test/ ex1-episode-3.mp4
+test/ ex1-episode-4.mp4
+test/ ex1-episode-5.mp4
+test/ ex1-episode-6.mp4
+test/ ex1-episode-7.mp4
+test/ ex1-episode-8.mp4
+test/ ex1-episode-9.mp4
+test/ ex1_seed_100-episode-1.mp4
+test/ ex1_seed_100-episode-0.mp4
+test/ ex1_seed_200-episode-0.mp4
+test/ ex1_seed_300-episode-0.mp4
+test/ ex1_seed_400-episode-0.mp4
+test/ ex1_seed_500-episode-0.mp4
+test/ ex1_seed_100-episode-2.mp4
+test/ ex1_seed_100-episode-3.mp4
+test/ ex1_seed_100-episode-4.mp4
+test/ ex1_seed_100-episode-5.mp4
+test/ ex1_seed_100-episode-6.mp4
+test/ ex1_seed_100-episode-7.mp4
+test/ ex1_seed_100-episode-8.mp4
+test/ ex1_seed_100-episode-9.mp4
+test/ ex1_seed_200-episode-1.mp4
+test/ ex1_seed_200-episode-2.mp4
+test/ ex1_seed_200-episode-3.mp4
+test/ ex1_seed_200-episode-4.mp4
+test/ ex1_seed_200-episode-5.mp4
+test/ ex1_seed_200-episode-6.mp4
+test/ ex1_seed_200-episode-7.mp4
+test/ ex1_seed_200-episode-8.mp4
+test/ ex1_seed_200-episode-9.mp4
+test/ ex1_seed_300-episode-1.mp4
+test/ ex1_seed_300-episode-2.mp4
+test/ ex1_seed_300-episode-3.mp4
+test/ ex1_seed_300-episode-4.mp4
+test/ ex1_seed_300-episode-5.mp4
+test/ ex1_seed_300-episode-6.mp4
+test/ ex1_seed_300-episode-7.mp4
+test/ ex1_seed_300-episode-8.mp4
+test/ ex1_seed_300-episode-9.mp4
+test/ ex1_seed_400-episode-1.mp4
+test/ ex1_seed_400-episode-2.mp4
+test/ ex1_seed_400-episode-3.mp4
+test/ ex1_seed_400-episode-4.mp4
+test/ ex1_seed_400-episode-5.mp4
+test/ ex1_seed_400-episode-6.mp4
+test/ ex1_seed_400-episode-7.mp4
+test/ ex1_seed_400-episode-8.mp4
+test/ ex1_seed_400-episode-9.mp4
+test/ ex1_seed_500-episode-1.mp4
+test/ ex1_seed_500-episode-2.mp4
+test/ ex1_seed_500-episode-3.mp4
+test/ ex1_seed_500-episode-4.mp4
+test/ ex1_seed_500-episode-5.mp4
+test/ ex1_seed_500-episode-6.mp4
+test/ ex1_seed_500-episode-7.mp4
+test/ ex1_seed_500-episode-8.mp4
+test/ ex1_seed_500-episode-9.mp4
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Test ep reward: 175.0 seed: 100
+Average test reward: 175.0 episode length: 175.0
+Numpy/Torch/Random Seed:  200
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Test ep reward: 157.0 seed: 200
+Average test reward: 157.0 episode length: 157.0
+Numpy/Torch/Random Seed:  300
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Test ep reward: 171.0 seed: 300
+Average test reward: 171.0 episode length: 171.0
+Numpy/Torch/Random Seed:  400
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Test ep reward: 239.0 seed: 400
+Average test reward: 239.0 episode length: 239.0
+Numpy/Torch/Random Seed:  500
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Test ep reward: 196.0 seed: 500
+Average test reward: 196.0 episode length: 196.0
+Numpy/Torch/Random Seed:  100
+Configuration Settings: {'exp_name': 'ex1_task2_seed_100', 'seed': 100, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  100
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Test ep reward: 629.0 seed: 100
+Average test reward: 629.0 episode length: 629.0
+Numpy/Torch/Random Seed:  200
+Configuration Settings: {'exp_name': 'ex1_task2_seed_200', 'seed': 200, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  200
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Test ep reward: 171.0 seed: 200
+Average test reward: 171.0 episode length: 171.0
+Numpy/Torch/Random Seed:  300
+Configuration Settings: {'exp_name': 'ex1_task2_seed_300', 'seed': 300, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  300
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Test ep reward: 76.0 seed: 300
+Average test reward: 76.0 episode length: 76.0
+Numpy/Torch/Random Seed:  400
+Configuration Settings: {'exp_name': 'ex1_task2_seed_400', 'seed': 400, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  400
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Test ep reward: 158.0 seed: 400
+Average test reward: 158.0 episode length: 158.0
+Numpy/Torch/Random Seed:  500
+Configuration Settings: {'exp_name': 'ex1_task2_seed_500', 'seed': 500, 'env_name': 'CartPole-v1', 'max_episode_steps': 100, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': False, 'save_model': True, 'save_logging': False, 'silent': True, 'use_wandb': False, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 4
+Action space dimensions: 2
+Updating the policy...
+Updating finished!
+Updating the policy...
+Updating finished!
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/SpinningReacher-v0/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Model saved to /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  500
+Loading model from /notebooks/rl2023/ex1/results/model/CartPole-v1_params.pt ...
+Testing...
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Test ep reward: 486.0 seed: 500
+Average test reward: 486.0 episode length: 486.0
+Numpy/Torch/Random Seed:  859
+Configuration Settings: {'exp_name': 'ex1', 'seed': None, 'env_name': 'SpinningReacher-v0', 'max_episode_steps': 200, 'train_episodes': 200, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': False, 'use_wandb': True, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 2
+Action space dimensions: 5
+Episode 0 finished. Total reward: 46 (200 timesteps)
+Episode 1 finished. Total reward: 29 (166 timesteps)
+Episode 2 finished. Total reward: 37 (200 timesteps)
+Episode 3 finished. Total reward: 39 (200 timesteps)
+Episode 4 finished. Total reward: 35 (200 timesteps)
+Episode 5 finished. Total reward: 42 (200 timesteps)
+Episode 6 finished. Total reward: 38 (200 timesteps)
+Episode 7 finished. Total reward: 24 (75 timesteps)
+Episode 8 finished. Total reward: 39 (200 timesteps)
+Episode 9 finished. Total reward: 40 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 10 finished. Total reward: 45 (200 timesteps)
+Episode 11 finished. Total reward: 41 (155 timesteps)
+Episode 12 finished. Total reward: 40 (123 timesteps)
+Episode 13 finished. Total reward: 70 (200 timesteps)
+Episode 14 finished. Total reward: 87 (200 timesteps)
+Episode 15 finished. Total reward: 61 (200 timesteps)
+Episode 16 finished. Total reward: 43 (200 timesteps)
+Episode 17 finished. Total reward: 47 (196 timesteps)
+Episode 18 finished. Total reward: 27 (96 timesteps)
+Episode 19 finished. Total reward: 55 (199 timesteps)
+Episode 20 finished. Total reward: 52 (200 timesteps)
+Episode 21 finished. Total reward: 23 (72 timesteps)
+Updating the policy...
+Updating finished!
+Episode 22 finished. Total reward: 78 (200 timesteps)
+Episode 23 finished. Total reward: 30 (75 timesteps)
+Episode 24 finished. Total reward: 23 (65 timesteps)
+Episode 25 finished. Total reward: 42 (136 timesteps)
+Episode 26 finished. Total reward: 72 (200 timesteps)
+Episode 27 finished. Total reward: 24 (60 timesteps)
+Episode 28 finished. Total reward: 76 (200 timesteps)
+Episode 29 finished. Total reward: 97 (200 timesteps)
+Episode 30 finished. Total reward: 46 (150 timesteps)
+Episode 31 finished. Total reward: 42 (144 timesteps)
+Episode 32 finished. Total reward: 65 (162 timesteps)
+Episode 33 finished. Total reward: 79 (182 timesteps)
+Episode 34 finished. Total reward: 24 (84 timesteps)
+Episode 35 finished. Total reward: 94 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 36 finished. Total reward: 25 (78 timesteps)
+Episode 37 finished. Total reward: 21 (45 timesteps)
+Episode 38 finished. Total reward: 25 (53 timesteps)
+Episode 39 finished. Total reward: 21 (55 timesteps)
+Episode 40 finished. Total reward: 75 (160 timesteps)
+Episode 41 finished. Total reward: 119 (200 timesteps)
+Episode 42 finished. Total reward: 33 (84 timesteps)
+Episode 43 finished. Total reward: 71 (157 timesteps)
+Episode 44 finished. Total reward: 20 (53 timesteps)
+Episode 45 finished. Total reward: 112 (200 timesteps)
+Episode 46 finished. Total reward: 27 (90 timesteps)
+Episode 47 finished. Total reward: 18 (35 timesteps)
+Episode 48 finished. Total reward: 26 (69 timesteps)
+Episode 49 finished. Total reward: 27 (63 timesteps)
+Episode 50 finished. Total reward: 102 (200 timesteps)
+Episode 51 finished. Total reward: 100 (200 timesteps)
+Episode 52 finished. Total reward: 21 (49 timesteps)
+Episode 53 finished. Total reward: 37 (103 timesteps)
+Episode 54 finished. Total reward: 21 (47 timesteps)
+Updating the policy...
+Updating finished!
+Episode 55 finished. Total reward: 102 (200 timesteps)
+Episode 56 finished. Total reward: 104 (200 timesteps)
+Episode 57 finished. Total reward: 73 (145 timesteps)
+Episode 58 finished. Total reward: 96 (200 timesteps)
+Episode 59 finished. Total reward: 74 (156 timesteps)
+Episode 60 finished. Total reward: 80 (180 timesteps)
+Episode 61 finished. Total reward: 33 (77 timesteps)
+Episode 62 finished. Total reward: 108 (200 timesteps)
+Episode 63 finished. Total reward: 71 (140 timesteps)
+Episode 64 finished. Total reward: 26 (70 timesteps)
+Episode 65 finished. Total reward: 21 (56 timesteps)
+Episode 66 finished. Total reward: 99 (200 timesteps)
+Episode 67 finished. Total reward: 84 (199 timesteps)
+Episode 68 finished. Total reward: 28 (63 timesteps)
+Updating the policy...
+Updating finished!
+Episode 69 finished. Total reward: 57 (110 timesteps)
+Episode 70 finished. Total reward: 18 (32 timesteps)
+Episode 71 finished. Total reward: 56 (94 timesteps)
+Episode 72 finished. Total reward: 57 (96 timesteps)
+Episode 73 finished. Total reward: 90 (151 timesteps)
+Episode 74 finished. Total reward: 25 (54 timesteps)
+Episode 75 finished. Total reward: 17 (33 timesteps)
+Episode 76 finished. Total reward: 21 (46 timesteps)
+Episode 77 finished. Total reward: 17 (35 timesteps)
+Episode 78 finished. Total reward: 116 (200 timesteps)
+Episode 79 finished. Total reward: 118 (200 timesteps)
+Episode 80 finished. Total reward: 114 (200 timesteps)
+Episode 81 finished. Total reward: 52 (80 timesteps)
+Episode 82 finished. Total reward: 127 (200 timesteps)
+Episode 83 finished. Total reward: 122 (200 timesteps)
+Episode 84 finished. Total reward: 117 (200 timesteps)
+Episode 85 finished. Total reward: 19 (34 timesteps)
+Episode 86 finished. Total reward: 16 (28 timesteps)
+Updating the policy...
+Updating finished!
+Episode 87 finished. Total reward: 56 (97 timesteps)
+Episode 88 finished. Total reward: 150 (200 timesteps)
+Episode 89 finished. Total reward: 18 (33 timesteps)
+Episode 90 finished. Total reward: 61 (103 timesteps)
+Episode 91 finished. Total reward: 53 (76 timesteps)
+Episode 92 finished. Total reward: 18 (31 timesteps)
+Episode 93 finished. Total reward: 89 (137 timesteps)
+Episode 94 finished. Total reward: 53 (77 timesteps)
+Episode 95 finished. Total reward: 57 (84 timesteps)
+Episode 96 finished. Total reward: 21 (37 timesteps)
+Episode 97 finished. Total reward: 145 (200 timesteps)
+Episode 98 finished. Total reward: 134 (200 timesteps)
+Episode 99 finished. Total reward: 122 (185 timesteps)
+Episode 100 finished. Total reward: 54 (80 timesteps)
+Episode 101 finished. Total reward: 124 (169 timesteps)
+Episode 102 finished. Total reward: 56 (80 timesteps)
+Episode 103 finished. Total reward: 87 (132 timesteps)
+Episode 104 finished. Total reward: 24 (47 timesteps)
+Episode 105 finished. Total reward: 23 (46 timesteps)
+Episode 106 finished. Total reward: 18 (25 timesteps)
+Updating the policy...
+Updating finished!
+Episode 107 finished. Total reward: 141 (200 timesteps)
+Episode 108 finished. Total reward: 22 (38 timesteps)
+Episode 109 finished. Total reward: 17 (30 timesteps)
+Episode 110 finished. Total reward: 155 (200 timesteps)
+Episode 111 finished. Total reward: 88 (130 timesteps)
+Episode 112 finished. Total reward: 55 (89 timesteps)
+Episode 113 finished. Total reward: 18 (30 timesteps)
+Episode 114 finished. Total reward: 149 (200 timesteps)
+Episode 115 finished. Total reward: 136 (200 timesteps)
+Episode 116 finished. Total reward: 55 (90 timesteps)
+Episode 117 finished. Total reward: 150 (200 timesteps)
+Episode 118 finished. Total reward: 144 (200 timesteps)
+Episode 119 finished. Total reward: 156 (200 timesteps)
+Episode 120 finished. Total reward: 167 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 121 finished. Total reward: 145 (200 timesteps)
+Episode 122 finished. Total reward: 115 (155 timesteps)
+Episode 123 finished. Total reward: 49 (63 timesteps)
+Episode 124 finished. Total reward: 158 (200 timesteps)
+Episode 125 finished. Total reward: 18 (32 timesteps)
+Episode 126 finished. Total reward: 57 (86 timesteps)
+Episode 127 finished. Total reward: 159 (200 timesteps)
+Episode 128 finished. Total reward: 168 (200 timesteps)
+Episode 129 finished. Total reward: 152 (200 timesteps)
+Episode 130 finished. Total reward: 156 (200 timesteps)
+Episode 131 finished. Total reward: 157 (200 timesteps)
+Episode 132 finished. Total reward: 153 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 133 finished. Total reward: 152 (173 timesteps)
+Episode 134 finished. Total reward: 53 (74 timesteps)
+Episode 135 finished. Total reward: 158 (200 timesteps)
+Episode 136 finished. Total reward: 155 (200 timesteps)
+Episode 137 finished. Total reward: 156 (198 timesteps)
+Episode 138 finished. Total reward: 120 (145 timesteps)
+Episode 139 finished. Total reward: 88 (112 timesteps)
+Episode 140 finished. Total reward: 152 (179 timesteps)
+Episode 141 finished. Total reward: 174 (200 timesteps)
+Episode 142 finished. Total reward: 152 (200 timesteps)
+Episode 143 finished. Total reward: 176 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 144 finished. Total reward: 168 (200 timesteps)
+Episode 145 finished. Total reward: 88 (99 timesteps)
+Episode 146 finished. Total reward: 153 (181 timesteps)
+Episode 147 finished. Total reward: 171 (200 timesteps)
+Episode 148 finished. Total reward: 170 (200 timesteps)
+Episode 149 finished. Total reward: 151 (169 timesteps)
+Episode 150 finished. Total reward: 153 (180 timesteps)
+Episode 151 finished. Total reward: 181 (197 timesteps)
+Episode 152 finished. Total reward: 169 (200 timesteps)
+Episode 153 finished. Total reward: 120 (136 timesteps)
+Episode 154 finished. Total reward: 121 (143 timesteps)
+Episode 155 finished. Total reward: 180 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 156 finished. Total reward: 151 (170 timesteps)
+Episode 157 finished. Total reward: 82 (96 timesteps)
+Episode 158 finished. Total reward: 174 (200 timesteps)
+Episode 159 finished. Total reward: 178 (200 timesteps)
+Episode 160 finished. Total reward: 182 (197 timesteps)
+Episode 161 finished. Total reward: 177 (200 timesteps)
+Episode 162 finished. Total reward: 181 (200 timesteps)
+Episode 163 finished. Total reward: 186 (200 timesteps)
+Episode 164 finished. Total reward: 180 (200 timesteps)
+Episode 165 finished. Total reward: 174 (200 timesteps)
+Episode 166 finished. Total reward: 155 (178 timesteps)
+Updating the policy...
+Updating finished!
+Episode 167 finished. Total reward: 185 (200 timesteps)
+Episode 168 finished. Total reward: 192 (200 timesteps)
+Episode 169 finished. Total reward: 192 (200 timesteps)
+Episode 170 finished. Total reward: 185 (200 timesteps)
+Episode 171 finished. Total reward: 189 (200 timesteps)
+Episode 172 finished. Total reward: 188 (200 timesteps)
+Episode 173 finished. Total reward: 187 (200 timesteps)
+Episode 174 finished. Total reward: 187 (200 timesteps)
+Episode 175 finished. Total reward: 193 (200 timesteps)
+Episode 176 finished. Total reward: 189 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 177 finished. Total reward: 188 (200 timesteps)
+Episode 178 finished. Total reward: 192 (200 timesteps)
+Episode 179 finished. Total reward: 191 (200 timesteps)
+Episode 180 finished. Total reward: 191 (200 timesteps)
+Episode 181 finished. Total reward: 188 (200 timesteps)
+Episode 182 finished. Total reward: 191 (200 timesteps)
+Episode 183 finished. Total reward: 190 (200 timesteps)
+Episode 184 finished. Total reward: 192 (200 timesteps)
+Episode 185 finished. Total reward: 193 (200 timesteps)
+Episode 186 finished. Total reward: 189 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 187 finished. Total reward: 181 (189 timesteps)
+Episode 188 finished. Total reward: 188 (200 timesteps)
+Episode 189 finished. Total reward: 187 (200 timesteps)
+Episode 190 finished. Total reward: 185 (200 timesteps)
+Episode 191 finished. Total reward: 189 (200 timesteps)
+Episode 192 finished. Total reward: 184 (200 timesteps)
+Episode 193 finished. Total reward: 180 (188 timesteps)
+Episode 194 finished. Total reward: 190 (200 timesteps)
+Episode 195 finished. Total reward: 181 (200 timesteps)
+Episode 196 finished. Total reward: 192 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 197 finished. Total reward: 185 (200 timesteps)
+Episode 198 finished. Total reward: 187 (200 timesteps)
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/SpinningReacher-v0/test folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Episode 199 finished. Total reward: 189 (200 timesteps)
+Episode 200 finished. Total reward: 180 (200 timesteps)
+Model saved to /notebooks/rl2023/ex1/results/model/SpinningReacher-v0_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  9
+Loading model from /notebooks/rl2023/ex1/results/model/SpinningReacher-v0_params.pt ...
+Testing...
+Test ep reward: 200 seed: 383
+Test ep reward: 200 seed: 349
+Test ep reward: 200 seed: 639
+Test ep reward: 200 seed: 502
+Test ep reward: 200 seed: 951
+Test ep reward: 200 seed: 57
+Test ep reward: 200 seed: 764
+Test ep reward: 200 seed: 919
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/TargetReacher-v0/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Test ep reward: 200 seed: 126
+Test ep reward: 200 seed: 578
+Average test reward: 200.0 episode length: 200.0
+Numpy/Torch/Random Seed:  535
+Configuration Settings: {'exp_name': 'ex1', 'seed': None, 'env_name': 'TargetReacher-v0', 'max_episode_steps': 200, 'train_episodes': 500, 'batch_size': 64, 'min_update_samples': 2000, 'testing': False, 'model_path': 'default', 'save_video': True, 'save_model': True, 'save_logging': True, 'silent': False, 'use_wandb': True, 'run_suffix': 0}
+Training device: cpu
+Observation space dimensions: 2
+Action space dimensions: 5
+Episode 0 finished. Total reward: -197.56540896597144 (75 timesteps)
+Episode 1 finished. Total reward: -476.11231636586933 (200 timesteps)
+Episode 2 finished. Total reward: -579.8012034058007 (200 timesteps)
+Episode 3 finished. Total reward: -379.1569945117787 (155 timesteps)
+Episode 4 finished. Total reward: -646.173863914219 (200 timesteps)
+Episode 5 finished. Total reward: -624.198946742989 (200 timesteps)
+Episode 6 finished. Total reward: -320.7645625136699 (132 timesteps)
+Episode 7 finished. Total reward: -369.8990662771807 (185 timesteps)
+Episode 8 finished. Total reward: -367.39098392597793 (200 timesteps)
+Episode 9 finished. Total reward: -610.9953974412143 (200 timesteps)
+Episode 10 finished. Total reward: -608.9847540160342 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 11 finished. Total reward: -435.8624175791333 (165 timesteps)
+Episode 12 finished. Total reward: -587.4716113441992 (200 timesteps)
+Episode 13 finished. Total reward: -415.9236720485712 (187 timesteps)
+Episode 14 finished. Total reward: -523.9105551439574 (200 timesteps)
+Episode 15 finished. Total reward: -650.6362175164913 (200 timesteps)
+Episode 16 finished. Total reward: -550.9297439273664 (200 timesteps)
+Episode 17 finished. Total reward: -584.9673499878968 (200 timesteps)
+Episode 18 finished. Total reward: -417.43503178987123 (200 timesteps)
+Episode 19 finished. Total reward: -531.1801826457668 (200 timesteps)
+Episode 20 finished. Total reward: -353.1304756774242 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 21 finished. Total reward: -528.2740232933106 (200 timesteps)
+Episode 22 finished. Total reward: -519.8176738795067 (200 timesteps)
+Episode 23 finished. Total reward: -318.355424092317 (200 timesteps)
+Episode 24 finished. Total reward: -174.62584657208325 (74 timesteps)
+Episode 25 finished. Total reward: -500.50358841028174 (200 timesteps)
+Episode 26 finished. Total reward: -264.97777545167463 (106 timesteps)
+Episode 27 finished. Total reward: -332.1702159046532 (200 timesteps)
+Episode 28 finished. Total reward: -195.845303571663 (94 timesteps)
+Episode 29 finished. Total reward: -376.7942500317396 (200 timesteps)
+Episode 30 finished. Total reward: -558.2770772978091 (200 timesteps)
+Episode 31 finished. Total reward: -320.41615025599725 (200 timesteps)
+Episode 32 finished. Total reward: -210.99317105317223 (92 timesteps)
+Updating the policy...
+Updating finished!
+Episode 33 finished. Total reward: -435.4663765974307 (200 timesteps)
+Episode 34 finished. Total reward: -434.77555865928997 (200 timesteps)
+Episode 35 finished. Total reward: -140.51407084996842 (64 timesteps)
+Episode 36 finished. Total reward: -53.37188765366555 (27 timesteps)
+Episode 37 finished. Total reward: -424.3664476239245 (200 timesteps)
+Episode 38 finished. Total reward: -142.7570180869501 (69 timesteps)
+Episode 39 finished. Total reward: -259.4746799047991 (162 timesteps)
+Episode 40 finished. Total reward: -168.39263423922614 (101 timesteps)
+Episode 41 finished. Total reward: -393.1497946309353 (200 timesteps)
+Episode 42 finished. Total reward: -340.3572220180865 (200 timesteps)
+Episode 43 finished. Total reward: -63.216762778161005 (35 timesteps)
+Episode 44 finished. Total reward: -65.80369310522305 (39 timesteps)
+Episode 45 finished. Total reward: -413.51910128213206 (200 timesteps)
+Episode 46 finished. Total reward: -405.4521214890636 (200 timesteps)
+Episode 47 finished. Total reward: -68.60655386375707 (41 timesteps)
+Episode 48 finished. Total reward: -375.6049374140834 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 49 finished. Total reward: -98.68509188390753 (70 timesteps)
+Episode 50 finished. Total reward: -90.14811771266443 (53 timesteps)
+Episode 51 finished. Total reward: -329.5548617207463 (170 timesteps)
+Episode 52 finished. Total reward: -357.2701895925835 (200 timesteps)
+Episode 53 finished. Total reward: -74.76314428777843 (47 timesteps)
+Episode 54 finished. Total reward: -429.89003080929865 (200 timesteps)
+Episode 55 finished. Total reward: -450.44435922315097 (200 timesteps)
+Episode 56 finished. Total reward: -174.88687993211514 (105 timesteps)
+Episode 57 finished. Total reward: -366.70144576314385 (200 timesteps)
+Episode 58 finished. Total reward: -77.20901823978502 (47 timesteps)
+Episode 59 finished. Total reward: -75.41162105695427 (38 timesteps)
+Episode 60 finished. Total reward: -321.0102203132707 (200 timesteps)
+Episode 61 finished. Total reward: -375.1187825587695 (200 timesteps)
+Episode 62 finished. Total reward: -336.55716837134383 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 63 finished. Total reward: -383.3878671220012 (200 timesteps)
+Episode 64 finished. Total reward: -91.52221176743222 (44 timesteps)
+Episode 65 finished. Total reward: -77.76064425033006 (36 timesteps)
+Episode 66 finished. Total reward: -161.58127357829045 (94 timesteps)
+Episode 67 finished. Total reward: -56.33449970744746 (33 timesteps)
+Episode 68 finished. Total reward: -357.75347330027563 (200 timesteps)
+Episode 69 finished. Total reward: -362.98790956385943 (200 timesteps)
+Episode 70 finished. Total reward: -252.38525432168692 (149 timesteps)
+Episode 71 finished. Total reward: -128.16403263806654 (85 timesteps)
+Episode 72 finished. Total reward: -329.1715158399576 (181 timesteps)
+Episode 73 finished. Total reward: -71.56450367418208 (39 timesteps)
+Episode 74 finished. Total reward: -90.86158821332711 (60 timesteps)
+Episode 75 finished. Total reward: -198.70247101140043 (95 timesteps)
+Episode 76 finished. Total reward: -47.440436138885765 (26 timesteps)
+Episode 77 finished. Total reward: -50.9534215847934 (32 timesteps)
+Episode 78 finished. Total reward: -58.99088609828665 (34 timesteps)
+Episode 79 finished. Total reward: -360.239303759844 (200 timesteps)
+Episode 80 finished. Total reward: -37.36752616337543 (23 timesteps)
+Episode 81 finished. Total reward: -37.20194183472668 (19 timesteps)
+Episode 82 finished. Total reward: -346.4143548464391 (184 timesteps)
+Episode 83 finished. Total reward: -50.63759766956108 (31 timesteps)
+Updating the policy...
+Updating finished!
+Episode 84 finished. Total reward: -345.5182471908472 (192 timesteps)
+Episode 85 finished. Total reward: -35.57052782401406 (21 timesteps)
+Episode 86 finished. Total reward: -87.83584312359874 (68 timesteps)
+Episode 87 finished. Total reward: -75.6415926905345 (59 timesteps)
+Episode 88 finished. Total reward: -111.3108418585791 (66 timesteps)
+Episode 89 finished. Total reward: -333.3331454540603 (200 timesteps)
+Episode 90 finished. Total reward: -374.5493858578622 (200 timesteps)
+Episode 91 finished. Total reward: -73.66947249928272 (37 timesteps)
+Episode 92 finished. Total reward: -56.366577312975615 (29 timesteps)
+Episode 93 finished. Total reward: -78.3809063553019 (64 timesteps)
+Episode 94 finished. Total reward: -32.13846455122711 (18 timesteps)
+Episode 95 finished. Total reward: -39.10308983713429 (27 timesteps)
+Episode 96 finished. Total reward: -388.2085604354348 (200 timesteps)
+Episode 97 finished. Total reward: -395.01624373639675 (200 timesteps)
+Episode 98 finished. Total reward: -186.98349898448515 (129 timesteps)
+Episode 99 finished. Total reward: -330.2487976074052 (198 timesteps)
+Episode 100 finished. Total reward: -358.7492042938412 (200 timesteps)
+Episode 101 finished. Total reward: -32.61382864262885 (19 timesteps)
+Episode 102 finished. Total reward: -108.42280596467809 (77 timesteps)
+Episode 103 finished. Total reward: -70.42845037015913 (36 timesteps)
+Episode 104 finished. Total reward: -86.63354375101204 (68 timesteps)
+Updating the policy...
+Updating finished!
+Episode 105 finished. Total reward: -45.636106805154256 (26 timesteps)
+Episode 106 finished. Total reward: -380.5648719012931 (200 timesteps)
+Episode 107 finished. Total reward: -40.75502099349907 (24 timesteps)
+Episode 108 finished. Total reward: -117.05233512720895 (77 timesteps)
+Episode 109 finished. Total reward: -90.1754204875422 (70 timesteps)
+Episode 110 finished. Total reward: -409.47771191093574 (200 timesteps)
+Episode 111 finished. Total reward: -33.89619278385139 (20 timesteps)
+Episode 112 finished. Total reward: -434.36555887790297 (200 timesteps)
+Episode 113 finished. Total reward: -62.92402368471002 (49 timesteps)
+Episode 114 finished. Total reward: -87.99329816901925 (62 timesteps)
+Episode 115 finished. Total reward: -81.36746451926571 (34 timesteps)
+Episode 116 finished. Total reward: -375.350380632369 (200 timesteps)
+Episode 117 finished. Total reward: -34.98598959900939 (21 timesteps)
+Episode 118 finished. Total reward: -38.09099338150459 (25 timesteps)
+Episode 119 finished. Total reward: -399.54746847629383 (200 timesteps)
+Episode 120 finished. Total reward: -425.610824683571 (200 timesteps)
+Episode 121 finished. Total reward: -173.23241570769548 (124 timesteps)
+Episode 122 finished. Total reward: -47.0484047311409 (27 timesteps)
+Episode 123 finished. Total reward: -71.35697460730422 (57 timesteps)
+Episode 124 finished. Total reward: -144.244006863858 (118 timesteps)
+Episode 125 finished. Total reward: -36.30359688994527 (24 timesteps)
+Updating the policy...
+Updating finished!
+Episode 126 finished. Total reward: -329.38101640895434 (200 timesteps)
+Episode 127 finished. Total reward: -26.379650435543425 (17 timesteps)
+Episode 128 finished. Total reward: -34.768382881512004 (18 timesteps)
+Episode 129 finished. Total reward: -47.79959839140019 (29 timesteps)
+Episode 130 finished. Total reward: -38.57634126271416 (23 timesteps)
+Episode 131 finished. Total reward: -374.35881893066045 (200 timesteps)
+Episode 132 finished. Total reward: -133.75423339299581 (94 timesteps)
+Episode 133 finished. Total reward: -125.59068098838921 (73 timesteps)
+Episode 134 finished. Total reward: -68.39868034714497 (30 timesteps)
+Episode 135 finished. Total reward: -26.611329634394494 (16 timesteps)
+Episode 136 finished. Total reward: -39.33743641836439 (23 timesteps)
+Episode 137 finished. Total reward: -109.11294308544208 (71 timesteps)
+Episode 138 finished. Total reward: -31.539289708877288 (19 timesteps)
+Episode 139 finished. Total reward: -57.725980630968785 (29 timesteps)
+Episode 140 finished. Total reward: -31.930108729518142 (19 timesteps)
+Episode 141 finished. Total reward: -277.767033670275 (200 timesteps)
+Episode 142 finished. Total reward: -45.80346152570122 (25 timesteps)
+Episode 143 finished. Total reward: -28.206509555831754 (17 timesteps)
+Episode 144 finished. Total reward: -26.884510948679296 (18 timesteps)
+Episode 145 finished. Total reward: -46.20552886759161 (26 timesteps)
+Episode 146 finished. Total reward: -41.95044086263749 (22 timesteps)
+Episode 147 finished. Total reward: -26.956473571935813 (17 timesteps)
+Episode 148 finished. Total reward: -185.4066669038911 (136 timesteps)
+Episode 149 finished. Total reward: -146.21157006573225 (109 timesteps)
+Episode 150 finished. Total reward: -164.36998470116706 (137 timesteps)
+Episode 151 finished. Total reward: -285.5113538070887 (200 timesteps)
+Episode 152 finished. Total reward: -34.515711193390615 (19 timesteps)
+Episode 153 finished. Total reward: -67.22616918012054 (53 timesteps)
+Episode 154 finished. Total reward: -302.7541853225558 (200 timesteps)
+Updating the policy...
+Updating finished!
+Episode 155 finished. Total reward: -338.7202013192886 (200 timesteps)
+Episode 156 finished. Total reward: -326.9690247053181 (200 timesteps)
+Episode 157 finished. Total reward: -142.8520546501492 (101 timesteps)
+Episode 158 finished. Total reward: -26.42654636402437 (16 timesteps)
+Episode 159 finished. Total reward: -45.00776102701347 (22 timesteps)
+Episode 160 finished. Total reward: -29.774346221664917 (20 timesteps)
+Episode 161 finished. Total reward: -78.72021982037458 (52 timesteps)
+Episode 162 finished. Total reward: -27.7810060004687 (21 timesteps)
+Episode 163 finished. Total reward: -65.66856123691699 (51 timesteps)
+Episode 164 finished. Total reward: -27.32804555587948 (15 timesteps)
+Episode 165 finished. Total reward: -445.67185244196804 (200 timesteps)
+Episode 166 finished. Total reward: -29.21782944934042 (19 timesteps)
+Episode 167 finished. Total reward: -82.56607290355667 (55 timesteps)
+Episode 168 finished. Total reward: -388.6420512276879 (200 timesteps)
+Episode 169 finished. Total reward: -35.869795040015354 (21 timesteps)
+Episode 170 finished. Total reward: -37.13146607628691 (22 timesteps)
+Episode 171 finished. Total reward: -30.90725319502984 (20 timesteps)
+Episode 172 finished. Total reward: -361.91795614077165 (200 timesteps)
+Episode 173 finished. Total reward: -31.49138894746545 (20 timesteps)
+Episode 174 finished. Total reward: -36.008043267135584 (22 timesteps)
+Episode 175 finished. Total reward: -34.43908296572892 (18 timesteps)
+Episode 176 finished. Total reward: -45.31438881252152 (27 timesteps)
+Episode 177 finished. Total reward: -225.93809118433697 (192 timesteps)
+Episode 178 finished. Total reward: -33.928490912761056 (20 timesteps)
+Episode 179 finished. Total reward: -25.279610758838775 (15 timesteps)
+Episode 180 finished. Total reward: -110.21307978548823 (70 timesteps)
+Episode 181 finished. Total reward: -25.21206370356214 (15 timesteps)
+Episode 182 finished. Total reward: -207.533381871089 (166 timesteps)
+Updating the policy...
+Updating finished!
+Episode 183 finished. Total reward: -35.27004220156979 (21 timesteps)
+Episode 184 finished. Total reward: -35.94180154482365 (23 timesteps)
+Episode 185 finished. Total reward: -30.62749873804875 (17 timesteps)
+Episode 186 finished. Total reward: -124.04078006462225 (95 timesteps)
+Episode 187 finished. Total reward: -32.96679565259352 (20 timesteps)
+Episode 188 finished. Total reward: -171.06113378357455 (138 timesteps)
+Episode 189 finished. Total reward: -330.97590179765626 (200 timesteps)
+Episode 190 finished. Total reward: -71.94462504282266 (59 timesteps)
+Episode 191 finished. Total reward: -297.78692185847376 (200 timesteps)
+Episode 192 finished. Total reward: -28.046216822164364 (16 timesteps)
+Episode 193 finished. Total reward: -47.47373072000048 (25 timesteps)
+Episode 194 finished. Total reward: -29.16184308366421 (18 timesteps)
+Episode 195 finished. Total reward: -32.406705005501465 (18 timesteps)
+Episode 196 finished. Total reward: -43.871717583887246 (27 timesteps)
+Episode 197 finished. Total reward: -36.673075160476166 (22 timesteps)
+Episode 198 finished. Total reward: -30.381669480161438 (23 timesteps)
+Episode 199 finished. Total reward: -72.71490136616048 (60 timesteps)
+Episode 200 finished. Total reward: -65.3805108622747 (50 timesteps)
+Episode 201 finished. Total reward: -28.21317708693441 (16 timesteps)
+Episode 202 finished. Total reward: -124.67607962147221 (92 timesteps)
+Episode 203 finished. Total reward: -56.09028968898762 (45 timesteps)
+Episode 204 finished. Total reward: -228.569410550981 (200 timesteps)
+Episode 205 finished. Total reward: -25.601527677801048 (17 timesteps)
+Episode 206 finished. Total reward: -42.02187533462132 (22 timesteps)
+Episode 207 finished. Total reward: -63.44684573434516 (58 timesteps)
+Episode 208 finished. Total reward: -173.97356425181619 (148 timesteps)
+Episode 209 finished. Total reward: -35.46054306083248 (21 timesteps)
+Episode 210 finished. Total reward: -26.499260497099545 (16 timesteps)
+Episode 211 finished. Total reward: -31.25636001316595 (19 timesteps)
+Episode 212 finished. Total reward: -342.6481618269896 (200 timesteps)
+Episode 213 finished. Total reward: -52.78933502361807 (27 timesteps)
+Episode 214 finished. Total reward: -35.94367875156371 (19 timesteps)
+Episode 215 finished. Total reward: -37.77973269499217 (20 timesteps)
+Episode 216 finished. Total reward: -32.21692340517269 (19 timesteps)
+Updating the policy...
+Updating finished!
+Episode 217 finished. Total reward: -55.60758994764484 (44 timesteps)
+Episode 218 finished. Total reward: -141.47809931954058 (116 timesteps)
+Episode 219 finished. Total reward: -40.898955229071646 (23 timesteps)
+Episode 220 finished. Total reward: -24.267314817112652 (15 timesteps)
+Episode 221 finished. Total reward: -25.828876293399738 (17 timesteps)
+Episode 222 finished. Total reward: -33.761899468847425 (20 timesteps)
+Episode 223 finished. Total reward: -310.0891167336627 (192 timesteps)
+Episode 224 finished. Total reward: -23.71812009926161 (14 timesteps)
+Episode 225 finished. Total reward: -30.119608865277705 (17 timesteps)
+Episode 226 finished. Total reward: -73.28550167193049 (58 timesteps)
+Episode 227 finished. Total reward: -52.302707460990284 (42 timesteps)
+Episode 228 finished. Total reward: -36.573458608346094 (20 timesteps)
+Episode 229 finished. Total reward: -28.395061625962484 (16 timesteps)
+Episode 230 finished. Total reward: -25.8008996558212 (18 timesteps)
+Episode 231 finished. Total reward: -65.27154642966103 (54 timesteps)
+Episode 232 finished. Total reward: -196.21340047031893 (159 timesteps)
+Episode 233 finished. Total reward: -29.213453399955267 (17 timesteps)
+Episode 234 finished. Total reward: -253.17651498613262 (200 timesteps)
+Episode 235 finished. Total reward: -63.62851682008132 (51 timesteps)
+Episode 236 finished. Total reward: -25.62779529978645 (16 timesteps)
+Episode 237 finished. Total reward: -373.89386287466516 (200 timesteps)
+Episode 238 finished. Total reward: -84.98938767277001 (57 timesteps)
+Episode 239 finished. Total reward: -34.080746771286506 (18 timesteps)
+Episode 240 finished. Total reward: -274.73496482672556 (183 timesteps)
+Episode 241 finished. Total reward: -85.6209341562126 (62 timesteps)
+Episode 242 finished. Total reward: -70.90085250100984 (57 timesteps)
+Episode 243 finished. Total reward: -58.09420046917976 (55 timesteps)
+Episode 244 finished. Total reward: -70.69300544988194 (55 timesteps)
+Episode 245 finished. Total reward: -76.0302159768471 (57 timesteps)
+Updating the policy...
+Updating finished!
+Episode 246 finished. Total reward: -215.90138180237656 (200 timesteps)
+Episode 247 finished. Total reward: -28.507552399928535 (17 timesteps)
+Episode 248 finished. Total reward: -27.150825361356247 (18 timesteps)
+Episode 249 finished. Total reward: -215.97051115533753 (145 timesteps)
+Episode 250 finished. Total reward: -26.32127434307117 (18 timesteps)
+Episode 251 finished. Total reward: -129.103670070542 (106 timesteps)
+Episode 252 finished. Total reward: -159.23149173659618 (121 timesteps)
+Episode 253 finished. Total reward: -27.076431359879262 (16 timesteps)
+Episode 254 finished. Total reward: -350.6608637344399 (200 timesteps)
+Episode 255 finished. Total reward: -24.474864590896992 (15 timesteps)
+Episode 256 finished. Total reward: -184.4632079709231 (140 timesteps)
+Episode 257 finished. Total reward: -116.88950042744342 (90 timesteps)
+Episode 258 finished. Total reward: -23.901882940291372 (16 timesteps)
+Episode 259 finished. Total reward: -23.612156346560585 (14 timesteps)
+Episode 260 finished. Total reward: -111.3670589544267 (92 timesteps)
+Episode 261 finished. Total reward: -63.869205632286466 (49 timesteps)
+Episode 262 finished. Total reward: -25.16908307325495 (15 timesteps)
+Episode 263 finished. Total reward: -68.1028411848708 (59 timesteps)
+Episode 264 finished. Total reward: -30.80916299104429 (19 timesteps)
+Episode 265 finished. Total reward: -25.27784546102963 (17 timesteps)
+Episode 266 finished. Total reward: -27.962915552627635 (16 timesteps)
+Episode 267 finished. Total reward: -27.02725636582314 (15 timesteps)
+Episode 268 finished. Total reward: -37.342875621340994 (20 timesteps)
+Episode 269 finished. Total reward: -25.65868045363945 (15 timesteps)
+Episode 270 finished. Total reward: -30.746678254348616 (17 timesteps)
+Episode 271 finished. Total reward: -56.88159358779383 (45 timesteps)
+Episode 272 finished. Total reward: -29.890124835947336 (20 timesteps)
+Episode 273 finished. Total reward: -34.476902772064776 (21 timesteps)
+Episode 274 finished. Total reward: -35.060783325907494 (19 timesteps)
+Episode 275 finished. Total reward: -137.69519571194206 (105 timesteps)
+Episode 276 finished. Total reward: -37.17362661458553 (20 timesteps)
+Episode 277 finished. Total reward: -25.68743734926652 (15 timesteps)
+Episode 278 finished. Total reward: -31.413275274481663 (17 timesteps)
+Episode 279 finished. Total reward: -38.74790609508237 (22 timesteps)
+Episode 280 finished. Total reward: -65.17018339369885 (51 timesteps)
+Episode 281 finished. Total reward: -29.443147613082864 (19 timesteps)
+Episode 282 finished. Total reward: -166.80008469696912 (147 timesteps)
+Episode 283 finished. Total reward: -26.12739230814509 (17 timesteps)
+Episode 284 finished. Total reward: -196.03741695855769 (144 timesteps)
+Episode 285 finished. Total reward: -32.37079923022069 (17 timesteps)
+Episode 286 finished. Total reward: -24.624020056591363 (15 timesteps)
+Episode 287 finished. Total reward: -30.327163480769215 (18 timesteps)
+Updating the policy...
+Updating finished!
+Episode 288 finished. Total reward: -118.02138652604619 (90 timesteps)
+Episode 289 finished. Total reward: -67.3882795035934 (61 timesteps)
+Episode 290 finished. Total reward: -33.99791898386723 (22 timesteps)
+Episode 291 finished. Total reward: -23.942646753064846 (15 timesteps)
+Episode 292 finished. Total reward: -23.159098751118556 (14 timesteps)
+Episode 293 finished. Total reward: -24.19933373178882 (15 timesteps)
+Episode 294 finished. Total reward: -24.68819350818798 (15 timesteps)
+Episode 295 finished. Total reward: -24.13967985983394 (15 timesteps)
+Episode 296 finished. Total reward: -33.00232039730865 (19 timesteps)
+Episode 297 finished. Total reward: -26.525017804293764 (18 timesteps)
+Episode 298 finished. Total reward: -66.72445186976533 (49 timesteps)
+Episode 299 finished. Total reward: -55.45563436315916 (50 timesteps)
+Episode 300 finished. Total reward: -28.598616619264615 (17 timesteps)
+Episode 301 finished. Total reward: -30.298822963948666 (17 timesteps)
+Episode 302 finished. Total reward: -81.29532768782272 (65 timesteps)
+Episode 303 finished. Total reward: -25.458638554380435 (15 timesteps)
+Episode 304 finished. Total reward: -30.625171299464768 (18 timesteps)
+Episode 305 finished. Total reward: -27.431567290754263 (17 timesteps)
+Episode 306 finished. Total reward: -24.79366006974722 (15 timesteps)
+Episode 307 finished. Total reward: -26.261408161214916 (16 timesteps)
+Episode 308 finished. Total reward: -28.151338995936484 (17 timesteps)
+Episode 309 finished. Total reward: -57.639980714825946 (45 timesteps)
+Episode 310 finished. Total reward: -121.7751564878503 (92 timesteps)
+Episode 311 finished. Total reward: -64.54370013205146 (53 timesteps)
+Episode 312 finished. Total reward: -135.87882292593713 (93 timesteps)
+Episode 313 finished. Total reward: -24.08350581969053 (15 timesteps)
+Episode 314 finished. Total reward: -114.90168434566338 (91 timesteps)
+Episode 315 finished. Total reward: -29.973822387925 (16 timesteps)
+Episode 316 finished. Total reward: -32.39752795868244 (18 timesteps)
+Episode 317 finished. Total reward: -27.89554709789151 (17 timesteps)
+Episode 318 finished. Total reward: -25.147680410015187 (15 timesteps)
+Episode 319 finished. Total reward: -38.901148083348026 (21 timesteps)
+Episode 320 finished. Total reward: -25.51159306117747 (15 timesteps)
+Episode 321 finished. Total reward: -24.754934981681494 (17 timesteps)
+Episode 322 finished. Total reward: -26.23192064540766 (15 timesteps)
+Episode 323 finished. Total reward: -60.82201938136072 (50 timesteps)
+Episode 324 finished. Total reward: -25.621913403603845 (15 timesteps)
+Episode 325 finished. Total reward: -24.75666787581025 (15 timesteps)
+Episode 326 finished. Total reward: -25.70933971343141 (15 timesteps)
+Episode 327 finished. Total reward: -232.76893406188472 (200 timesteps)
+Episode 328 finished. Total reward: -24.97235195881955 (15 timesteps)
+Episode 329 finished. Total reward: -24.807556484102392 (18 timesteps)
+Episode 330 finished. Total reward: -35.11924526824539 (20 timesteps)
+Episode 331 finished. Total reward: -26.259506604796556 (15 timesteps)
+Episode 332 finished. Total reward: -235.2618933432329 (200 timesteps)
+Episode 333 finished. Total reward: -30.822768373048657 (18 timesteps)
+Episode 334 finished. Total reward: -30.216714081295933 (18 timesteps)
+Episode 335 finished. Total reward: -25.63217003426499 (16 timesteps)
+Episode 336 finished. Total reward: -32.37060957524918 (19 timesteps)
+Episode 337 finished. Total reward: -22.67405123307671 (15 timesteps)
+Episode 338 finished. Total reward: -22.573338776865246 (14 timesteps)
+Episode 339 finished. Total reward: -27.90989776516099 (18 timesteps)
+Episode 340 finished. Total reward: -64.52722577308519 (52 timesteps)
+Episode 341 finished. Total reward: -57.03829155155958 (44 timesteps)
+Episode 342 finished. Total reward: -25.52145330749177 (15 timesteps)
+Episode 343 finished. Total reward: -27.96866919843751 (17 timesteps)
+Episode 344 finished. Total reward: -109.76959446781235 (91 timesteps)
+Episode 345 finished. Total reward: -31.161752341090725 (17 timesteps)
+Updating the policy...
+Updating finished!
+Episode 346 finished. Total reward: -27.71882788025209 (16 timesteps)
+Episode 347 finished. Total reward: -51.56833079628235 (42 timesteps)
+Episode 348 finished. Total reward: -28.41714659595411 (16 timesteps)
+Episode 349 finished. Total reward: -27.084108277962418 (16 timesteps)
+Episode 350 finished. Total reward: -185.04523275417216 (152 timesteps)
+Episode 351 finished. Total reward: -221.6155671867216 (200 timesteps)
+Episode 352 finished. Total reward: -120.59336536995711 (101 timesteps)
+Episode 353 finished. Total reward: -31.851307097797452 (17 timesteps)
+Episode 354 finished. Total reward: -113.50912472592216 (90 timesteps)
+Episode 355 finished. Total reward: -27.07277714256524 (15 timesteps)
+Episode 356 finished. Total reward: -194.02936965908899 (162 timesteps)
+Episode 357 finished. Total reward: -163.08901574725328 (139 timesteps)
+Episode 358 finished. Total reward: -27.15613466078635 (17 timesteps)
+Episode 359 finished. Total reward: -27.780766318122208 (18 timesteps)
+Episode 360 finished. Total reward: -30.71241164087662 (18 timesteps)
+Episode 361 finished. Total reward: -62.099900732554545 (45 timesteps)
+Episode 362 finished. Total reward: -25.155748228495074 (15 timesteps)
+Episode 363 finished. Total reward: -111.00037163309473 (90 timesteps)
+Episode 364 finished. Total reward: -32.399350151523876 (18 timesteps)
+Episode 365 finished. Total reward: -26.699591801156632 (15 timesteps)
+Episode 366 finished. Total reward: -22.736911021186344 (14 timesteps)
+Episode 367 finished. Total reward: -286.39514996882593 (200 timesteps)
+Episode 368 finished. Total reward: -26.242411818244353 (15 timesteps)
+Episode 369 finished. Total reward: -124.48115895925979 (94 timesteps)
+Episode 370 finished. Total reward: -106.06867512204964 (94 timesteps)
+Episode 371 finished. Total reward: -25.40442547705656 (15 timesteps)
+Episode 372 finished. Total reward: -27.38079270466717 (16 timesteps)
+Episode 373 finished. Total reward: -126.0616191099875 (102 timesteps)
+Episode 374 finished. Total reward: -154.38495758764546 (139 timesteps)
+Episode 375 finished. Total reward: -37.19404518607303 (21 timesteps)
+Updating the policy...
+Updating finished!
+Episode 376 finished. Total reward: -234.54871045017106 (200 timesteps)
+Episode 377 finished. Total reward: -101.4941407705818 (84 timesteps)
+Episode 378 finished. Total reward: -23.91064123185906 (16 timesteps)
+Episode 379 finished. Total reward: -26.98427519723314 (19 timesteps)
+Episode 380 finished. Total reward: -26.95396698946796 (16 timesteps)
+Episode 381 finished. Total reward: -27.902662754396268 (16 timesteps)
+Episode 382 finished. Total reward: -104.62228454757252 (87 timesteps)
+Episode 383 finished. Total reward: -58.83719187462606 (46 timesteps)
+Episode 384 finished. Total reward: -147.3032828285036 (126 timesteps)
+Episode 385 finished. Total reward: -25.10490047870511 (15 timesteps)
+Episode 386 finished. Total reward: -23.787901678408574 (15 timesteps)
+Episode 387 finished. Total reward: -25.220614206544447 (15 timesteps)
+Episode 388 finished. Total reward: -27.620054555085765 (16 timesteps)
+Episode 389 finished. Total reward: -216.62459138140127 (200 timesteps)
+Episode 390 finished. Total reward: -26.085930049100973 (16 timesteps)
+Episode 391 finished. Total reward: -25.770917159854445 (15 timesteps)
+Episode 392 finished. Total reward: -53.5164266987656 (41 timesteps)
+Episode 393 finished. Total reward: -27.126649484043174 (16 timesteps)
+Episode 394 finished. Total reward: -31.866472790119204 (19 timesteps)
+Episode 395 finished. Total reward: -25.260224284682934 (15 timesteps)
+Episode 396 finished. Total reward: -53.685900315720005 (43 timesteps)
+Episode 397 finished. Total reward: -28.201116092220786 (16 timesteps)
+Episode 398 finished. Total reward: -27.202642253450012 (16 timesteps)
+Episode 399 finished. Total reward: -102.09081833183953 (83 timesteps)
+Episode 400 finished. Total reward: -35.05196874092799 (21 timesteps)
+Episode 401 finished. Total reward: -239.23920919674313 (200 timesteps)
+Episode 402 finished. Total reward: -53.47825706635268 (41 timesteps)
+Episode 403 finished. Total reward: -28.020210318764523 (16 timesteps)
+Episode 404 finished. Total reward: -49.76818310486746 (41 timesteps)
+Episode 405 finished. Total reward: -24.397689623558076 (15 timesteps)
+Episode 406 finished. Total reward: -34.31498142579858 (19 timesteps)
+Episode 407 finished. Total reward: -110.26980891988765 (87 timesteps)
+Episode 408 finished. Total reward: -24.93440594357018 (16 timesteps)
+Episode 409 finished. Total reward: -52.88895458577046 (43 timesteps)
+Episode 410 finished. Total reward: -140.04838474606683 (117 timesteps)
+Episode 411 finished. Total reward: -26.03035500503818 (15 timesteps)
+Episode 412 finished. Total reward: -23.063578248107678 (15 timesteps)
+Episode 413 finished. Total reward: -57.639408962886044 (49 timesteps)
+Episode 414 finished. Total reward: -330.01114861638894 (200 timesteps)
+Episode 415 finished. Total reward: -28.678121194082994 (16 timesteps)
+Episode 416 finished. Total reward: -26.197260445856145 (15 timesteps)
+Updating the policy...
+Updating finished!
+Episode 417 finished. Total reward: -29.215967233750415 (18 timesteps)
+Episode 418 finished. Total reward: -53.23291750647912 (42 timesteps)
+Episode 419 finished. Total reward: -26.755888806010958 (16 timesteps)
+Episode 420 finished. Total reward: -144.71995952307543 (124 timesteps)
+Episode 421 finished. Total reward: -30.58324427295087 (18 timesteps)
+Episode 422 finished. Total reward: -27.673353659864105 (15 timesteps)
+Episode 423 finished. Total reward: -23.9919660946941 (14 timesteps)
+Episode 424 finished. Total reward: -24.62240164734157 (16 timesteps)
+Episode 425 finished. Total reward: -26.29113720482384 (17 timesteps)
+Episode 426 finished. Total reward: -25.035782643653423 (16 timesteps)
+Episode 427 finished. Total reward: -31.192025643188742 (18 timesteps)
+Episode 428 finished. Total reward: -253.95286773512032 (200 timesteps)
+Episode 429 finished. Total reward: -27.831321823304563 (18 timesteps)
+Episode 430 finished. Total reward: -28.378397113897012 (16 timesteps)
+Episode 431 finished. Total reward: -29.143966409667325 (17 timesteps)
+Episode 432 finished. Total reward: -25.30456151941062 (15 timesteps)
+Episode 433 finished. Total reward: -25.334799481509304 (15 timesteps)
+Episode 434 finished. Total reward: -24.15244288382331 (15 timesteps)
+Episode 435 finished. Total reward: -23.833378632464907 (14 timesteps)
+Episode 436 finished. Total reward: -178.06493320812427 (132 timesteps)
+Episode 437 finished. Total reward: -238.66770041655582 (160 timesteps)
+Episode 438 finished. Total reward: -26.311854737888577 (17 timesteps)
+Episode 439 finished. Total reward: -27.295757441325154 (16 timesteps)
+Episode 440 finished. Total reward: -219.22189272999793 (200 timesteps)
+Episode 441 finished. Total reward: -55.967907586354706 (43 timesteps)
+Episode 442 finished. Total reward: -26.53569739297541 (15 timesteps)
+Episode 443 finished. Total reward: -25.555040931125184 (16 timesteps)
+Episode 444 finished. Total reward: -102.57798840956087 (84 timesteps)
+Episode 445 finished. Total reward: -27.088438182399212 (17 timesteps)
+Episode 446 finished. Total reward: -58.277670462127524 (46 timesteps)
+Episode 447 finished. Total reward: -266.7194884727703 (173 timesteps)
+Episode 448 finished. Total reward: -143.46566943383527 (118 timesteps)
+Episode 449 finished. Total reward: -29.886364392365092 (17 timesteps)
+Episode 450 finished. Total reward: -121.8164230466953 (93 timesteps)
+Episode 451 finished. Total reward: -26.262881366982473 (17 timesteps)
+Episode 452 finished. Total reward: -113.70804831677034 (83 timesteps)
+Episode 453 finished. Total reward: -24.71836054496746 (15 timesteps)
+Episode 454 finished. Total reward: -29.844909021343224 (18 timesteps)
+Episode 455 finished. Total reward: -24.59636049546992 (17 timesteps)
+Episode 456 finished. Total reward: -24.782455521176853 (15 timesteps)
+Episode 457 finished. Total reward: -27.239252312937708 (17 timesteps)
+Episode 458 finished. Total reward: -24.862616205025258 (15 timesteps)
+Episode 459 finished. Total reward: -49.53389774466671 (41 timesteps)
+Updating the policy...
+Updating finished!
+Episode 460 finished. Total reward: -27.819023898388046 (18 timesteps)
+Episode 461 finished. Total reward: -27.587054319586272 (16 timesteps)
+Episode 462 finished. Total reward: -29.081739789810037 (17 timesteps)
+Episode 463 finished. Total reward: -23.71296798639106 (15 timesteps)
+Episode 464 finished. Total reward: -27.33214351148379 (16 timesteps)
+Episode 465 finished. Total reward: -29.659471660691928 (18 timesteps)
+Episode 466 finished. Total reward: -26.984745452886525 (15 timesteps)
+Episode 467 finished. Total reward: -28.762924020842327 (18 timesteps)
+Episode 468 finished. Total reward: -52.92272359000432 (43 timesteps)
+Episode 469 finished. Total reward: -26.81010169626725 (18 timesteps)
+Episode 470 finished. Total reward: -31.843702056635475 (19 timesteps)
+Episode 471 finished. Total reward: -23.928317265997133 (15 timesteps)
+Episode 472 finished. Total reward: -23.10232127668653 (15 timesteps)
+Episode 473 finished. Total reward: -30.553451004451084 (17 timesteps)
+Episode 474 finished. Total reward: -27.84519615364355 (17 timesteps)
+Episode 475 finished. Total reward: -30.986984373040052 (18 timesteps)
+Episode 476 finished. Total reward: -35.718487034768415 (19 timesteps)
+Episode 477 finished. Total reward: -27.635059169784878 (16 timesteps)
+Episode 478 finished. Total reward: -25.063161387891576 (15 timesteps)
+Episode 479 finished. Total reward: -27.56037481657025 (17 timesteps)
+Episode 480 finished. Total reward: -24.60294020520857 (15 timesteps)
+Episode 481 finished. Total reward: -55.445048727115505 (43 timesteps)
+Episode 482 finished. Total reward: -24.823417815070805 (15 timesteps)
+Episode 483 finished. Total reward: -24.07559824060582 (15 timesteps)
+Episode 484 finished. Total reward: -222.97135028366574 (200 timesteps)
+Episode 485 finished. Total reward: -26.365413938426432 (17 timesteps)
+Episode 486 finished. Total reward: -31.750222423357588 (23 timesteps)
+Episode 487 finished. Total reward: -27.261829526846885 (16 timesteps)
+Episode 488 finished. Total reward: -24.751186562696326 (15 timesteps)
+Episode 489 finished. Total reward: -28.768145112178583 (18 timesteps)
+/opt/software/lib/python3.10/site-packages/gymnasium/wrappers/record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at /notebooks/rl2023/ex1/results/video/TargetReacher-v0/test folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Episode 490 finished. Total reward: -26.705863543281964 (16 timesteps)
+Episode 491 finished. Total reward: -27.862426499172393 (18 timesteps)
+Episode 492 finished. Total reward: -24.2001935980189 (15 timesteps)
+Episode 493 finished. Total reward: -23.898494650021853 (14 timesteps)
+Episode 494 finished. Total reward: -27.086022570490243 (18 timesteps)
+Episode 495 finished. Total reward: -28.16300058945091 (20 timesteps)
+Episode 496 finished. Total reward: -36.90447592700572 (20 timesteps)
+Episode 497 finished. Total reward: -59.62346144272732 (45 timesteps)
+Episode 498 finished. Total reward: -30.54180417224745 (17 timesteps)
+Episode 499 finished. Total reward: -210.64607675822336 (200 timesteps)
+Episode 500 finished. Total reward: -27.6506927906591 (19 timesteps)
+Model saved to /notebooks/rl2023/ex1/results/model/TargetReacher-v0_params.pt
+------Training finished.------
+Numpy/Torch/Random Seed:  806
+Loading model from /notebooks/rl2023/ex1/results/model/TargetReacher-v0_params.pt ...
+Testing...
+Test ep reward: -25.87870791815639 seed: 503
+Test ep reward: -23.54608537190088 seed: 538
+Test ep reward: -26.131418611027055 seed: 705
+Test ep reward: -25.786245936695053 seed: 829
+Test ep reward: -22.785375862684997 seed: 568
+Test ep reward: -25.918310977987954 seed: 171
+Test ep reward: -25.736596822271544 seed: 813
+Test ep reward: -22.89790191550377 seed: 50
+Test ep reward: -26.72861523131426 seed: 60
+Test ep reward: -23.999311371490936 seed: 626
+Average test reward: -24.940857001903282 episode length: 15.5
+/opt/software/lib/python3.10/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.get_reward to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.get_reward` for environment variables or `env.get_wrapper_attr('get_reward')` that will search the reminding wrappers.
+  logger.warn(
+Loading policy from /notebooks/rl2023/ex1/results/model/TargetReacher-v0_params.pt
+Maximum value state: [-8.1681409e-01  4.4408921e-16]
+Minimum value state: [-3.14159265 -1.57079633]

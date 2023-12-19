@@ -1,0 +1,19 @@
+exp_name: ex1
+seed: null  # TODO: change the seed in Task 2
+env_name: "CartPole-v1"
+max_episode_steps: 100
+train_episodes: 500
+batch_size: 64
+min_update_samples: 2000
+
+testing: false
+model_path: default
+
+save_video: true
+save_model: true
+save_logging: true
+silent: false # print restuls if false
+
+use_wandb: true
+
+run_suffix: 0

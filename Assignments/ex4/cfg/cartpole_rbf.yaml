@@ -1,0 +1,25 @@
+seed: 436
+exp_name: ex4
+env_name: CartPole-v1
+agent_name: rbf
+run_id: ??? # decided during execution
+
+n_actions: 2
+
+train_episodes: 2000
+max_episode_steps: 200
+test_episodes: 10
+random_episodes: 10
+glie_b: 50
+gamma: 0.99 # discount term in Q learning
+batch_size: 16
+buffer_size: 1000
+
+testing: false
+save_video: false
+save_logging: true
+save_model: true
+silent: false # print restuls to the terminal if false
+use_wandb: true
+
+run_suffix: 0
